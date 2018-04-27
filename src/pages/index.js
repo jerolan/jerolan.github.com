@@ -1,11 +1,20 @@
 import React from 'react'
 
-const IndexPage = () => (
+const renderEmojiDay = currentDate =>
+  currentDate.getHours() > 7 &&
+  currentDate.getHours() < 14
+    ? '🌝'
+    : '🌚'
+
+const IndexPage = ({ currentDate = new Date() }) => (
   <main>
     <div className='main'>
-      <h1 style={{ marginBottom: 12 }}>
-        <a href='https://github.com/Jerolan/jerome'>Jerome Olvera</a>
-      </h1>
+      <a className='title'
+        href='https://github.com/Jerolan/jerome'>
+        <h1>
+          <span>{ renderEmojiDay(currentDate) }</span> Jerome Olvera
+        </h1>
+      </a>
 
       <div className='links'>
         <a href='https://www.instagram.com/sediceyerom/'>instagram</a>
@@ -34,8 +43,20 @@ const IndexPage = () => (
         }
 
         .links > a {
+          color: #fd5c63;
           text-align: center;
           margin-right: 20px;
+        }
+
+        .title {
+          margin-bottom: 16px;
+          color: white;
+          text-decoration: initial;
+        }
+
+        .title:hover {
+          background-color: #fd5c63;
+          color: black;
         }
       `}
     </style>
