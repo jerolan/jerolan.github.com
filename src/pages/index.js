@@ -1,13 +1,45 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
+  <main>
+    <div className='main'>
+      <h1 style={{ marginBottom: 12 }}>
+        <a href='https://github.com/Jerolan/jerome'>Jerome Olvera</a>
+      </h1>
+
+      <div className='links'>
+        <a href='https://www.instagram.com/sediceyerom/'>instagram</a>
+        <a href='https://twitter.com/SeDiceYerom'>twitter</a>
+        <a href='https://github.com/Jerolan'>github</a>
+      </div>
+    </div>
+
+    <style>
+      {`
+        .main {
+          height: 100vh;
+          width: 100vw;
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: black;
+          color: white;
+          font-family: 'Monaco', 'Consolas', 'Ubuntu Mono', monospace;
+        }
+
+        .links {
+          display: flex;
+        }
+
+        .links > a {
+          text-align: center;
+          margin-right: 20px;
+        }
+      `}
+    </style>
+  </main>
 )
 
 export default IndexPage
