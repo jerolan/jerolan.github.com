@@ -10,7 +10,7 @@ const IndexPage = ({ currentDate = new Date() }) => (
   <main>
     <div className='main'>
       <a className='title'
-        href='https://github.com/Jerolan/jerome'>
+        href='https://github.com/Jerolan/jerolan.github.com'>
         <h1>
           <span>{ renderEmojiDay(currentDate) }</span> Jerome Olvera
         </h1>
@@ -35,7 +35,7 @@ const IndexPage = ({ currentDate = new Date() }) => (
           align-items: center;
           background-color: black;
           color: white;
-          font-family: 'Monaco', 'Consolas', 'Ubuntu Mono', monospace;
+          font-family: "Monaco", "Consolas", "Ubuntu Mono", monospace;
         }
 
         .links {
