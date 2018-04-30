@@ -1,8 +1,11 @@
+import 'react-tippy/dist/tippy.css'
+
 import React from 'react'
+import { Tooltip } from 'react-tippy'
 
 const renderEmojiDay = currentDate =>
-  currentDate.getHours() > 7 &&
-  currentDate.getHours() < 14
+  currentDate.getHours() >= 9 &&
+  currentDate.getHours() < 18
     ? '🌝'
     : '🌚'
 
@@ -12,7 +15,10 @@ const IndexPage = ({ currentDate = new Date() }) => (
       <a className='title'
         href='https://github.com/Jerolan/jerolan.github.com'>
         <h1>
-          <span>{ renderEmojiDay(currentDate) }</span> Jerome Olvera
+          <Tooltip title={`${currentDate.getHours()}:${currentDate.getMinutes()}`}>
+            <span>{renderEmojiDay(currentDate)}</span>
+          </Tooltip>
+          Jerome Olvera
         </h1>
       </a>
 
@@ -35,7 +41,6 @@ const IndexPage = ({ currentDate = new Date() }) => (
           align-items: center;
           background-color: black;
           color: white;
-          font-family: "Monaco", "Consolas", "Ubuntu Mono", monospace;
         }
 
         .links {
