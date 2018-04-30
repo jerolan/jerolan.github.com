@@ -23,7 +23,7 @@ const IndexPage = ({ currentDate = new Date() }) => (
       </div>
     </div>
 
-    <style>
+    <style jsx>
       {`
         .main {
           height: 100vh;

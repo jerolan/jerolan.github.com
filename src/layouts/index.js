@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 const Layout = ({ children, data }) => (
   <main>
     <Helmet
-      title='Jerome Olvera'
+      title='『夢工場ドキドキパニック』'
       meta={[
         { name: 'description', content: 'Personal frontpage' }
       ]}

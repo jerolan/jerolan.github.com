@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter'
+    title: '『夢工場ドキドキパニック』'
   },
-  plugins: ['gatsby-plugin-react-helmet', `gatsby-plugin-styled-jsx`]
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-jsx'
+  ]
 }
