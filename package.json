@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "gatsby": "^1.9.255",
+    "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-styled-jsx": "^2.0.6",
     "react-helmet": "^5.2.0",
