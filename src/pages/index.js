@@ -3,6 +3,8 @@ import 'react-tippy/dist/tippy.css'
 import React from 'react'
 import { Tooltip } from 'react-tippy'
 
+import Layout from '../layouts/Layout'
+
 const renderEmojiDay = currentDate =>
   currentDate.getHours() >= 9 &&
   currentDate.getHours() < 18
@@ -10,7 +12,7 @@ const renderEmojiDay = currentDate =>
     : '🌚'
 
 const IndexPage = ({ currentDate = new Date() }) => (
-  <main>
+  <Layout>
     <div className='main'>
       <a className='title'
         href='https://github.com/Jerolan/jerolan.github.com'>
@@ -26,6 +28,7 @@ const IndexPage = ({ currentDate = new Date() }) => (
         <a href='https://www.instagram.com/sediceyerom/'>instagram</a>
         <a href='https://twitter.com/SeDiceYerom'>twitter</a>
         <a href='https://github.com/Jerolan'>github</a>
+        <a href='https://away-from-javascript.netlify.com/'>podcast</a>
       </div>
     </div>
 
@@ -65,7 +68,7 @@ const IndexPage = ({ currentDate = new Date() }) => (
         }
       `}
     </style>
-  </main>
+  </Layout>
 )
 
 export default IndexPage

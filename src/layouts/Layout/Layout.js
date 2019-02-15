@@ -3,8 +3,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-const Layout = ({ children, data }) => (
-  <main>
+const Layout = ({ children }) => (
+  <div>
     <Helmet
       title='『夢工場ドキドキパニック』'
       meta={[
@@ -14,14 +14,10 @@ const Layout = ({ children, data }) => (
       ]}
     />
 
-    <div>
-      {children()}
-    </div>
-  </main>
+    <main>
+      {children}
+    </main>
+  </div>
 )
-
-Layout.propTypes = {
-  children: PropTypes.func
-}
 
 export default Layout
