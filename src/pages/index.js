@@ -42,7 +42,7 @@ const IndexPage = ({ currentDate = new Date() }) => (
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          background-color: black;
+          background-color: #282C35;
           color: white;
         }
 
@@ -51,7 +51,7 @@ const IndexPage = ({ currentDate = new Date() }) => (
         }
 
         .links > a {
-          color: #fd5c63;
+          color: #F1A5AB;
           text-align: center;
           margin-right: 20px;
         }
@@ -63,7 +63,7 @@ const IndexPage = ({ currentDate = new Date() }) => (
         }
 
         .title:hover {
-          background-color: #fd5c63;
+          background-color: #F1A5AB;
           color: black;
         }
       `}
