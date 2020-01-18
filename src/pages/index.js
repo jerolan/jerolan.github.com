@@ -1,34 +1,32 @@
-import 'react-tippy/dist/tippy.css'
+import 'react-tippy/dist/tippy.css';
 
-import React from 'react'
-import { Tooltip } from 'react-tippy'
+import React from 'react';
+import { Tooltip } from 'react-tippy';
 
-import Layout from '../layouts/Layout'
+import Layout from '../layouts/Layout';
 
 const renderEmojiDay = currentDate =>
-  currentDate.getHours() >= 9 &&
-  currentDate.getHours() < 18
-    ? '🌝'
-    : '🌚'
+  currentDate.getHours() >= 9 && currentDate.getHours() < 18 ? '🌝' : '🌚';
 
 const IndexPage = ({ currentDate = new Date() }) => (
   <Layout>
-    <div className='main'>
-      <a className='title'
-        href='https://github.com/Jerolan/jerolan.github.com'>
+    <div className="main">
+      <a className="title" href="https://github.com/Jerolan/jerolan.github.com">
         <h1>
-          <Tooltip title={`${currentDate.getHours()}:${currentDate.getMinutes()}`}>
+          <Tooltip
+            title={`${currentDate.getHours()}:${currentDate.getMinutes()}`}
+          >
             <span>{renderEmojiDay(currentDate)}</span>
           </Tooltip>
           Jerome Olvera
         </h1>
       </a>
 
-      <div className='links'>
-        <a href='https://www.instagram.com/sediceyerom/'>instagram</a>
-        <a href='https://twitter.com/SeDiceYerom'>twitter</a>
-        <a href='https://github.com/Jerolan'>github</a>
-        <a href='https://away-from-javascript.netlify.com/'>podcast</a>
+      <div className="links">
+        <a href="https://www.instagram.com/sediceyerom/">instagram</a>
+        <a href="https://twitter.com/SeDiceYerom">twitter</a>
+        <a href="https://github.com/Jerolan">github</a>
+        <a href="https://away-from-javascript.netlify.com/">podcast</a>
       </div>
     </div>
 
@@ -42,7 +40,7 @@ const IndexPage = ({ currentDate = new Date() }) => (
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          background-color: #282C35;
+          background-color: #282c35;
           color: white;
         }
 
@@ -51,7 +49,7 @@ const IndexPage = ({ currentDate = new Date() }) => (
         }
 
         .links > a {
-          color: #F1A5AB;
+          color: #f1a5ab;
           text-align: center;
           margin-right: 20px;
         }
@@ -63,12 +61,12 @@ const IndexPage = ({ currentDate = new Date() }) => (
         }
 
         .title:hover {
-          background-color: #F1A5AB;
+          background-color: #f1a5ab;
           color: black;
         }
       `}
     </style>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
