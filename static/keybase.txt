@@ -1,0 +1,58 @@
+jerolan
+Jerome Olvera
+==================================================================
+https://keybase.io/jerolan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jerolan.github.io
+  * I am jerolan (https://keybase.io/jerolan) on keybase.
+  * I have a public key ASDbMZyZ0cpRHJr44s--1V0RMKAvwpaq89QnYevKl-3RXgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101bafabae23f3843b2c966f98df4bd304f5d5fad4ea83fceb71b5961dcfa8c87b60a",
+      "host": "keybase.io",
+      "kid": "0120db319c99d1ca511c9af8e2cfbed55d1130a02fc296aaf3d42761ebca97edd15e0a",
+      "uid": "896affcc0323911dcdc32a5fdf0d8619",
+      "username": "jerolan"
+    },
+    "merkle_root": {
+      "ctime": 1577919803,
+      "hash": "603570247c3017536e43303641717b315bf9a23b57fc16af400d2fddcf895d08f1413beeb26dd5e5e0d7e630e3776082b5a4779f633d8c7be1f4312c203293df",
+      "hash_meta": "75e205025b9ea8e5a2a7a1eea5ffedd2eeda859aee3c39bb38de9c95961dc1ea",
+      "seqno": 14045720
+    },
+    "service": {
+      "entropy": "XTuG3O1Z/RP8FjWuFV+q5bz9",
+      "hostname": "jerolan.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1577919845,
+  "expire_in": 504576000,
+  "prev": "8b56c24d55554dad3720befa2f72d8bfbfcaa79121e1dbf1bf516114f48fd26a",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2zGcmdHKURya+OLPvtVdETCgL8KWqvPUJ2Hrypft0V4Kp3BheWxvYWTESpcCIMQgi1bCTVVVTa03IL76L3LYv7/Kp5Eh4dvxv1FhFPSP0mrEIPu9RtLq43O1XvBBdWgmcnDZl+nz/GVetfT6vvt/mlp4AgHCo3NpZ8RA+hWSw3YZvtyCK+gKXqlvVyIaoIJm5hAizacBeABA5EEadMOq+m2ggpcMUvlzxbuxqBn+9T1Tcb8mM1x2G4dfCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDxQa3jhtmz58qKyxFG1aKlwDHhPP1cDnSPg4mWVZQEBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jerolan
+
+==================================================================
