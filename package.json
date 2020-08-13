@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "deploy": "yarn build && npx gh-pages -d dist -b master --dotfiles"
+    "deploy": "yarn build && cp -r .well-known dist && npx gh-pages -d dist -b master --dotfiles"
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
