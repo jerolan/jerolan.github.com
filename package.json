@@ -1,17 +1,16 @@
 {
   "name": "jerolan.github.io",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel serve index.html",
     "build": "parcel build index.html",
     "deploy": "yarn build && cp -r .well-known dist && npx gh-pages -d dist -b master --dotfiles"
   },
   "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "parcel-bundler": "^1.12.4",
-    "postcss": "^7.0.32",
-    "tailwindcss": "^1.6.2"
+    "autoprefixer": "^10.2.5",
+    "parcel": "next",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
   }
 }

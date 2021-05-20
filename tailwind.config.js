@@ -1,11 +1,6 @@
 module.exports = {
   purge: ["**/*.html"],
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-    defaultLineHeights: true,
-    standardFontWeights: true,
-  },
+  darkMode: false,
   theme: {
     extend: {
       colors: {
