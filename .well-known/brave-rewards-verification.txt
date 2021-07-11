@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: jerolan.github.io
+Token: 112eadf54c4b0337739d8f3e500f5b756e4ff7e65fde203c1e7f11a776c4a441
