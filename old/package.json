@@ -1,0 +1,16 @@
+{
+  "name": "jerolan.github.io",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html",
+    "deploy": "yarn build && cp -r .well-known dist && npx gh-pages -d dist -b master --dotfiles"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "parcel": "next",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
+  }
+}
