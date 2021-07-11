@@ -7,7 +7,7 @@ export default function ExternalLinks({ title, children }) {
       <div className="pt-4 space-y-3">
         {React.Children.map(children, (child) => {
           return (
-            <article className="transition opacity-80 hover:opacity-100">
+            <article className="transition duration-300 opacity-80 hover:opacity-100">
               {child}
             </article>
           );
