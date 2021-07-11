@@ -34,16 +34,16 @@ export default function Home() {
         <div className="space-y-8 py-2">
           <ExternalLinks title="Cosas en las que he trabajado">
             <ExternalLinks.Link href="https://gbm.com/">
-              Unleashing the financial potential of Mexico and our people at
-              <span className="underline">GBM</span>
+              Liberando el potencial financiero de México y nuestra gente en
+              <span className="underline"> GBM</span>
             </ExternalLinks.Link>
             <ExternalLinks.Link href="https://yellowme.mx/">
-              Growing teams at
-              <span class="underline">Yellowme</span>
+              Equipos en crecimiento en
+              <span className="underline"> Yellowme</span>
             </ExternalLinks.Link>
             <ExternalLinks.Link href="https://www.joinenso.com/">
-              Creating a new generation of financial services at
-              <span class="underline">Enso</span>
+              Creando una nueva generación de servicios financieros en
+              <span className="underline"> Enso</span>
             </ExternalLinks.Link>
           </ExternalLinks>
 
