@@ -1,209 +1,77 @@
-import Head from 'next/head'
+import Head from "next/head";
+
+import ExternalLinks from "../components/ExternalLinks";
+import DarkModeToggle from "../components/DarkModeToggle";
+import SocialLink from "../components/SocialLink";
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <main>
+      <div className="px-6 pt-8 max-w-6xl mx-auto antialiased leading-7">
+        <header className="pt-8 flex justify-between items-baseline">
+          <div className="space-y-2">
+            <h1 className="font-bold text-3xl">Jerome Olvera</h1>
+            <h2 className="text-lg opacity-95">Software Engineer</h2>
+          </div>
+          <DarkModeToggle />
+        </header>
+        <section className="max-w-2xl pt-12 pb-8">
+          <p>
+            I'm an engineer passionate about technology, culture and team
+            building. Big fan of UX Design and Lean Thinking. I'm focused on
+            teaching modern / basic concepts driven by a collaborative
+            environment with techniques like Pair Programing. I love to build
+            products that people want to use.
+          </p>
+        </section>
+        <nav className="flex flex-wrap space-x-2 pb-12">
+          <SocialLink href="https://github.com/jerolan">Github</SocialLink>
+          <SocialLink href="https://twitter.com/sediceyerom">
+            Twitter
+          </SocialLink>
+        </nav>
 
-      <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <div className="space-y-5 py-2">
+          <ExternalLinks title="Sharing my ideas in software">
+            <ExternalLinks.Link href="https://medium.com/yellowme/react-in-theory-70379c23fbfc">
+              React In Theory (Eng)
+            </ExternalLinks.Link>
+            <ExternalLinks.Link href="https://medium.com/tauon/trabajando-con-monorepos-cf941c7d57dc">
+              Trabajando con Monorepos
+            </ExternalLinks.Link>
+            <ExternalLinks.Link href="https://medium.com/tauon/design-systems-con-react-sketchapp-2243c7fdbcfa">
+              Design Systems con React Sketchapp
+            </ExternalLinks.Link>
+            <ExternalLinks.Link href="https://medium.com/tauon/que-es-un-api-y-c%C3%B3mo-consumirla-21eeb130ef14">
+              ¿Qué es un API? y cómo consumirla
+            </ExternalLinks.Link>
+          </ExternalLinks>
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+          <ExternalLinks title="Sharing my ideas in software">
+            <ExternalLinks.Link href="https://gbm.com/">
+              Unleashing the financial potential of Mexico and our people at
+              <span className="underline">GBM</span>
+            </ExternalLinks.Link>
+            <ExternalLinks.Link href="https://yellowme.mx/">
+              Growing teams at
+              <span class="underline">Yellowme</span>
+            </ExternalLinks.Link>
+            <ExternalLinks.Link href="https://www.joinenso.com/">
+              Creating a new generation of financial services at
+              <span class="underline">Enso</span>
+            </ExternalLinks.Link>
+          </ExternalLinks>
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <ExternalLinks title="Bringing a community closer">
+            <ExternalLinks.Link href="https://www.facebook.com/javascriptmerida/">
+              JavaScript Merida
+            </ExternalLinks.Link>
+            <ExternalLinks.Link href="https://www.awayfromjs.dev/">
+              Away from JavaScript
+            </ExternalLinks.Link>
+          </ExternalLinks>
         </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
-  )
+      </div>
+    </main>
+  );
 }
