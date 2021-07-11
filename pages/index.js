@@ -31,7 +31,7 @@ export default function Home() {
           </SocialLink>
         </nav>
 
-        <div className="space-y-5 py-2">
+        <div className="space-y-8 py-2">
           <ExternalLinks title="Cosas en las que he trabajado">
             <ExternalLinks.Link href="https://gbm.com/">
               Unleashing the financial potential of Mexico and our people at
