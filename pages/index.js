@@ -17,11 +17,11 @@ export default function Home() {
         </header>
         <section className="max-w-2xl pt-12 pb-8">
           <p>
-            I'm an engineer passionate about technology, culture and team
-            building. Big fan of UX Design and Lean Thinking. I'm focused on
-            teaching modern / basic concepts driven by a collaborative
-            environment with techniques like Pair Programing. I love to build
-            products that people want to use.
+            Soy un ingeniero apasionado por la tecnología, la cultura y la
+            formación de equipos. Gran aficionado del diseño UX y el Lean
+            Thinking. Estoy enfocado en enseñar conceptos básicos o modernos
+            impulsados por un entorno colaborativo con técnicas como el Pair
+            programming. Me encanta crear productos que la gente quiera usar.
           </p>
         </section>
         <nav className="flex flex-wrap space-x-2 pb-12">
@@ -32,22 +32,7 @@ export default function Home() {
         </nav>
 
         <div className="space-y-5 py-2">
-          <ExternalLinks title="Sharing my ideas in software">
-            <ExternalLinks.Link href="https://medium.com/yellowme/react-in-theory-70379c23fbfc">
-              React In Theory (Eng)
-            </ExternalLinks.Link>
-            <ExternalLinks.Link href="https://medium.com/tauon/trabajando-con-monorepos-cf941c7d57dc">
-              Trabajando con Monorepos
-            </ExternalLinks.Link>
-            <ExternalLinks.Link href="https://medium.com/tauon/design-systems-con-react-sketchapp-2243c7fdbcfa">
-              Design Systems con React Sketchapp
-            </ExternalLinks.Link>
-            <ExternalLinks.Link href="https://medium.com/tauon/que-es-un-api-y-c%C3%B3mo-consumirla-21eeb130ef14">
-              ¿Qué es un API? y cómo consumirla
-            </ExternalLinks.Link>
-          </ExternalLinks>
-
-          <ExternalLinks title="Sharing my ideas in software">
+          <ExternalLinks title="Cosas en las que he trabajado">
             <ExternalLinks.Link href="https://gbm.com/">
               Unleashing the financial potential of Mexico and our people at
               <span className="underline">GBM</span>
@@ -62,7 +47,22 @@ export default function Home() {
             </ExternalLinks.Link>
           </ExternalLinks>
 
-          <ExternalLinks title="Bringing a community closer">
+          <ExternalLinks title="Compartiendo mis ideas en software">
+            <ExternalLinks.Link href="https://medium.com/yellowme/react-in-theory-70379c23fbfc">
+              React In Theory (Eng)
+            </ExternalLinks.Link>
+            <ExternalLinks.Link href="https://medium.com/tauon/trabajando-con-monorepos-cf941c7d57dc">
+              Trabajando con Monorepos
+            </ExternalLinks.Link>
+            <ExternalLinks.Link href="https://medium.com/tauon/design-systems-con-react-sketchapp-2243c7fdbcfa">
+              Design Systems con React Sketchapp
+            </ExternalLinks.Link>
+            <ExternalLinks.Link href="https://medium.com/tauon/que-es-un-api-y-c%C3%B3mo-consumirla-21eeb130ef14">
+              ¿Qué es un API? y cómo consumirla
+            </ExternalLinks.Link>
+          </ExternalLinks>
+
+          <ExternalLinks title="Acercando a una comunidad">
             <ExternalLinks.Link href="https://www.facebook.com/javascriptmerida/">
               JavaScript Merida
             </ExternalLinks.Link>
