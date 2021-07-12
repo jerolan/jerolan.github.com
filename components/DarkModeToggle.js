@@ -7,7 +7,7 @@ export default function DarkModeToggle() {
 
   return (
     <button
-      className="text-indigo-800 dark:text-yellow-300 bg-indigo-800 dark:bg-yellow-300 bg-opacity-10 dark:bg-opacity-10 rounded border border-indigo-800 dark:border-yellow-300  p-2"
+      className="transition-opacity duration-300 text-indigo-800 dark:text-yellow-300 bg-indigo-800 dark:bg-yellow-300 hover:bg-transparent bg-opacity-10 dark:bg-opacity-10 rounded border border-indigo-800 dark:border-yellow-300 p-2"
       onClick={toggleDarkMode}
     >
       {isDarkMode ? (

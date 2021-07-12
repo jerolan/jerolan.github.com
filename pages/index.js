@@ -8,8 +8,8 @@ import PageWrapper from "../components/PageWrapper";
 export default function Home() {
   return (
     <PageWrapper title="Jerome Olvera" description="Software Engineer">
-      <main className="px-6 sm:px-8 pt-8 max-w-screen-md mx-auto">
-        <header className="pt-8 flex justify-between items-baseline">
+      <main className="px-6 sm:px-8 pt-16 max-w-screen-md mx-auto">
+        <header className="pb-12 flex justify-between items-baseline">
           <div className="space-y-2">
             <h1 className="font-bold text-3xl sm:text-4xl">Jerome Olvera</h1>
             <h2 className="text-lg sm:text-xl opacity-90 dark:opacity-100">
@@ -18,7 +18,8 @@ export default function Home() {
           </div>
           <DarkModeToggle />
         </header>
-        <section className="max-w-xl pt-12 pb-8">
+
+        <section className="max-w-xl pb-8">
           <p className="text-base sm:text-lg">
             Soy un ingeniero apasionado por la tecnología, la cultura y la
             formación de equipos. Gran aficionado del diseño UX y el Lean
@@ -27,14 +28,16 @@ export default function Home() {
             programming. Me encanta crear productos que la gente quiera usar.
           </p>
         </section>
-        <nav className="flex flex-wrap space-x-3 pb-12">
+
+        <nav className="flex flex-wrap space-x-3 pb-16">
           <SocialLink href="https://github.com/jerolan">Github</SocialLink>
           <SocialLink href="https://twitter.com/sediceyerom">
             Twitter
           </SocialLink>
+          <SocialLink href="/blog">Blog</SocialLink>
         </nav>
 
-        <div className="space-y-12 py-2">
+        <div className="space-y-12 pb-12">
           <ExternalLinks title="Cosas en las que he trabajado">
             <ExternalLinks.Link href="https://gbm.com/">
               Liberando el potencial financiero de México y nuestra gente en{" "}
@@ -65,12 +68,15 @@ export default function Home() {
             </ExternalLinks.Link>
           </ExternalLinks>
 
-          <ExternalLinks title="Acercando a una comunidad">
+          <ExternalLinks title="Pasatiempos y comunidades">
             <ExternalLinks.Link href="https://www.facebook.com/javascriptmerida/">
               JavaScript Merida
             </ExternalLinks.Link>
             <ExternalLinks.Link href="https://www.awayfromjs.dev/">
               Away from JavaScript
+            </ExternalLinks.Link>
+            <ExternalLinks.Link href="https://coffee.really-good.dev/">
+              Really Good Coffees
             </ExternalLinks.Link>
           </ExternalLinks>
         </div>
