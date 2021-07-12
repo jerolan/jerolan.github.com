@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "yarn build &&  npx gh-pages -d out -b gh-pages --dotfiles",
+    "deploy": "yarn build && npx gh-pages -d out -b gh-pages --dotfiles",
     "build": "next build && next export",
     "start": "next dev",
     "serve": "next start"

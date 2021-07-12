@@ -3,20 +3,23 @@ import Head from "next/head";
 import ExternalLinks from "../components/ExternalLinks";
 import DarkModeToggle from "../components/DarkModeToggle";
 import SocialLink from "../components/SocialLink";
+import PageWrapper from "../components/PageWrapper";
 
 export default function Home() {
   return (
-    <main>
-      <div className="px-6 pt-8 max-w-6xl mx-auto antialiased leading-7">
+    <PageWrapper title="Jerome Olvera" description="Software Engineer">
+      <main className="px-6 sm:px-8 pt-8 max-w-screen-md mx-auto">
         <header className="pt-8 flex justify-between items-baseline">
           <div className="space-y-2">
-            <h1 className="font-bold text-3xl">Jerome Olvera</h1>
-            <h2 className="text-lg opacity-95">Software Engineer</h2>
+            <h1 className="font-bold text-3xl sm:text-4xl">Jerome Olvera</h1>
+            <h2 className="text-lg sm:text-xl opacity-10 dark:opacity-100">
+              Software Engineer
+            </h2>
           </div>
           <DarkModeToggle />
         </header>
-        <section className="max-w-2xl pt-12 pb-8">
-          <p>
+        <section className="max-w-xl pt-12 pb-8">
+          <p className="text-base sm:text-lg">
             Soy un ingeniero apasionado por la tecnología, la cultura y la
             formación de equipos. Gran aficionado del diseño UX y el Lean
             Thinking. Estoy enfocado en enseñar conceptos básicos o modernos
@@ -24,26 +27,26 @@ export default function Home() {
             programming. Me encanta crear productos que la gente quiera usar.
           </p>
         </section>
-        <nav className="flex flex-wrap space-x-2 pb-12">
+        <nav className="flex flex-wrap space-x-3 pb-12">
           <SocialLink href="https://github.com/jerolan">Github</SocialLink>
           <SocialLink href="https://twitter.com/sediceyerom">
             Twitter
           </SocialLink>
         </nav>
 
-        <div className="space-y-8 py-2">
+        <div className="space-y-12 py-2">
           <ExternalLinks title="Cosas en las que he trabajado">
             <ExternalLinks.Link href="https://gbm.com/">
-              Liberando el potencial financiero de México y nuestra gente en
-              <span className="underline"> GBM</span>
+              Liberando el potencial financiero de México y nuestra gente en{" "}
+              <span className="underline">GBM</span>
             </ExternalLinks.Link>
             <ExternalLinks.Link href="https://yellowme.mx/">
-              Equipos en crecimiento en
-              <span className="underline"> Yellowme</span>
+              Equipos en crecimiento en{" "}
+              <span className="underline">Yellowme</span>
             </ExternalLinks.Link>
             <ExternalLinks.Link href="https://www.joinenso.com/">
-              Creando una nueva generación de servicios financieros en
-              <span className="underline"> Enso</span>
+              Creando una nueva generación de servicios financieros en{" "}
+              <span className="underline">Enso</span>
             </ExternalLinks.Link>
           </ExternalLinks>
 
@@ -71,7 +74,7 @@ export default function Home() {
             </ExternalLinks.Link>
           </ExternalLinks>
         </div>
-      </div>
-    </main>
+      </main>
+    </PageWrapper>
   );
 }
