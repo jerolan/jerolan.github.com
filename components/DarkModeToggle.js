@@ -6,7 +6,10 @@ export default function DarkModeToggle() {
   const [isDarkMode, toggleDarkMode] = useDarkMode();
 
   return (
-    <button onClick={toggleDarkMode}>
+    <button
+      className="text-indigo-800 dark:text-yellow-300 bg-indigo-800 dark:bg-yellow-300 bg-opacity-10 dark:bg-opacity-10 rounded border border-indigo-800 dark:border-yellow-300  p-2"
+      onClick={toggleDarkMode}
+    >
       {isDarkMode ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"

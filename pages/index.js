@@ -12,7 +12,7 @@ export default function Home() {
         <header className="pt-8 flex justify-between items-baseline">
           <div className="space-y-2">
             <h1 className="font-bold text-3xl sm:text-4xl">Jerome Olvera</h1>
-            <h2 className="text-lg sm:text-xl opacity-10 dark:opacity-100">
+            <h2 className="text-lg sm:text-xl opacity-90 dark:opacity-100">
               Software Engineer
             </h2>
           </div>
