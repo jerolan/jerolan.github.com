@@ -34,7 +34,7 @@ export default function Home() {
           <SocialLink href="https://twitter.com/sediceyerom">
             Twitter
           </SocialLink>
-          <SocialLink href="/blog">Blog</SocialLink>
+          {/* <SocialLink href="/blog">Blog</SocialLink> */}
         </nav>
 
         <div className="space-y-12 pb-12">
