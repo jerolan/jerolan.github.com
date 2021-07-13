@@ -14,7 +14,7 @@ export default function BlogPost({ post }) {
       <Head>
         <meta property="og:image" content={post.ogImage.url} />
       </Head>
-      <Page title={post.title} description={post.content}>
+      <Page title={post.title} description={post.excerpt}>
         <div className="pb-16">
           <DarkModeToggle />
         </div>
@@ -42,6 +42,7 @@ export async function getStaticProps({ params }) {
     "content",
     "ogImage",
     "coverImage",
+    "excerpt",
   ]);
 
   const content = await markdownToHtml(post.content || "");
