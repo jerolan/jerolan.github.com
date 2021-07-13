@@ -1,45 +1,72 @@
 import Head from "next/head";
 
-import { getAllPosts } from "../../lib/postDataSource";
+import { getPostBySlug, getAllPosts } from "../../lib/postDataSource";
+import BlogList from "../../components/BlogList";
+import DarkModeToggle from "../../components/DarkModeToggle";
 import Header from "../../components/Header";
+import markdownToHtml from "../../lib/markdownToHtml";
 import Page from "../../components/Page";
 import SocialNav from "../../components/SocialNav";
-import BlogList from "../../components/BlogList";
 
-export default function Blog({ posts }) {
+export default function BlogPost({ post }) {
   return (
     <Page title="Jerome Olvera" description="Blog">
-      <Header />
-      <SocialNav>
-        <SocialNav.Link href="https://github.com/jerolan">
-          Github
-        </SocialNav.Link>
-        <SocialNav.Link href="https://twitter.com/sediceyerom">
-          Twitter
-        </SocialNav.Link>
-        <SocialNav.Link href="/blog">Blog</SocialNav.Link>
-      </SocialNav>
-      <BlogList>
-        {posts.map((post) => (
-          <BlogList.Item
-            key={post.slug}
-            slug={post.slug}
-            title={post.title}
-            date={post.date}
-            content={post.content}
+      <div className="pb-16">
+        <DarkModeToggle />
+      </div>
+      <article className="mb-32">
+        <Head>
+          <title>{post.title}</title>
+          <meta property="og:image" content={post.ogImage.url} />
+        </Head>
+
+        <div className="space-y-6">
+          <h1 className="font-bold text-2xl md:text-3xl capitalize">
+            {post.title}
+          </h1>
+          <div
+            className="opacity-90 dark:opacity-100"
+            dangerouslySetInnerHTML={{ __html: post.content }}
           />
-        ))}
-      </BlogList>
+        </div>
+      </article>
     </Page>
   );
 }
+export async function getStaticProps({ params }) {
+  const post = getPostBySlug(params.slug, [
+    "title",
+    "date",
+    "slug",
+    "author",
+    "content",
+    "ogImage",
+    "coverImage",
+  ]);
 
-export async function getStaticProps() {
-  const posts = getAllPosts(["title", "date", "content"]);
+  const content = await markdownToHtml(post.content || "");
 
   return {
     props: {
-      posts,
+      post: {
+        ...post,
+        content,
+      },
     },
+  };
+}
+
+export async function getStaticPaths() {
+  const posts = getAllPosts(["slug"]);
+
+  return {
+    paths: posts.map((post) => {
+      return {
+        params: {
+          slug: post.slug,
+        },
+      };
+    }),
+    fallback: false,
   };
 }
