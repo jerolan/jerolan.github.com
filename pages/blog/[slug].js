@@ -10,27 +10,27 @@ import SocialNav from "../../components/SocialNav";
 
 export default function BlogPost({ post }) {
   return (
-    <Page title="Jerome Olvera" description="Blog">
-      <div className="pb-16">
-        <DarkModeToggle />
-      </div>
-      <article className="mb-32">
-        <Head>
-          <title>{post.title}</title>
-          <meta property="og:image" content={post.ogImage.url} />
-        </Head>
-
-        <div className="space-y-6">
-          <h1 className="font-bold text-2xl md:text-3xl capitalize">
-            {post.title}
-          </h1>
-          <div
-            className="opacity-90 dark:opacity-100"
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          />
+    <>
+      <Head>
+        <meta property="og:image" content={post.ogImage.url} />
+      </Head>
+      <Page title={post.title} description={post.content}>
+        <div className="pb-16">
+          <DarkModeToggle />
         </div>
-      </article>
-    </Page>
+        <article className="mb-32">
+          <div className="space-y-6">
+            <h1 className="font-bold text-2xl md:text-3xl capitalize">
+              {post.title}
+            </h1>
+            <div
+              className="opacity-90 dark:opacity-100"
+              dangerouslySetInnerHTML={{ __html: post.content }}
+            />
+          </div>
+        </article>
+      </Page>
+    </>
   );
 }
 export async function getStaticProps({ params }) {
