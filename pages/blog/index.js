@@ -1,36 +1,41 @@
 import Head from "next/head";
 
-import DarkModeToggle from "../../components/DarkModeToggle";
-import PageWrapper from "../../components/PageWrapper";
-import { getAllPosts } from "../../lib/api";
-import markdownToHtml from "../../lib/markdownToHtml";
+import { getAllPosts } from "../../lib/postDataSource";
+import Header from "../../components/Header";
+import Page from "../../components/Page";
+import SocialNav from "../../components/SocialNav";
+import BlogList from "../../components/BlogList";
 
 export default function Blog({ posts }) {
   return (
-    <PageWrapper title="Jerome Olvera" description="Software Engineer">
-      <main className="px-6 sm:px-8 pt-16 max-w-screen-md mx-auto">
-        <header className="pb-12 flex justify-between items-baseline">
-          <div className="space-y-2">
-            <h1 className="font-bold text-3xl sm:text-4xl">Jerome Olvera</h1>
-            <h2 className="text-lg sm:text-xl opacity-90 dark:opacity-100">
-              Software Engineer
-            </h2>
-          </div>
-          <DarkModeToggle />
-        </header>
-
-        <section>
-          {posts?.map((post) => (
-            <p>{post.title}</p>
-          ))}
-        </section>
-      </main>
-    </PageWrapper>
+    <Page title="Jerome Olvera" description="Blog">
+      <Header />
+      <SocialNav>
+        <SocialNav.Link href="https://github.com/jerolan">
+          Github
+        </SocialNav.Link>
+        <SocialNav.Link href="https://twitter.com/sediceyerom">
+          Twitter
+        </SocialNav.Link>
+        <SocialNav.Link href="/blog">Blog</SocialNav.Link>
+      </SocialNav>
+      <BlogList>
+        {posts.map((post) => (
+          <BlogList.Item
+            key={post.slug}
+            slug={post.slug}
+            title={post.title}
+            date={post.date}
+            content={post.content}
+          />
+        ))}
+      </BlogList>
+    </Page>
   );
 }
 
 export async function getStaticProps() {
-  const posts = getAllPosts(["title", "content"]);
+  const posts = getAllPosts(["slug", "title", "date", "content"]);
 
   return {
     props: {
