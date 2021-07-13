@@ -56,9 +56,6 @@ export default function Home() {
           <ExternalLinks.Link href="https://medium.com/tauon/design-systems-con-react-sketchapp-2243c7fdbcfa">
             Design Systems con React Sketchapp
           </ExternalLinks.Link>
-          <ExternalLinks.Link href="https://medium.com/tauon/que-es-un-api-y-c%C3%B3mo-consumirla-21eeb130ef14">
-            ¿Qué es un API? y cómo consumirla
-          </ExternalLinks.Link>
         </ExternalLinks>
 
         <ExternalLinks title="Pasatiempos y comunidades">
