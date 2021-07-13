@@ -10,6 +10,22 @@ class MyDocument extends Document {
     return (
       <Html lang="es">
         <Head>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-64555470-7"
+          />
+          <script
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+              
+                gtag('config', 'UA-64555470-7');
+              `,
+            }}
+          />
           <meta name="robots" content="follow, index" />
           <meta name="twitter:site" content="@sediceyerom" />
         </Head>
