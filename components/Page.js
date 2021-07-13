@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function PageWrapper({ children, title, description }) {
+export default function Page({ children, title, description }) {
   return (
     <>
       <Head>
@@ -11,7 +11,9 @@ export default function PageWrapper({ children, title, description }) {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
       </Head>
-      {children}
+      <main className="px-6 sm:px-8 pt-16 max-w-screen-md mx-auto">
+        {children}
+      </main>
     </>
   );
 }
