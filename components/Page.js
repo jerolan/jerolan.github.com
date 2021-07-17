@@ -12,6 +12,8 @@ export default function Page({ children, title, description }) {
         <meta property="og:description" content={description} />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@sediceyerom" />
       </Head>
       <main className="px-6 sm:px-8 pt-16 max-w-screen-md mx-auto">
         <Header />
