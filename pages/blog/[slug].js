@@ -1,12 +1,9 @@
 import Head from "next/head";
 
 import { getPostBySlug, getAllPosts } from "../../lib/postDataSource";
-import BlogList from "../../components/BlogList";
 import DarkModeToggle from "../../components/DarkModeToggle";
-import Header from "../../components/Header";
 import markdownToHtml from "../../lib/markdownToHtml";
 import Page from "../../components/Page";
-import SocialNav from "../../components/SocialNav";
 import Markdown from "../../components/Markdown";
 
 export default function BlogPost({ post }) {

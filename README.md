@@ -7,7 +7,6 @@ This site has been built with [Parcel](https://parceljs.org/) and [Tailwind.css]
 
 If you want to make use of this project it is only necessary that you have Node installed and fork it.
 
-
 ### 1. Install the dependencies
 
 ```bash
@@ -24,10 +23,10 @@ yarn start
 
 Most of the code is in `ìndex.html`. You could [customise the theme with tailwind](https://tailwindcss.com/docs/theme#app).
 
-
 ### 4. Build and deploy
 
 This command will generate the static site on `/dist`, you could serve it in any HTTP server, like [Netlify](https://app.netlify.com/) o GHPages
+
 ```bash
 yarn build
 ```

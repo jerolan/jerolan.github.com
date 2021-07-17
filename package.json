@@ -6,7 +6,12 @@
     "deploy": "yarn build && npx gh-pages -d out -b gh-pages --dotfiles",
     "build": "next build && next export",
     "start": "next dev",
-    "serve": "next start"
+    "serve": "next start",
+    "lint": "./node_modules/.bin/eslint --ext .js .",
+    "format": "prettier --write ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
@@ -17,8 +22,21 @@
     "remark-html": "^13.0.1"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.13.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
     "autoprefixer": "^10.3.0",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-react-app": "^10.0.0",
+    "eslint": "^7.5.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
     "postcss": "^8.3.5",
+    "prettier": "^2.3.2",
     "tailwindcss": "^2.2.4"
   }
 }

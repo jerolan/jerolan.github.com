@@ -1,5 +1,3 @@
-import Head from "next/head";
-
 import ExternalLinks from "../components/ExternalLinks";
 import Header from "../components/Header";
 import Page from "../components/Page";
