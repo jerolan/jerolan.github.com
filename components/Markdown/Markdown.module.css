@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-lg leading-relaxed;
+  @apply text-lg leading-relaxed text-justify;
 }
 
 .markdown p,
@@ -15,4 +15,8 @@
 
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
+}
+
+.markdown ul {
+  @apply list-inside list-disc px-8 space-y-4;
 }

@@ -19,9 +19,9 @@ No era la primera vez que había notado ese efecto en los equipos, tampoco era p
 
 Sinceramente yo también lo aceptaba de esa forma, cuando formaba parte de un equipo, escoger la técnica para administrar el proyecto parecía mas como un "item" mas en un carrito de super.
 
-> Mike: "Bueno, para el Backend vamos a agarrar Node"
-> Luis: "Y para el Front podemos usar React, quiero probar esta nueva librería para manejar el State"
-> Mike: "Claro, y nos agarramos un Jira y hacemos Scrum. Tomamos los Daily y etc."
+- **Mike**: _"Bueno, para el Backend vamos a agarrar Node"_
+- **Luis**: _"Y para el Front podemos usar React, quiero probar esta nueva librería para manejar el State"_
+- **Mike**: _"Claro, y nos agarramos un Jira y hacemos Scrum. Tomamos los Daily y etc."_
 
 No había mucho cuestionamiento, solo decidir sobre una serie de herramientas y listo.
 
@@ -31,23 +31,23 @@ A medida de que los proyectos que comienzan de esa forma avanzan, se comienzan a
 
 Y posiblemente el problema continua
 
-> Mike: "Creo que Scrum no es muy bueno, creo que debemos cambiar."
-> Luis: "Cierto, tampoco estoy de acuerdo, escuche que Kanban es mas sencillo y moderno, podemos probarlo."
-> Mike: "Suena buen, tampoco quiero tener los Daily ya tenemos muchas juntas"
+- **Mike**: _"Creo que Scrum no es muy bueno, creo que debemos cambiar."_
+- **Luis**: _"Cierto, tampoco estoy de acuerdo, escuche que Kanban es mas sencillo y moderno, podemos probarlo."_
+- **Mike**: _"Suena buen, tampoco quiero tener los Daily ya tenemos muchas juntas"_
 
 Eventualmente el problema se va a repetir y algún nuevo método o técnica surgirá como remplazo de esa sensación de fricción que comienzan a tener los equipos.
 
 ## Back to the basics
 
-Cuando comencé a identificar estos comportamientos en este ultimo equipo, decidí que esta vez tenia que parar, no estaba dispuesto a volver a pasar por esta misma experiencia una vez mas. Para hacer que esto cambie, yo tenia que cambiar, yo tenia que aprender mas sobre "Que es agile?" y "Que es Scrum".
+Cuando comencé a identificar estos comportamientos en este ultimo equipo, decidí que esta vez tenia que parar, no estaba dispuesto a volver a pasar por esta misma experiencia una vez mas. Para hacer que esto cambie, yo tenia que cambiar, yo tenia que aprender mas sobre "¿Que es agile?" y "¿Que es Scrum?".
 
 Agile fue creado por un grupo de programadores, que se preguntaban constantemente como administrar un proyecto de software, identificaban los problemas de las técnicas o herramientas que en ese momento tenían y cuestionaban la efectividad de las mismas, pero a diferencia de agarrar una nueva herramienta como alternativa inmediata, tenían que identificar cuales eran los problemas concretos de administrar un proyecto de software.
 
 El siempre temido Waterfall era la forma por defecto de administrar un proyecto y no solo de software, esta herramienta es un hijo directo de la Ingeniería industria la teoría del Scientific Management, desarrollada con el propósito de administrar proyectos a travel de un análisis científico. Muchas de las técnicas que este implementa en este método, están relacionadas a la estandarizaron de herramientas, determinación de costos, tiempos y movimientos, etc. Definitivamente como herramienta era una obra maestra para la administración de proyectos respaldada por un campo en desarrollo desde hace mucho mas tiempo que el software.
 
-Que salio mal con Waterfall?, una idea razón importante y que pude conocer gracias a autores como Robert Martin, Martin Fowler, etc. es que mientras los proyectos de manufactura, son grandes proyectos de grandes costos y muy bien definidos, los proyectos en software no son, o al menos ninguno en el que yo haya trabajado o podido escuchar.
+¿Que salio mal con Waterfall?, una idea razón importante y que pude conocer gracias a autores como Robert Martin, Martin Fowler, etc. es que mientras los proyectos de manufactura, son grandes proyectos de grandes costos y muy bien definidos, los proyectos en software no son, o al menos ninguno en el que yo haya trabajado o podido escuchar.
 
-Y por que agile si?, el famoso manifesto que se predica mucho en agile, efectivamente tiene la clave y asi lo pensaron los autores cuando llegaron a esta idea, los proyectos en software, son proyectos que tienen a cambiar, son proyectos en donde los requerimientos rara vez están bien definidos o no cambien, donde la estimación y control de los tiempos puede variar.
+¿Por que agile si?, el famoso manifesto que se predica mucho en agile, efectivamente tiene la clave y asi lo pensaron los autores cuando llegaron a esta idea, los proyectos en software, son proyectos que tienen a cambiar, son proyectos en donde los requerimientos rara vez están bien definidos o no cambien, donde la estimación y control de los tiempos puede variar.
 
 Agile no propone una herramienta para que los proyectos de software sean exitosos, agile, propone una serie de principios que si son bien cumplidos, es muy probable que un proyecto en software sea existo, son principios que requieren la colaboración constante por todas las partes del equipo, requieren la comunicación constante de riesgos e impedimentos, donde hay una constante validación con el usuario/cliente, etc. sobre las necesidades y donde los cambios siempre son bienvenidos siempre que puedan agregar mayor al producto.
 
@@ -68,7 +68,7 @@ Otro buen ejemplo son los Sprint Planing, si recordamos que los proyectos de sof
 
 Yo también creo que este pensar las tareas de la forma descrita en este ultimo párrafo puede ser abstracto y puede ser difícil de lograr al inicio, pero nuevamente, solo con practica, mucha colaboración y comunicación se puede dominar.
 
-# En conclusion
+## En conclusion
 
 Scrum o Kanban o lo que salga manana, van a tener algo en común, todos van a tener los mismo principios de agile, lo primero que he visto fallar en las organizaciones ágiles, son justamente esos principios, tenemos que dejar de enfocarnos en la herramienta y pensar por que realmente estos principios son valiosos.
 
