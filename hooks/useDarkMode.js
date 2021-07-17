@@ -10,9 +10,16 @@ export default function useDarkMode() {
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
-      window.localStorage.setItem("theme", "dark");
     } else {
       document.documentElement.classList.remove("dark");
+    }
+  }, [isDarkMode]);
+
+  // store user preference
+  useEffect(() => {
+    if (isDarkMode) {
+      window.localStorage.setItem("theme", "dark");
+    } else {
       window.localStorage.setItem("theme", "light");
     }
   }, [isDarkMode]);
