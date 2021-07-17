@@ -1,13 +1,10 @@
+import PageNavigation from "../components/PageNavigation";
 import ExternalLinks from "../components/ExternalLinks";
-import Header from "../components/Header";
 import Page from "../components/Page";
-import SocialNav from "../components/SocialNav";
 
 export default function Home() {
   return (
     <Page title="Jerome Olvera" description="Software Engineer">
-      <Header />
-
       <section className="max-w-xl pb-8">
         <p className="text-base sm:text-lg">
           Soy un ingeniero apasionado por la tecnología, la cultura y la
@@ -18,15 +15,7 @@ export default function Home() {
         </p>
       </section>
 
-      <SocialNav>
-        <SocialNav.Link href="https://github.com/jerolan">
-          Github
-        </SocialNav.Link>
-        <SocialNav.Link href="https://twitter.com/sediceyerom">
-          Twitter
-        </SocialNav.Link>
-        <SocialNav.Link href="/blog">Blog</SocialNav.Link>
-      </SocialNav>
+      <PageNavigation />
 
       <div className="space-y-12 pb-12">
         <ExternalLinks title="Cosas en las que he trabajado">

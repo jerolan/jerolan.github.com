@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import Header from "./Header";
+
 export default function Page({ children, title, description }) {
   return (
     <>
@@ -12,6 +14,7 @@ export default function Page({ children, title, description }) {
         <meta name="twitter:description" content={description} />
       </Head>
       <main className="px-6 sm:px-8 pt-16 max-w-screen-md mx-auto">
+        <Header />
         {children}
       </main>
     </>

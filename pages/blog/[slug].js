@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 import { getPostBySlug, getAllPosts } from "../../lib/postDataSource";
-import DarkModeToggle from "../../components/DarkModeToggle";
 import markdownToHtml from "../../lib/markdownToHtml";
 import Page from "../../components/Page";
 import Markdown from "../../components/Markdown";
+import PageNavigation from "../../components/PageNavigation";
 
 export default function BlogPost({ post }) {
   return (
@@ -13,9 +13,7 @@ export default function BlogPost({ post }) {
         <meta property="og:image" content={post.ogImage.url} />
       </Head>
       <Page title={post.title} description={post.excerpt}>
-        <div className="pb-16">
-          <DarkModeToggle />
-        </div>
+        <PageNavigation />
         <article className="mb-32">
           <div className="space-y-6">
             <h1 className="font-bold text-2xl md:text-3xl capitalize">

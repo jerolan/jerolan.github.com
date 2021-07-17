@@ -1,22 +1,12 @@
 import { getAllPosts } from "../../lib/postDataSource";
-import Header from "../../components/Header";
 import Page from "../../components/Page";
-import SocialNav from "../../components/SocialNav";
 import BlogList from "../../components/BlogList";
+import PageNavigation from "../../components/PageNavigation";
 
 export default function Blog({ posts }) {
   return (
     <Page title="Jerome Olvera" description="Blog">
-      <Header />
-      <SocialNav>
-        <SocialNav.Link href="https://github.com/jerolan">
-          Github
-        </SocialNav.Link>
-        <SocialNav.Link href="https://twitter.com/sediceyerom">
-          Twitter
-        </SocialNav.Link>
-        <SocialNav.Link href="/blog">Blog</SocialNav.Link>
-      </SocialNav>
+      <PageNavigation />
       <BlogList>
         {posts.map((post) => (
           <BlogList.Item
