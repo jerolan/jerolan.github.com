@@ -10,16 +10,13 @@ export default function BlogPost({ post }) {
   return (
     <>
       <Head>
-        <meta property="og:image" content={post.ogImage.url} />
+        <meta property="og:image" content={post.coverImage} />
       </Head>
       <Page title={post.title} description={post.excerpt}>
         <PageNavigation />
         <article className="mb-32">
           <div className="space-y-6">
-            <h1 className="font-bold text-2xl md:text-3xl capitalize">
-              {post.title}
-            </h1>
-
+            <h1 className="font-bold text-2xl md:text-3xl">{post.title}</h1>
             <Markdown>{post.content}</Markdown>
           </div>
         </article>
@@ -34,7 +31,6 @@ export async function getStaticProps({ params }) {
     "slug",
     "author",
     "content",
-    "ogImage",
     "coverImage",
     "excerpt",
   ]);

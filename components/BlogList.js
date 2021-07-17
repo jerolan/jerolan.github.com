@@ -15,12 +15,12 @@ function Item({ slug, title, date, content }) {
     <Link href={`/blog/${slug}`}>
       <a className="block">
         <div className="space-y-2">
-          <h3 className="font-bold text-xl md:text-2xl capitalize">{title}</h3>
+          <h3 className="font-bold text-xl md:text-2xl">{title}</h3>
           <p className="capitalize pb-2 opacity-90 dark:opacity-100">
             {formatedDate}
           </p>
           <div
-            className="overflow-ellipsis overflow-hidden h-16 opacity-90 dark:opacity-100"
+            className="opacity-90 dark:opacity-100"
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </div>

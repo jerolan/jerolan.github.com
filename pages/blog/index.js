@@ -14,7 +14,7 @@ export default function Blog({ posts }) {
             slug={post.slug}
             title={post.title}
             date={post.date}
-            content={post.content}
+            content={post.excerpt}
           />
         ))}
       </BlogList>
@@ -23,7 +23,7 @@ export default function Blog({ posts }) {
 }
 
 export async function getStaticProps() {
-  const posts = getAllPosts(["slug", "title", "date", "content"]);
+  const posts = getAllPosts(["slug", "title", "date", "excerpt"]);
 
   return {
     props: {
