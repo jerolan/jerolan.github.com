@@ -7,6 +7,7 @@ import Header from "../../components/Header";
 import markdownToHtml from "../../lib/markdownToHtml";
 import Page from "../../components/Page";
 import SocialNav from "../../components/SocialNav";
+import Markdown from "../../components/Markdown";
 
 export default function BlogPost({ post }) {
   return (
@@ -23,10 +24,8 @@ export default function BlogPost({ post }) {
             <h1 className="font-bold text-2xl md:text-3xl capitalize">
               {post.title}
             </h1>
-            <div
-              className="opacity-90 dark:opacity-100"
-              dangerouslySetInnerHTML={{ __html: post.content }}
-            />
+
+            <Markdown>{post.content}</Markdown>
           </div>
         </article>
       </Page>
