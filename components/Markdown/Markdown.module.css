@@ -20,3 +20,11 @@
 .markdown ul {
   @apply list-inside list-disc px-8 space-y-4;
 }
+
+.markdown a {
+  @apply text-indigo-500 italic;
+}
+
+.markdown a:hover {
+  @apply underline;
+}
