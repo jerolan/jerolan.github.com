@@ -1,5 +1,3 @@
-module.exports = {
-  images: {
-    domains: ["unsplash.com"],
-  },
-};
+const withOptimizedImages = require("next-optimized-images");
+
+module.exports = withOptimizedImages({});
