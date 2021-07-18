@@ -1,10 +1,9 @@
-import PageNavigation from "../components/PageNavigation";
 import ExternalLinks from "../components/ExternalLinks";
 import Page from "../components/Page";
 
 export default function Home() {
   return (
-    <Page title="Jerome Olvera" description="Software Engineer">
+    <Page.Html title="Jerome Olvera" description="Software Engineer">
       <section className="max-w-xl pb-8">
         <p className="text-base sm:text-lg">
           Soy un ingeniero apasionado por la tecnología, la cultura y la
@@ -15,7 +14,7 @@ export default function Home() {
         </p>
       </section>
 
-      <PageNavigation />
+      <Page.Navigation />
 
       <div className="space-y-12 pb-12">
         <ExternalLinks title="Cosas en las que he trabajado">
@@ -57,6 +56,6 @@ export default function Home() {
           </ExternalLinks.Link>
         </ExternalLinks>
       </div>
-    </Page>
+    </Page.Html>
   );
 }

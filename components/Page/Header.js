@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import DarkModeToggle from "./DarkModeToggle";
+import DarkModeToggle from "../DarkModeToggle";
 
 export default function Header() {
   return (

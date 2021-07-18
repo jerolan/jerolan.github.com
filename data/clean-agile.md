@@ -1,7 +1,9 @@
 ---
 title: "Clean Agile y volviendo a los basics"
 excerpt: "Después de tener un gran interés por entender los principios de agile, pude entender donde fallamos como equipos al intentar adoptar los principios"
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
+cover:
+  alt: "three men sitting while using laptops and watching man beside whiteboard photo – Free Business Image on Unsplash by @austindistel"
+  src: "/assets/clean-agile.jpg"
 date: "2021-07-17T00:00:00.000Z"
 ---
 

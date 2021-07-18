@@ -1,12 +1,11 @@
-import { getAllPosts } from "../../lib/postDataSource";
-import Page from "../../components/Page";
 import BlogList from "../../components/BlogList";
-import PageNavigation from "../../components/PageNavigation";
+import Page from "../../components/Page";
+import { getAllPosts } from "../../lib/postDataSource";
 
 export default function Blog({ posts }) {
   return (
-    <Page title="Jerome Olvera" description="Blog">
-      <PageNavigation />
+    <Page.Html title="Jerome Olvera" description="Blog">
+      <Page.Navigation />
       <BlogList>
         {posts.map((post) => (
           <BlogList.Item
@@ -18,7 +17,7 @@ export default function Blog({ posts }) {
           />
         ))}
       </BlogList>
-    </Page>
+    </Page.Html>
   );
 }
 

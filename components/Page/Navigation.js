@@ -1,4 +1,4 @@
-import SocialNav from "./SocialNav";
+import SocialNav from "../SocialNav";
 
 export default function PageNavigation() {
   return (
