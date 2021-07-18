@@ -1,13 +1,14 @@
 import React from "react";
 
 import useDarkMode from "../hooks/useDarkMode";
+import Button from "./Button";
 
 export default function DarkModeToggle() {
   const [isDarkMode, toggleDarkMode] = useDarkMode();
 
   return (
-    <button
-      className="transition-opacity duration-300 text-indigo-800 dark:text-yellow-300 bg-indigo-800 dark:bg-yellow-300 hover:bg-transparent bg-opacity-10 dark:bg-opacity-10 rounded border border-indigo-800 dark:border-yellow-300 p-2"
+    <Button
+      className="text-indigo-800 dark:text-yellow-300 bg-indigo-800 dark:bg-yellow-300 border-indigo-800 dark:border-yellow-300 dark:bg-opacity-10 px-2 py-2"
       onClick={toggleDarkMode}
     >
       {isDarkMode ? (
@@ -41,6 +42,6 @@ export default function DarkModeToggle() {
           />
         </svg>
       )}
-    </button>
+    </Button>
   );
 }
