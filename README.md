@@ -1,11 +1,11 @@
 # jerolan.github.com
 
 Source code for my personal site.
-This site has been built with [Parcel](https://parceljs.org/) and [Tailwind.css](https://tailwindcss.com/docs/theme#app), the site is very simple and thanks to Parcel I can add Tailwind to the compilation process to take advantage of it with a very little configuration.
+This site has been built with [Next.js](https://nextjs.org/) and [Tailwind.css](https://tailwindcss.com/docs/theme#app).
 
 ## Development
 
-If you want to make use of this project it is only necessary that you have Node installed and fork it.
+If you want to make use of this project, you will only need Node.js installed.
 
 ### 1. Install the dependencies
 
@@ -19,13 +19,9 @@ yarn install
 yarn start
 ```
 
-### 3. Make it yours
+### 3. Build and deploy
 
-Most of the code is in `ìndex.html`. You could [customise the theme with tailwind](https://tailwindcss.com/docs/theme#app).
-
-### 4. Build and deploy
-
-This command will generate the static site on `/dist`, you could serve it in any HTTP server, like [Netlify](https://app.netlify.com/) o GHPages
+This command will generate the static site (thanks to next static export) on `/out`, you could serve it in any HTTP server, like [Netlify](https://app.netlify.com/) o Github Pages
 
 ```bash
 yarn build
@@ -33,4 +29,4 @@ yarn build
 
 ### 5. Additional notes
 
-You probably will not need `.well-known` and the assets
+You probably will need to replace `public/.well-known`
