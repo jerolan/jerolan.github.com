@@ -35,12 +35,10 @@ export default function FloatingHeader({ title }) {
       className="fixed duration-300 left-0 right-0 z-50 bg-white dark:bg-black bg-opacity-80 dark:bg-opacity-80 backdrop-filter backdrop-blur"
     >
       <div className="px-6 sm:px-8 py-6 sm:py-8 max-w-screen-md mx-auto flex justify-between items-center">
-        <div className="w-2/3">
-          <button onClick={scrollToTop}>
-            <span className="font-bold text-md md:text-xl">{title}</span>
-          </button>
-        </div>
-        <DarkModeToggle />
+        <button onClick={scrollToTop}>
+          <span className="font-bold text-md md:text-xl">{title}</span>
+        </button>
+        {/* <DarkModeToggle /> */}
       </div>
     </div>
   );
