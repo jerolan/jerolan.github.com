@@ -18,8 +18,9 @@ export default function FloatingHeader({ title }) {
     if (window.pageYOffset > topLimit) {
       floatingHeaderRef.current.style.top = 0;
     } else {
-      floatingHeaderRef.current.style.top = `${-floatingHeaderRef.current
-        .offsetHeight}px`;
+      floatingHeaderRef.current.style.top = `${
+        -floatingHeaderRef.current.offsetHeight * threshold
+      }px`;
     }
   }
 
