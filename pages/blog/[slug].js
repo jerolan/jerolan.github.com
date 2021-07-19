@@ -13,6 +13,7 @@ export default function BlogPost({ post }) {
       </Head>
       <Page.Html title={post.title} description={post.excerpt}>
         <Page.Navigation />
+        <Blog.FloatingHeader title={post.title} />
         <Blog.Title>{post.title}</Blog.Title>
         <Blog.Cover src={post.cover.src} alt={post.cover.alt} />
         <Markdown>{post.content}</Markdown>
