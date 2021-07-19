@@ -33,14 +33,15 @@ export default function Home() {
         </ExternalLinks>
 
         <ExternalLinks title="Compartiendo mis ideas en software">
+          <ExternalLinks.Link href="https://www.beyond.dev/people/jerome-olvera">
+            Conoce a Jerome Olvera (una pequeña entrevista con el equipo de
+            Beyond)
+          </ExternalLinks.Link>
           <ExternalLinks.Link href="https://medium.com/yellowme/react-in-theory-70379c23fbfc">
             React In Theory (Eng)
           </ExternalLinks.Link>
           <ExternalLinks.Link href="https://medium.com/tauon/trabajando-con-monorepos-cf941c7d57dc">
             Trabajando con Monorepos
-          </ExternalLinks.Link>
-          <ExternalLinks.Link href="https://medium.com/tauon/design-systems-con-react-sketchapp-2243c7fdbcfa">
-            Design Systems con React Sketchapp
           </ExternalLinks.Link>
         </ExternalLinks>
 
