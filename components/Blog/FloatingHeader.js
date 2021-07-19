@@ -7,19 +7,21 @@ export default function FloatingHeader({ title }) {
   const floatingHeaderRef = useRef(null);
 
   useEffect(() => {
-    window.onscroll = function () {
-      // use Page.Header as reference
-      const topLimit =
-        document.querySelector("header").offsetHeight * threshold;
+    setFloatingHeaderTop();
+    window.onscroll = setFloatingHeaderTop;
+  }, []);
 
-      if (window.pageYOffset > topLimit) {
-        floatingHeaderRef.current.style.top = 0;
-      } else {
-        floatingHeaderRef.current.style.top = `${-floatingHeaderRef.current
-          .offsetHeight}px`;
-      }
-    };
-  });
+  function setFloatingHeaderTop() {
+    // use Page.Header as reference
+    const topLimit = document.querySelector("header").offsetHeight * threshold;
+
+    if (window.pageYOffset > topLimit) {
+      floatingHeaderRef.current.style.top = 0;
+    } else {
+      floatingHeaderRef.current.style.top = `${-floatingHeaderRef.current
+        .offsetHeight}px`;
+    }
+  }
 
   function scrollToTop() {
     window.scrollTo({
