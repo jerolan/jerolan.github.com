@@ -77,7 +77,7 @@ Una gran estrategia, con el ejemplo de las tarjetas de crédito, es que puedes, 
 
 ¿Haz visto esas imágenes en Facebook, que muestran una bolsa de Cheetos que solían costar $2.00 MXN?, esas épocas nunca volverán y la razón de esto es la Inflación, esta es, incremento sostenido del costo de los bienes y servicios.
 
-Nuestros padres sabrán perfectamente lo doloroso que es la inflación y nosotros lo estamos viviendo (2020, 2021) por los efectos de la panadería.
+Nuestros padres sabrán perfectamente lo doloroso que es la inflación y nosotros lo estamos viviendo (2020, 2021) por los efectos de la pandemia.
 
 Si nosotros hubiéramos guardado los dos pesos del costo de los Cheetos en la bolsa de un pantalón, al dia de hoy, solo tendríamos $2.00 MXN, pero los Cheetos costaran como ~8 veces mas que eso, y eso mismo pasaría con nuestro Fondo de emergencias.
 
