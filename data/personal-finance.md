@@ -7,7 +7,7 @@ cover:
 date: "2021-07-31T00:00:00.000Z"
 ---
 
-Las finanzas personales son una disciplina que cada persona debe desarrollar, y como muchas experiencias en la vida, es algo que solo se aprende por memoria y conociendo experiencias de otras personas.
+Las finanzas personales son una disciplina que cada persona debe desarrollar, y como muchas experiencias en la vida, es algo que solo se aprende por mentoría y conociendo las experiencias de otras personas.
 
 En mi caso, yo comencé a aprender sobre dinero, después de pasar momentos difíciles, siempre en el ámbito económico.
 
@@ -15,27 +15,27 @@ En mi caso, yo comencé a aprender sobre dinero, después de pasar momentos dif�
 
 Cuando tuve mi primer sueldo, al rededor de unos $1,500.00 MXN, estaba en la universidad, me había mudado de la casa de mis papás y también me había mudado a otro estado.
 
-Vivía mayormente de la ayuda de mis papás aun estando lejos de ellos y recibir esos $1,500.00 MXN te quitaba un peso gigante de encima, al final, estaba en la universidad y para mi, ese dinero era mucho mas de lo que podia esperar.
+Vivía mayormente de la ayuda de mis papás aun estando lejos de ellos y recibir esos $1,500.00 MXN me quitaba un peso gigante de encima, al final, estaba en la universidad y para mi, ese dinero era mucho mas de lo que podia esperar.
 
-Mientras el tiempo pasaba, seguía ganando experiencia y subía en el escalón financiero, comenzaba a ganar mas dinero a medida de que iba escalando en mi trabajo, me daba cuenta de una cosa, eso que al principio parecía para mi _un mar de dinero_ comenzaba a valer menos, las cuentas subían, los gastos en la casa crecían y parecía que con cada nuevo salto en la escalera financiera no marcaba una diferencia.
+Mientras el tiempo pasaba, seguía ganando experiencia y subía en el escalón financiero, comenzaba a ganar mas dinero a medida de que iba escalando en mi trabajo, y me daba cuenta de una cosa, eso que al principio parecía para mi _un mar de dinero_, comenzaba a valer menos, las cuentas subían, los gastos en la casa crecían y parecía que con cada nuevo salto en la escalera financiera no marcaba una diferencia.
 
-Este efecto era curioso, ya que, desde los ojos que alguien que ganaba 1,500.00 pensaba que su vida iba a estar solucionada si ganaba 8,000.00 pesos, pero cuando llegaba a ese objetivo financiero, todo parecía igual; mas tarde descubrí que este efecto se llama ["inflación del estilo de vida"](https://blog.olymptrade.com/es/inflacion-estilo-de-vida/).
+Este efecto era curioso, ya que, desde los ojos que alguien que ganaba $1,500.00 MXN pensaba que su vida iba a estar solucionada si ganaba $8,000.00 MXN pesos, pero cuando llegaba a ese objetivo financiero, todo parecía igual; mas tarde descubrí que este efecto se llama ["inflación del estilo de vida"](https://blog.olymptrade.com/es/inflacion-estilo-de-vida/).
 
 > La situación donde uno aumenta sus ganancias seguidas por un aumento en los gastos es muy común. Queremos dinero para tener cosas que realmente no necesitamos. Esa relación entre el crecimiento de los ingresos y el monto de gastos no necesarios nos da un señal de un alto nivel de inflación del estilo de vida.
 
 ## Contexto social
 
-Han escuchado el meme, de que nuestros padres a los 18 años, ya tenían una casa, carro y esposa. Bueno, después de una larga reflection y cuentas por pagar, me di cuenta que esa realidad para mi no iba a aplicar de la misma forma, inclusive pensar, ¿Que tal si esos saltos en la escala financiera se acaban? y peor ¿Qué va a pasar cuando vayan en retroceso?.
+Han escuchado el meme, de que nuestros padres a los 18 años, ya tenían una casa, carro y esposa. Bueno, después de una larga reflection y cuentas por pagar, me di cuenta que esa realidad para mi no iba a aplicar de la misma forma, inclusive pensar, ¿Que tal si esos saltos en la escalera financiera se acaban? y peor ¿Qué va a pasar cuando vayan en retroceso?.
 
-Las leyes en México han cambiado, hoy puedo ver a mi Papá y Abuelos con una pension que les periten vivir, los esquemas de pension eran un sistema mayormente financiado por el estado, [mientas que las nuevas AFORES esta responsabilidad se traslada a población económicamente activa.](https://gatopardo.com/noticias-actuales/millennials-mexico-retiro-pension/)
+Las leyes en México han cambiado, hoy puedo ver a mi Papá y Abuelos con una pension que les permite vivir. Los esquemas de pension eran un sistema mayormente financiado por el estado, [mientas que en las nuevas AFORES, esta responsabilidad se traslada a población económicamente activa.](https://gatopardo.com/noticias-actuales/millennials-mexico-retiro-pension/)
 
-Aun que esto suena como una mala noticia y sin entrar en detalles politicos, investigue un poco a lo que tenia en mi alcance para entender como funcionaban los sistemas de pensiones en otros países y aun que muchos se parecen, como un sistema de recaudación Social que es invertido para el retiro, me di cuenta también que la gente en otros realiza aportaciones de forma mas activa y esta mas permeado en su cultura.
+Aun que esto suena como una mala noticia y sin entrar en detalles politicos, investigue un poco a lo que tenia en mi alcance para entender como funcionaban los sistemas de pensiones en otros países y aun que muchos se parecen, como un sistema de recaudación Social que es invertido para el retiro, me di cuenta también que la gente en otros países realiza aportaciones de forma mas activa y esto esta mas permeado en su cultura.
 
 ## Cuanto gastas, Cuanto ganas
 
 Recordando el punto sobre la inflación del estilo de vida, me di cuenta que es un mal vicio que tenia que romper, tenia que volver a tener esa perspectiva de que, podia vivir tranquilamente sin escalar mis gastos al mismo tiempo de escalar mis ingresos.
 
-Para esto es muy importante esclarecer, cuanto gastas en realidad y cuanto ganas; en su momento intente con muchas herramientas, aplicaciones que te ayudaban a medir tus gastos, hoy en dia muchas apps bancarias tienen funcionalidades similares, pero lo que mas me ha funcionado es lo mas básico, una hoja de papel (que luego migre a un excel) y enlistar los gastos que eran indispensables, luz, renta, etc.
+Para esto es muy importante esclarecer, cuánto gastas en realidad y cuánto ganas; en su momento intente con muchas herramientas o aplicaciones que te ayudaban a medir tus gastos. Hoy en dia muchas apps bancarias tienen funcionalidades similares, pero lo que mas me ha funcionado es lo mas básico, una hoja de papel (que luego migre a un excel) y enlistar los gastos que eran indispensables, luz, renta, etc.
 
 Con este ejercicio me di cuenta que muchos de mis gastos no aparecían en la lista, por lo que, muchos de mis gastos no eran indispensables. La hoja que luego se convirtió en excel, que fue lo mas conveniente para mi, se convirtió en mi presupuesto, la forma de romper con esta inflación del estilo de vida es poniéndole limites.
 
@@ -45,27 +45,27 @@ Una vez definiendo limites, puedes crear un espacio justo, donde puedas destinar
 
 He conocido muchas experiencias de horror, con personas cercanas sobre las deudas y [gran parte de la población en Mexico (y en el mundo) son acreedores de una](https://www.milenio.com/ciencia-y-salud/sociedad/77-poblacion-nacional-deuda-senala-estudio), la realidad es complicada.
 
-Si tu tienes una deuda, no hay una salida fácil y el único camino es enfocarse en pagarla, destinar un gran esfuerzo y trabajo. El mayor problema de la deuda es que se vuelven infinitas a causa de los intereses, incluyendo los países mas desarrollados, gran parte de la población vive con una deuda.
+Si tu tienes una deuda, no hay una salida fácil y el único camino es enfocarse en pagarla, destinar un gran esfuerzo y trabajo. El mayor problema de la deuda es que se vuelven infinitas a causa de los intereses. Inclusive, en los países mas desarrollados, gran parte de la población vive con una deuda.
 
 Algunos _bullets_ que podría aconsejar para saldar alguna deuda son:
 
-- Paga primero las que te estén generando mayor es intereses.
+- Paga primero las que te estén generando mayores intereses.
 - Paga de las mas pequeñas, a las mas grandes. esto funciona como un sistema de incentivos.
 - Consolida tus deudas en una sola, y solo dedicate a pagar una única deuda. algunos bancos ofrecen reestructuras, pero ojo, nunca aceptes "No pagar la deuda", ya que eso quedara marcado siempre el tu historial crediticio.
 
-Una historia que me gusta bastante y de quien aprendi buenos consejos sobre finanzas personales es de [Omar Educacion Financiera](https://www.youtube.com/watch?v=Fz7_WvE0HcY), con una historia similar de haber adquirido una gran deuda (+300K), pero que con mucha suerte y esfuerzo pudo transformar a su favor.
+Una historia que me gusta bastante y de quien aprendí buenos consejos sobre finanzas personales es de [Omar Educación Financiera](https://www.youtube.com/watch?v=Fz7_WvE0HcY), con una historia similar de haber adquirido una gran deuda (+300K), pero que con mucha suerte y esfuerzo pudo transformar a su favor.
 
 ## Fondo de emergencias
 
 Nadie esta preparado para una emergencia, eso lo he vivido muchas veces, sea una enfermedad o que se te descomponga el equipo de trabajo o escuela.
 
-Mi papá tenia un carro y muchas fueron las veces en las que ese carro se podia quedar descompuesto y había que buscar la forma de llegar a la escuela o trabajo; Ya que, si no había dinero para la reparación en ese momento, había que esperar.
+Mi papá tenia un carro y muchas fueron las veces en las que ese carro se descomponía y había que buscar la forma de llegar a la escuela o al trabajo; Ya que, si no había dinero para la reparación en ese momento, había que esperar.
 
 Las emergencias pueden causar deudas, lo cual es peor, ya que, después de pasar algún mal momento por enfermedad o por reparación de alguna herramienta para trabajar, tienes que pagar una gran cantidad de dinero que posiblemente se estire por varios años.
 
 Muchas veces he escuchado a la gente decir qué, no les gustan las tarjetas de crédito y estas solo las ven para emergencias, pero la parte mala esta ahí, si no podrás cubrir el total de la emergencia en la siguiente mensualidad de la tarjeta, esta va a generar intereses y considerando que las tasas de interés en Mexico, para las tarjetas de crédito van desde 70% hasta el +100%, [una deuda de $10,000.00 se puede convertir en una deuda que tome +20 años en pagar.](https://phpapps.condusef.gob.mx/condusef_pagomin/index.php).
 
-Para estos casos, la mejor estrategia es tener un Fondo de emergencia, una búsqueda rápida en Google te hará saber, que un Fondo de emergencia en un dinero puedes ahorrar que represente 3, 6, etc. meses de tus gastos, no confundir con ingresos, recuerda que si tienes un presupuesto y sabes cuando gastas, puedes calcular de cuanto puedes armar un fondo.
+Para estos casos, la mejor estrategia es tener un Fondo de emergencia, una búsqueda rápida en Google te hará saber que un Fondo de emergencia en un dinero puedes ahorrar que represente 3, 6, etc. meses de tus gastos, no confundir con ingresos, recuerda que si tienes un presupuesto y sabes cuando gastas, puedes calcular de cuanto puedes armar un fondo.
 
 Los fondos de emergencia usualmente son dinero liquido, dinero que puedes disponer en menos de 24hrs y que te ayudara en estas situaciones.
 
@@ -85,7 +85,7 @@ Si nosotros hubiéramos guardado los dos pesos del costo de los Cheetos en la bo
 
 El dinero existe para estar en movimiento, para hacer que la economía circule, cuando el dinero esta en movimiento, todos ganamos, cuando hay acumulación la economía sufre.
 
-Yo no creo en el ahorro, ya que lo asocio al estancamiento, un atleta no ahorra energía para prepararse. invertir puede ser algo subjetivo, puedes invertir en aprender nuevas habilidades, invertir esfuerzos para mejorar la condición física, etc.
+Yo no creo en el ahorro, ya que lo asocio al estancamiento, un atleta no ahorra energía para prepararse. i ``nvertir puede ser algo subjetivo, puedes invertir en aprender nuevas habilidades, invertir esfuerzos para mejorar la condición física, etc.
 
 El dinero funciona igual, la única forma de mantener tu dinero vivo, es a traves de la inversion, puedes obtener rendimientos por tu dinero en lo que puedes llegar a necesitarlo, ya sea al corto plazo para una emergencia o al largo plazo para tu retiro.
 
@@ -115,7 +115,7 @@ Las inversiones con menor riesgo, suele ser deuda de gobierno, en Mexico tenemos
 
 Los CETES (Certificados de la Tesorería de la Federación), suelen ser la opción por defecto para todos los nuevos inversionistas, son una opción libre de riesgo, que a su vez, te permiten tener liquidez en el corto plazo (28 dias), estos generan un rendimiento bastante conservador (6%) y que apenas funciona para superar la inflación (considerando el rendimiento histórico de los CETES).
 
-Los CETES suelen ser la opcion libre de riesgo, ya que estan respaldados por el Banco de Mexico.
+Los CETES suelen ser la opción libre de riesgo, ya que están respaldados por el Banco de Mexico.
 
 También, en Mexico, tenemos una muy buena opción en Bancos, llamada [Hey Banco](https://www.heybanco.com/index) que ofrece un rendimiento del 5.5% al 6.5%, concideranto todos los beneficios que puede tener un banco, como el seguro del [IPAB](https://www.gob.mx/ipab)
 
@@ -131,7 +131,7 @@ Yo considero que tengo un perfil de inversion mas orientado a lo conservador, mi
 
 Personalmente, yo sigo un modelo muy establecido, invirtiendo en indice muy popular, el S&P500 a traves del ETF VOO, que replica dicho indice.
 
-Soy una persona muy comprometida con mi trabajo, la mayor parte del tiempo se la dedico a el mismo, por lo que trato de seguir esta misma estrategia para no preocuparme mucho, hay diferentes perfiles, mas agresivos o mas apasionados por algo como el Trading y esta bien, pero creo que esta estrategia es la mas confiable o la mas estándar para la mayoría de los pequeños inversionistas que toman estas opciones para largo plazo y metas para su retiro.
+Soy una persona muy comprometida con mi trabajo, la mayor parte del tiempo se la dedico a el mismo, por lo que trato de seguir esta misma estrategia para no preocuparme mucho. Hay diferentes perfiles, mas agresivos o mas apasionados por algo como el Trading y esta bien, pero creo que esta estrategia es la mas confiable o la mas estándar para la mayoría de los pequeños inversionistas que toman estas opciones para largo plazo y metas para su retiro.
 
 Algo muy importante a considerar es que toda inversion en la bolsa, tiene un mayor riesgo y que los efectos positivos de las inversiones en bolsa, suelen tener tiempos mínimos de 5 años para ver sus efectos.
 
@@ -139,17 +139,17 @@ GBM también una herramienta muy atractiva llamada [Wealth Management](https://p
 
 ### Bienes raíces
 
-Cuando habla sobre inversiones con compañeros cercanos, la opinion popular eran los terrenos o bienes raíces, probablemente es parte de contexto social, Mexico, que esto haya sido una opción muy popular por mucho tiempo, pero cada vez es menos rentable invertir en propiedades.
+Cuando hablaba sobre inversiones con compañeros cercanos, la opinion popular eran los terrenos o bienes raíces, probablemente es parte de contexto social, Mexico, que esto haya sido una opción muy popular por mucho tiempo, pero cada vez es menos rentable invertir en propiedades.
 
 Personalmente no me gusta la inversion en bienes raíces, por que creo que te tiene que gustar bastante el tema, consume mucho tiempo y es mucha burocracia, a diferencia de La Bolsa, requiere mayor atención. Ademas de que, puedes necesitar un buen capital inicial sin mucha opción a diversificación.
 
-Por otro lado, las inversiones en vienes raíces, también se han modernizado mucho, se han puesto al alcance de todos sin requerir grandes capitales, actualmente contamos con plataformas como [Briq](https://www.briq.mx/) y [100Ladrillos](https://www.100ladrillos.com/), que te permiten invertir en bienes raíces de forma mas accesible.
+Por otro lado, las inversiones en bienes raíces, también se han modernizado mucho, se han puesto al alcance de todos sin requerir grandes capitales, actualmente contamos con plataformas como [Briq](https://www.briq.mx/) y [100Ladrillos](https://www.100ladrillos.com/), que te permiten invertir en bienes raíces de forma mas accesible.
 
 A su vez, también puedes invertir y diversificar en bienes raíces a traves de La Bolsa, con ETFs como VQN y FIBRAS como FUNO y FMTY, que te permiten invertir, con la misma experiencia de La Bolsa, en propiedades y desarrollos inmobiliarios.
 
 ### Divisas
 
-Probablemente consejo financiero que mas me choca, es la inversion en dolares, es muy fácil creer que si inviertes tu dinero en comprar dolares, por el efecto cambiario, te vas a ganar buen dinero, pero no hay nada mas alejado de la realidad.
+Probablemente consejo financiero que mas me _choca_, es la inversion en dolares, es muy fácil creer que si inviertes tu dinero en comprar dolares, por el efecto cambiario, te vas a ganar buen dinero, pero no hay nada mas alejado de la realidad.
 
 Comprar dolares tiene los mismo y mayores riesgos que La Bolsa, si los compras de forma física, tendrás que guardarlos en algún lugar o puede llegar a ser tedioso tener una cuenta de banco en dolares, para muchos.
 
@@ -163,27 +163,25 @@ Por lo que, en mi opinion personal, es mas fácil, invertir en La Bolsa de Estad
 
 Sobre los cryptos, yo creo que, los sistemas descentralizados son el futuro, hay mucho potencial en el De-Fi (Decentralized Finance), pero como método de inversion no lo veo en mi perfil, el riesgo asociado es muy alto y el tratamiento que se le ha dado a las cryptos es en función de Trading.
 
-Yo creo que comenzar a tener una cartera en cryptos a medida de que su adopción va creciendo.
+Yo creo que, hay que comenzar a tener una cartera en cryptos a medida de que su adopción va creciendo.
 
-Creo que, la idea del Bitcoin, es que podamos intercambiarlas por bienes y servicios, sin tener una entidad central, sin fronteras y sin una fuerza que la controle.
+Creo también, en la idea del Bitcoin, es que podamos intercambiarlas por bienes y servicios, sin tener una entidad central, sin fronteras y sin una entidad que la controle.
 
 ### Commodities
 
-Hay otros grupos en los que se puede invertir, como el Oro, la Plata, etc. últimamente también hay cosas como, inversiones en Agua, Litio, Gas Natura.
+Hay otros grupos en los que se puede invertir, como el Oro, la Plata, etc. últimamente también hay cosas como, inversiones en Agua, Litio, Gas Natural. Creo que son buenos recursos si quieres agregarlos a tu portafolio, puedes invertir en ellos a traves de los ETFs con el mismo tratamiento que se le da a La Bolsa.
 
-Creo que el son buenos recursos si quieres agregarlos a tu portafolio, puedes invertir en ellos a traves de los ETFs, con el mismo tratamiento que se le da a La Bolsa.
-
-Solo no recomendaría invertir directamente en Oro o Plata, como objetos físicos, mas que nada por el riesgo asociado, la inversion en Oro es algo cíclico, como inversion de protección, cuando hay incertidumbre en Las Bolsas, pero puede ser difícil entrar y generar dinero directamente en ello.
+Solo no recomendaría invertir directamente en Oro o Plata como objetos físicos, mas que nada por el riesgo asociado, la inversion en Oro es algo cíclico, como inversion de protección, cuando hay incertidumbre en Las Bolsas, pero puede ser difícil entrar y generar dinero directamente en ello.
 
 ## Bancos
 
 Fuera de las opciones de inversion, están los bancos, los deje fuera de los grupos de inversion, ya que las inversiones en Bancos usualmente no son atractivas, teniendo tasas mayormente negativas (que no superan la inflación).
 
-Un banco es tu mejor amigo para adquirir productos financieros, acceder a prestamos, créditos y tarjetas de créditos. Pero tienes que saber jugar muy bien el juego de los bancos, ya que ellos nunca pierden.
+Un banco es tu mejor amigo para adquirir productos financieros, acceder a prestamos, créditos y tarjetas de crédito. Pero tienes que saber jugar muy bien el juego de los bancos, ya que ellos nunca pierden.
 
 Yo personalmente soy un usuario muy activos de los productos bancarios, mi mejor consejo es, perfilarse para una muy buena tarjeta de crédito que tenga beneficios que te favorezcan (viajes, accesos exclusivos, cashback) y jamas le debas un peso de interés al banco.
 
-Trato de NUNCA utilizar efectivo para ninguna operación, los bancos, favorecen las operaciones con tarjetas de crédito, si eres victima de clonado de tarjetas, los bancos usualmente, van a favorecer a los clientes (si no, siempre esta la CONDUSEF). si esto mismo te pasara con una cuenta de débito, es muy difícil recuperar el dinero.
+Trato de NUNCA utilizar efectivo para ninguna operación, los bancos, favorecen las operaciones con tarjetas de crédito, si eres victima de clonado de tarjetas, los bancos usualmente van a favorecer a los clientes (si no, siempre esta la CONDUSEF). Si esto mismo te pasara con una cuenta de débito, es muy difícil recuperar el dinero.
 
 ## Impuestos
 
@@ -191,13 +189,13 @@ Trato de NUNCA utilizar efectivo para ninguna operación, los bancos, favorecen 
 
 Todas las inversiones pagan el ISR, la mayoría de las inversiones aquí presentadas, solo requieren que hagas tu declaración anual de impuestos.
 
-Inversiones como, los dolares y los vienes raíces, pueden requerir que cambies tu regimen fiscal o realizes pagos provisionales cada 6 meses.
+Inversiones como, los dolares y los bienes raíces, pueden requerir que cambies tu regimen fiscal o realizes pagos provisionales cada 6 meses.
 
 Hacer la declaración anual es muy fácil y considero que todos los trabajadores deberían hacerla, no todos están obligados, pero puedes encontrarte que al final de año fiscal tengas saldo a favor en impuestos que puedas pedir de regreso o se abone para la declaración de los siguientes años.
 
 Y si a esto le sumas que, puedes hacer deducciones personales, por consultas medicas, por comprar lentes ópticos, colegiaturas, etc. se vuelve mas atractivo.
 
-Puedes encontrar una guiá muy fácil de como realizar una declaracion anual, que no te toma mas de 10 minutos, en [YouTube](https://www.youtube.com/watch?v=_lp1jiBzX6o&t=505s).
+Puedes encontrar una guiá muy fácil de como realizar una declaración anual, que no te toma mas de 10 minutos, en [YouTube](https://www.youtube.com/watch?v=_lp1jiBzX6o&t=505s).
 
 ## AFORE
 
@@ -205,11 +203,11 @@ Como últimos detalles que puedo mencionar sobre el sistema de AFORES visitado a
 
 Desafortunadamente, no podemos usar el dinero del AFORE para invertir en lo que nosotros queremos. Afortunadamente es un dinero que a todos como trabajadores nos pertenece, por lo que te recomendaría:
 
-Conoce donde esta tu AFORE, si eres empleado, tienes una AFORE y tienes que descubrir en que Banco se encuentra, puedes solicitar el cambio a tu AFORE de preferencia, te recomendaría investigar las AFORES mas recomendables, que te aparecen en seguida a traves de YouTube o Google.
+Conoce donde esta tu AFORE, si eres empleado, tienes una AFORE y tienes que descubrir en que Banco se encuentra, puedes solicitar el cambio a tu AFORE de preferencia, te recomendaría investigar las AFORES mas recomendables; te aparecen en una búsqueda rápida de YouTube o Google.
 
-Sea donde sea el lugar que estes trabajando, verifica que tu nomina sea completa, ya que es un beneficio que, como trabajador tienes derecho, ese dinero se te descuenta va para tu retiro; también te puede servir como ahorro para la vivienda y al tener tu nomina en orden, puedes aspirar a tener un crédito digno para comprar una buena propiedad, si es que ese es tu objetivo.
+Sea donde sea el lugar que estes trabajando, verifica que tu nomina sea completa, ya que es un beneficio que, como trabajador tienes derecho, ese dinero que se te descuenta va para tu retiro; también te puede servir como ahorro para la vivienda y al tener tu nomina en orden, puedes aspirar a tener un crédito digno para comprar una buena propiedad, si es que ese es tu objetivo.
 
-No te recomendaría, hacer aportaciones voluntarias, aun que estas son deducibles de impuestos y ese es un gran beneficio, el rendimiento generados en las AFORES no es tan atractivo como la Bolsa.
+No te recomendaría hacer aportaciones voluntarias, aun que estas son deducibles de impuestos y ese es un gran beneficio, el rendimiento generados en las AFORES no es tan atractivo como la Bolsa.
 
 ## Conclusiones y últimos consejos personales
 
