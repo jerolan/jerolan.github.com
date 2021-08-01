@@ -11,7 +11,7 @@ Las finanzas personales son una disciplina que cada persona debe desarrollar, y 
 
 En mi caso, yo comencé a aprender sobre dinero, después de pasar momentos difíciles, siempre en el ámbito económico.
 
-### Un poco de historia
+## Un poco de historia
 
 Cuando tuve mi primer sueldo, al rededor de unos $1,500.00 MXN, estaba en la universidad, me había mudado de la casa de mis papás y también me había mudado a otro estado.
 
@@ -23,7 +23,7 @@ Este efecto era curioso, ya que, desde los ojos que alguien que ganaba 1,500.00 
 
 > La situación donde uno aumenta sus ganancias seguidas por un aumento en los gastos es muy común. Queremos dinero para tener cosas que realmente no necesitamos. Esa relación entre el crecimiento de los ingresos y el monto de gastos no necesarios nos da un señal de un alto nivel de inflación del estilo de vida.
 
-### Contexto social
+## Contexto social
 
 Han escuchado el meme, de que nuestros padres a los 18 años, ya tenían una casa, carro y esposa. Bueno, después de una larga reflection y cuentas por pagar, me di cuenta que esa realidad para mi no iba a aplicar de la misma forma, inclusive pensar, ¿Que tal si esos saltos en la escala financiera se acaban? y peor ¿Qué va a pasar cuando vayan en retroceso?.
 
@@ -31,7 +31,7 @@ Las leyes en México han cambiado, hoy puedo ver a mi Papá y Abuelos con una pe
 
 Aun que esto suena como una mala noticia y sin entrar en detalles politicos, investigue un poco a lo que tenia en mi alcance para entender como funcionaban los sistemas de pensiones en otros países y aun que muchos se parecen, como un sistema de recaudación Social que es invertido para el retiro, me di cuenta también que la gente en otros realiza aportaciones de forma mas activa y esta mas permeado en su cultura.
 
-### Cuanto gastas, Cuanto ganas
+## Cuanto gastas, Cuanto ganas
 
 Recordando el punto sobre la inflación del estilo de vida, me di cuenta que es un mal vicio que tenia que romper, tenia que volver a tener esa perspectiva de que, podia vivir tranquilamente sin escalar mis gastos al mismo tiempo de escalar mis ingresos.
 
@@ -41,7 +41,7 @@ Con este ejercicio me di cuenta que muchos de mis gastos no aparecían en la lis
 
 Una vez definiendo limites, puedes crear un espacio justo, donde puedas destinar este dinero para aportar a tu futuro.
 
-### Deudas
+## Deudas
 
 He conocido muchas experiencias de horror, con personas cercanas sobre las deudas y [gran parte de la población en Mexico (y en el mundo) son acreedores de una](https://www.milenio.com/ciencia-y-salud/sociedad/77-poblacion-nacional-deuda-senala-estudio), la realidad es complicada.
 
@@ -55,7 +55,7 @@ Algunos _bullets_ que podría aconsejar para saldar alguna deuda son:
 
 Una historia que me gusta bastante y de quien aprendi buenos consejos sobre finanzas personales es de [Omar Educacion Financiera](https://www.youtube.com/watch?v=Fz7_WvE0HcY), con una historia similar de haber adquirido una gran deuda (+300K), pero que con mucha suerte y esfuerzo pudo transformar a su favor.
 
-### Fondo de emergencias
+## Fondo de emergencias
 
 Nadie esta preparado para una emergencia, eso lo he vivido muchas veces, sea una enfermedad o que se te descomponga el equipo de trabajo o escuela.
 
@@ -71,7 +71,7 @@ Los fondos de emergencia usualmente son dinero liquido, dinero que puedes dispon
 
 Una gran estrategia, con el ejemplo de las tarjetas de crédito, es que puedes, si, tener una tarjeta de crédito que cubra tu emergencia al instante, pero como tienes este Fondo al que puedes acceder en menos de 24hrs, pues podrás pagar en su totalidad o mayoría, la tarjeta.
 
-### Inflación
+## Inflación
 
 ¿Por qué hay un espacio de 24 horas en ese fondo de emergencia?. Bueno, usualmente como es un dinero que tendrás sin mover hasta el momento de una emergencia, ¿Donde lo pondrías?, fácilmente, se puede guardar en una cuenta de banco o debajo de el colchón, pero descubrirás que puede no ser la mejor idea.
 
@@ -81,7 +81,7 @@ Nuestros padres sabrán perfectamente lo doloroso que es la inflación y nosotro
 
 Si nosotros hubiéramos guardado los dos pesos del costo de los Cheetos en la bolsa de un pantalón, al dia de hoy, solo tendríamos $2.00 MXN, pero los Cheetos costaran como ~8 veces mas que eso, y eso mismo pasaría con nuestro Fondo de emergencias.
 
-### Inversion
+## Inversion
 
 El dinero existe para estar en movimiento, para hacer que la economía circule, cuando el dinero esta en movimiento, todos ganamos, cuando hay acumulación la economía sufre.
 
@@ -93,7 +93,7 @@ El dinero funciona igual, la única forma de mantener tu dinero vivo, es a trave
 
 Hay varios tipos de inversiones, hay muchos tipos de estafas.
 
-# Estafas
+### Estafas
 
 Si tu amigo de la secundaria que no vez en años te habla para poner un negocio, o alguien te invita a emprender en un Starbucks, es posible que estes frente a una estafa: ponzi, pirámide, etc.
 
@@ -101,7 +101,7 @@ Cuando comencé a aprender sobre inversiones, lo hice Googleando y el gran probl
 
 NO existe la forma de volverse rico con atajos y en el corto plazo.
 
-# Riesgo
+### Riesgo
 
 Dependiendo tu perfil como inversionista, vas a tener cierta adversidad al riesgo, existen muchas opciones que, usualmente te permiten tener liquidez, protección contra la inflación y un bajo riesgo u otras que te permitan generar rendimientos muy atractivos, pero a su vez, adquiriendo mayor riesgo.
 
@@ -109,7 +109,7 @@ Eso lo decides tu, dependiendo tus necesidades vas a querer adquirir cierto grad
 
 La mejor estrategia siempre es diversificar y _no poner todos los huevos en una sola canasta_
 
-# Bonos de gobierno
+### Bonos de gobierno
 
 Las inversiones con menor riesgo, suele ser deuda de gobierno, en Mexico tenemos CETES y Bonos, en USA existen los _Treasury Bonds_.
 
@@ -119,7 +119,7 @@ Los CETES suelen ser la opcion libre de riesgo, ya que estan respaldados por el 
 
 También, en Mexico, tenemos una muy buena opción en Bancos, llamada [Hey Banco](https://www.heybanco.com/index) que ofrece un rendimiento del 5.5% al 6.5%, concideranto todos los beneficios que puede tener un banco, como el seguro del [IPAB](https://www.gob.mx/ipab)
 
-# Bolsa
+### Bolsa
 
 Probablemente este, como cada año, es uno de los mejores momentos para invertir; objetivamente, en México, gracias a la tecnología podemos invertir en la bolsa con herramientas como [GBM](https://plus.gbm.com/).
 
@@ -137,7 +137,7 @@ Algo muy importante a considerar es que toda inversion en la bolsa, tiene un may
 
 GBM también una herramienta muy atractiva llamada [Wealth Management](https://plus.gbm.com/wealth-management.html) que se encarga de perfilarte según tus objetivos y tu aversion al riesgo, para tener que preocuparse mucho menos por tus inversiones y solo agregar dinero a tu inversion de forma sostenida mes con mes.
 
-# Bienes raíces
+### Bienes raíces
 
 Cuando habla sobre inversiones con compañeros cercanos, la opinion popular eran los terrenos o bienes raíces, probablemente es parte de contexto social, Mexico, que esto haya sido una opción muy popular por mucho tiempo, pero cada vez es menos rentable invertir en propiedades.
 
@@ -147,7 +147,7 @@ Por otro lado, las inversiones en vienes raíces, también se han modernizado mu
 
 A su vez, también puedes invertir y diversificar en bienes raíces a traves de La Bolsa, con ETFs como VQN y FIBRAS como FUNO y FMTY, que te permiten invertir, con la misma experiencia de La Bolsa, en propiedades y desarrollos inmobiliarios.
 
-# Divisas
+### Divisas
 
 Probablemente consejo financiero que mas me choca, es la inversion en dolares, es muy fácil creer que si inviertes tu dinero en comprar dolares, por el efecto cambiario, te vas a ganar buen dinero, pero no hay nada mas alejado de la realidad.
 
@@ -159,7 +159,7 @@ La Bolsa de valores en México tiene una extension fiscal que te permite pagar s
 
 Por lo que, en mi opinion personal, es mas fácil, invertir en La Bolsa de Estados Unidos a traves de este mismo indice S&P500, que es un instrumento dolarizado y que ademas invierte en las 500 empresas mejor valuadas de Estados Unidos.
 
-# Cryptos
+### Cryptos
 
 Sobre los cryptos, yo creo que, los sistemas descentralizados son el futuro, hay mucho potencial en el De-Fi (Decentralized Finance), pero como método de inversion no lo veo en mi perfil, el riesgo asociado es muy alto y el tratamiento que se le ha dado a las cryptos es en función de Trading.
 
@@ -167,7 +167,7 @@ Yo creo que comenzar a tener una cartera en cryptos a medida de que su adopción
 
 Creo que, la idea del Bitcoin, es que podamos intercambiarlas por bienes y servicios, sin tener una entidad central, sin fronteras y sin una fuerza que la controle.
 
-# Commodities
+### Commodities
 
 Hay otros grupos en los que se puede invertir, como el Oro, la Plata, etc. últimamente también hay cosas como, inversiones en Agua, Litio, Gas Natura.
 
@@ -185,7 +185,7 @@ Yo personalmente soy un usuario muy activos de los productos bancarios, mi mejor
 
 Trato de NUNCA utilizar efectivo para ninguna operación, los bancos, favorecen las operaciones con tarjetas de crédito, si eres victima de clonado de tarjetas, los bancos usualmente, van a favorecer a los clientes (si no, siempre esta la CONDUSEF). si esto mismo te pasara con una cuenta de débito, es muy difícil recuperar el dinero.
 
-## Impuestos
+## Impuestos
 
 > En este mundo sólo hay dos cosas seguras: la muerte y pagar impuestos.
 
