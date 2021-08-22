@@ -2,7 +2,7 @@
 title: "La ultima vez que cambie de trabajo"
 excerpt: "No te personifiques como una persona técnica, sé un colaborador que quiere ayudar a toda la empresa. Entiende el objetivo en el que tú crees y el objetivo en el que cree tu empresa."
 cover:
-  alt: "asdf – Free Business Image on Unsplash by @asdf"
+  alt: "black framed eyeglasses on white surface photo – Free Business Image on Unsplash by @konseptastudio"
   src: "new-job.jpg"
 date: "2021-08-22T00:00:00.000Z"
 ---
