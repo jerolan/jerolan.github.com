@@ -4,7 +4,8 @@ export default function Cover({ src, alt }) {
       <img
         src={`/images/${src}`}
         alt={alt}
-        className="h-96 w-full object-cover"
+        className="object-cover h-96 w-full"
+        loading="lazy"
       />
       <p className="text-center text-sm italic opacity-80">{alt}</p>
     </div>
