@@ -1,31 +1,33 @@
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
+import useWindow from "../../hooks/useWindow";
 import DarkModeToggle from "../DarkModeToggle";
 
 const threshold = 3;
 
 export default function FloatingHeader({ title }) {
   const floatingHeaderRef = useRef(null);
+  const window = useWindow();
 
-  useEffect(() => {
-    setFloatingHeaderTop();
-    window.onscroll = setFloatingHeaderTop;
-  }, []);
-
-  function setFloatingHeaderTop() {
+  const setFloatingHeaderTop = useCallback(() => {
     // use Page.Header as reference
     const topLimit = document.querySelector("header").offsetHeight * threshold;
 
-    if (window.pageYOffset > topLimit) {
+    if (window?.pageYOffset > topLimit) {
       floatingHeaderRef.current.style.top = 0;
     } else {
       floatingHeaderRef.current.style.top = `${
         -floatingHeaderRef.current.offsetHeight * threshold
       }px`;
     }
-  }
+  }, [window]);
+
+  useEffect(() => {
+    setFloatingHeaderTop();
+    window.onscroll = setFloatingHeaderTop;
+  }, [setFloatingHeaderTop, window]);
 
   function scrollToTop() {
-    window.scrollTo({
+    window?.scrollTo({
       top: 0,
       behavior: "smooth",
     });
@@ -41,7 +43,7 @@ export default function FloatingHeader({ title }) {
         <button onClick={scrollToTop}>
           <span className="font-bold text-md md:text-xl">{title}</span>
         </button>
-        {/* <DarkModeToggle /> */}
+        <DarkModeToggle />
       </div>
     </div>
   );
