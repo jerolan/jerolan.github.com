@@ -7,14 +7,15 @@ cover:
 date: "2021-08-22T00:00:00.000Z"
 ---
 
-La última vez que cambié de trabajo también cambió mi perspectiva al ver las ofertas de empleo aquel momento estaba terminando la relación con un proyecto del cual colaboraba y lo siguiente que reflexionaba era sobre cuál iba a ser el siguiente proyecto con el que me iba a tocar colaborar. 
+La última vez que cambié de trabajo también cambió mi perspectiva al ver las ofertas de empleo aquel momento estaba terminando la relación con un proyecto del cual colaboraba y lo siguiente que reflexionaba era sobre cuál iba a ser el siguiente proyecto con el que me iba a tocar colaborar.
 
-La empresa para la que trabajaba pertenecía al modelo de empresas de software que es muy común en México u otros países latinoamericanos, haciendo nearshore para empresas de Estados Unidos o el extranjero, por lo tanto, una vez terminada la relación de trabajo con un cliente tendrías que ser asignado al siguiente y así mientras dures en esa empresa. 
+La empresa para la que trabajaba pertenecía al modelo de empresas de software que es muy común en México u otros países latinoamericanos, haciendo nearshore para empresas de Estados Unidos o el extranjero, por lo tanto, una vez terminada la relación de trabajo con un cliente tendrías que ser asignado al siguiente y así mientras dures en esa empresa.
 
-Un par de años antes ya había identificado una realidad con la que no estaba de acuerdo, me tocó ser parte de dos proyectos bajo este mismo modelo y me di cuenta que realmente no disfrutaba trabajar para ellos, no compartía la visión u el objetivo de la empresa y solo estaba ahí porque ese era mi trabajo. 
+Un par de años antes ya había identificado una realidad con la que no estaba de acuerdo, me tocó ser parte de dos proyectos bajo este mismo modelo y me di cuenta que realmente no disfrutaba trabajar para ellos, no compartía la visión u el objetivo de la empresa y solo estaba ahí porque ese era mi trabajo.
 
 Durante ese momento viva el siguiente mantra:
-> Es responsable aceptar cosas con las que no estamos de acuerdo. 
+
+> Es responsable aceptar cosas con las que no estamos de acuerdo.
 
 En ese momento aquel mantra me hacía mucho sentido, no todo el tiempo íbamos a estar de acuerdo con las situaciones que se daban en nuestras vidas y es responsable enfrentar afrontar esas situaciones.
 
@@ -36,7 +37,7 @@ Finalmente entendí que solo así podría encontrar más empresas que usaran ese
 
 Lo único que le hacía falta a este modelo que tanto me gustaba, era _"amar"_ el producto que estabas construyendo, en ese momento fue divertido trabajar con ese equipo, pero pienso que se hubiera perdido el encanto al trabajar a largo plazo en el, ya que no le veia sentido a la direccion del producto.
 
- Creo que es importante _"enamorarse"_ del proyecto en el que estas trabajando, ya que solo así vas a explotar tu potencial al máximo y de lo contrario, hasta pudiera ser nocivo para el proyecto.
+Creo que es importante _"enamorarse"_ del proyecto en el que estas trabajando, ya que solo así vas a explotar tu potencial al máximo y de lo contrario, hasta pudiera ser nocivo para el proyecto.
 
 He conocido founders con los que mi visión simplemente no se alinea, están construyendo y poniendo su pasión, tiempo y esfuerzo en un proyecto que yo no puedo _"amar"_ de la misma forma que ellos lo hacen e inclusive puedo poner en riesgo el éxito del mismo, ya que me será muy difícil entender el diferencial que estamos tratando de lograr.
 
