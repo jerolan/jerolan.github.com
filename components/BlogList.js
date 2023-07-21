@@ -13,7 +13,7 @@ function Item({ slug, title, date, content }) {
 
   return (
     <Link href={`/blog/${slug}`}>
-      <a className="block border-b pb-8">
+      <a className="block border-b dark:border-neutral-800 pb-8">
         <div className="space-y-2">
           <h3 className="font-bold text-xl md:text-2xl">{title}</h3>
           <p className="capitalize pb-2 opacity-90 dark:opacity-100">
