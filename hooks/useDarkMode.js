@@ -1,5 +1,5 @@
 import { useCallback, useEffect } from "react";
-import useLocalStorage from "./useLocalStorage";
+import { useLocalStorage } from "usehooks-ts";
 import useMedia from "./useMedia";
 import useWindow from "./useWindow";
 

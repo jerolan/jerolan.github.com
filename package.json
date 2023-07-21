@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "yarn build && npx gh-pages -d out -b gh-pages --dotfiles",
+    "deploy": "npm run build && npx gh-pages -d out -b gh-pages --dotfiles",
     "build": "next build && next export",
     "start": "next dev",
-    "serve": "next start",
+    "serve": "next build && next start",
     "lint": "./node_modules/.bin/eslint --ext .js .",
     "format": "prettier --write ."
   },
@@ -19,7 +19,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "remark": "^14.0.2",
-    "remark-html": "^15.0.1"
+    "remark-html": "^15.0.1",
+    "usehooks-ts": "^2.9.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
