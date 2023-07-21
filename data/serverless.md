@@ -1,10 +1,10 @@
 ---
 title: "Aplicaciones Serverless"
-excerpt: "Después de tener un gran interés por entender los principios de agile, pude entender donde fallamos como equipos al intentar adoptar los principios"
+excerpt: "Serverless es un enfoque de desarrollo de aplicaciones en la nube en el cual los desarrolladores se centran en escribir código de funciones individuales que se ejecutan en respuesta a eventos específicos."
 cover:
-  alt: "three men sitting while using laptops and watching man beside whiteboard photo – Free Business Image on Unsplash by @austindistel"
-  src: "clean-agile.jpg"
-date: "2021-07-17T00:00:00.000Z"
+  alt: "Photo by Thomas Couillard on Unsplash"
+  src: "serverless.jpg"
+date: "2023-07-20T00:00:00.000Z"
 ---
 
 Serverless es un enfoque de desarrollo de aplicaciones en la nube en el cual los desarrolladores se centran en escribir código de funciones individuales que se ejecutan en respuesta a eventos específicos. Estas funciones son volatiles y se escalan automáticamente según la demanda, sin la necesidad de gestionar la infraestructura. Con este enfoque, los desarrolladores pueden despreocuparse de la administración de servidores y centrarse en la lógica de la aplicación, lo que proporciona una mayor agilidad, escalabilidad automática y una reducción de costos al pagar solo por el tiempo de ejecución de las funciones.
