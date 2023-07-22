@@ -27,18 +27,18 @@
     "eslint": "^8.45.0",
     "eslint-config-react-app": "^7.0.1",
     "image-trace-loader": "^0.1.0",
-    "imagemin-gifsicle": "^5.2.0",
-    "imagemin-mozjpeg": "^6.0.0",
-    "imagemin-optipng": "^5.2.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "9.0.0",
     "jimp": "^0.16.1",
     "lqip-loader": "^2.1.1",
-    "next-optimized-images": "^1.4.2",
+    "next-optimized-images": "^2.6.2",
     "postcss": "^8.4.27",
     "prettier": "^2.5.1",
     "responsive-loader": "^2.3.0",
     "svg-sprite-loader": "^2.0.3",
     "tailwindcss": "^3.3.3",
-    "webp-loader": "^0.4.0"
+    "webp-loader": "^0.6.0"
   }
 }
