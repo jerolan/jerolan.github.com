@@ -26,7 +26,7 @@
     "autoprefixer": "^10.4.14",
     "eslint": "^8.45.0",
     "eslint-config-react-app": "^7.0.1",
-    "image-trace-loader": "^0.1.0",
+    "image-trace-loader": "^1.0.2",
     "imagemin-gifsicle": "^5.2.0",
     "imagemin-mozjpeg": "^6.0.0",
     "imagemin-optipng": "^5.2.1",
