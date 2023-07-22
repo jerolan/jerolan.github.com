@@ -152,7 +152,7 @@ function main() {
 }
 ```
 
-### Patrones recilientes (Let it crash)
+### Patrones resiliente (Let it crash)
 
 La resiliencia es la capacidad de una aplicación para recuperarse de errores. Mientras que en las API HTTP cliente-servidor, un usuario puede volver a enviar una solicitud si falla, ¿qué sucede cuando la solicitud falla entre dos servicios o al intentar alcanzar un servicio externo? En esos casos, no hay un usuario que vuelva a emitir la solicitud.
 
@@ -238,7 +238,7 @@ SAGAS: El patrón SAGAS se utiliza para coordinar y gestionar transacciones dist
 
 Event Sourcing (Almacenamiento de Eventos): En este patrón, se almacenan los eventos que representan los cambios realizados en el sistema en lugar del estado actual. Esto permite reconstruir el estado actual a partir de los eventos almacenados y también facilita la auditoría y la trazabilidad de los cambios.
 
-### En conclucion
+### En conclusion
 
 En conclusión, los patrones discutidos en esta sección son conceptos clave que hubiera sido beneficioso conocer antes de desarrollar aplicaciones serverless y distribuidas. Aprender y aplicar estos patrones puede marcar una diferencia significativa en la calidad y el rendimiento de nuestras aplicaciones.
 
