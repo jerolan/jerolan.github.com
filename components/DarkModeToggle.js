@@ -7,6 +7,7 @@ export default function DarkModeToggle() {
 
   return (
     <Button
+      aria-label="Toggle Dark Mode"
       className="text-indigo-800 dark:text-yellow-300 bg-indigo-800 dark:bg-yellow-300 border-indigo-800 dark:border-yellow-300 dark:bg-opacity-10 px-2 py-2"
       onClick={toggleDarkMode}
     >
