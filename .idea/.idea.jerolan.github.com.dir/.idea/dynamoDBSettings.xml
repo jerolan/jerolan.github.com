@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DynamoDBConfiguration">
+    <option name="databaseConfigurations">
+      <map>
+        <entry key="9a98b420-87f8-4e17-aec7-ab482a4d946a">
+          <value>
+            <O>
+              <option name="id" value="9a98b420-87f8-4e17-aec7-ab482a4d946a" />
+              <option name="label" value="DynamoDB" />
+              <option name="version" value="2" />
+            </O>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="requestHistory">
+      <map>
+        <entry key="9a98b420-87f8-4e17-aec7-ab482a4d946a" value="[{&quot;body&quot;:&quot;{\n  \&quot;Limit\&quot;: 50,\n  \&quot;TableName\&quot;: \&quot;serverless-example-dev-ordersTableA4C7C531-12AIS8NTG2D22\&quot;,\n  \&quot;ReturnConsumedCapacity\&quot;: \&quot;TOTAL\&quot;\n}&quot;,&quot;operation&quot;:&quot;SCAN&quot;,&quot;sqlStatement&quot;:null},{&quot;body&quot;:&quot;{\n  \&quot;Limit\&quot;: 50,\n  \&quot;TableName\&quot;: \&quot;serverless-example-dev-transactionsTable29D14D63-6G5WN8YO3LZ3\&quot;,\n  \&quot;ReturnConsumedCapacity\&quot;: \&quot;TOTAL\&quot;\n}&quot;,&quot;operation&quot;:&quot;SCAN&quot;,&quot;sqlStatement&quot;:null},{&quot;body&quot;:&quot;{\n  \&quot;Limit\&quot;: 50,\n  \&quot;TableName\&quot;: \&quot;serverless-example-dev-ordersTableA4C7C531-12AIS8NTG2D22\&quot;,\n  \&quot;ReturnConsumedCapacity\&quot;: \&quot;TOTAL\&quot;\n}&quot;,&quot;operation&quot;:&quot;SCAN&quot;,&quot;sqlStatement&quot;:null},{&quot;body&quot;:&quot;{\n  \&quot;Limit\&quot;: 50,\n  \&quot;TableName\&quot;: \&quot;serverless-example-dev-integrationEventsTableFBDEF015-KJPKGYC7LJ4Z\&quot;,\n  \&quot;ReturnConsumedCapacity\&quot;: \&quot;TOTAL\&quot;\n}&quot;,&quot;operation&quot;:&quot;SCAN&quot;,&quot;sqlStatement&quot;:null},{&quot;body&quot;:&quot;{\n  \&quot;Limit\&quot;: 50,\n  \&quot;TableName\&quot;: \&quot;serverless-example-dev-transactionsTable29D14D63-6G5WN8YO3LZ3\&quot;,\n  \&quot;ReturnConsumedCapacity\&quot;: \&quot;TOTAL\&quot;\n}&quot;,&quot;operation&quot;:&quot;SCAN&quot;,&quot;sqlStatement&quot;:null},{&quot;body&quot;:&quot;{\n  \&quot;Limit\&quot;: 50,\n  \&quot;TableName\&quot;: \&quot;serverless-example-dev-ordersTableA4C7C531-12AIS8NTG2D22\&quot;,\n  \&quot;ReturnConsumedCapacity\&quot;: \&quot;TOTAL\&quot;\n}&quot;,&quot;operation&quot;:&quot;SCAN&quot;,&quot;sqlStatement&quot;:null},{&quot;body&quot;:&quot;{\n  \&quot;Limit\&quot;: 50,\n  \&quot;TableName\&quot;: \&quot;serverless-example-dev-integrationEventsTableFBDEF015-KJPKGYC7LJ4Z\&quot;,\n  \&quot;ReturnConsumedCapacity\&quot;: \&quot;TOTAL\&quot;\n}&quot;,&quot;operation&quot;:&quot;SCAN&quot;,&quot;sqlStatement&quot;:null},{&quot;body&quot;:&quot;{\n  \&quot;Limit\&quot;: 50,\n  \&quot;TableName\&quot;: \&quot;serverless-example-dev-transactionsTable29D14D63-6G5WN8YO3LZ3\&quot;,\n  \&quot;ReturnConsumedCapacity\&quot;: \&quot;TOTAL\&quot;\n}&quot;,&quot;operation&quot;:&quot;SCAN&quot;,&quot;sqlStatement&quot;:null},{&quot;body&quot;:&quot;{\n  \&quot;Limit\&quot;: 50,\n  \&quot;TableName\&quot;: \&quot;serverless-example-dev-ordersTableA4C7C531-12AIS8NTG2D22\&quot;,\n  \&quot;ReturnConsumedCapacity\&quot;: \&quot;TOTAL\&quot;\n}&quot;,&quot;operation&quot;:&quot;SCAN&quot;,&quot;sqlStatement&quot;:null},{&quot;body&quot;:&quot;{\n  \&quot;Limit\&quot;: 50,\n  \&quot;TableName\&quot;: \&quot;serverless-example-dev-integrationEventsTableFBDEF015-KJPKGYC7LJ4Z\&quot;,\n  \&quot;ReturnConsumedCapacity\&quot;: \&quot;TOTAL\&quot;\n}&quot;,&quot;operation&quot;:&quot;SCAN&quot;,&quot;sqlStatement&quot;:null}]" />
+      </map>
+    </option>
+    <option name="version" value="1" />
+  </component>
+</project>
