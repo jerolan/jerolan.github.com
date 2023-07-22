@@ -10,7 +10,7 @@ function Link({ href, children }) {
   return (
     <Button className="bg-red-400 dark:bg-red-300 text-red-400 dark:text-red-300 border-red-400 dark:border-red-300 px-4 py-1">
       <NextLink href={href}>
-        <a>{children}</a>
+        {children}
       </NextLink>
     </Button>
   );
