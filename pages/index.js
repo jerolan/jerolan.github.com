@@ -42,6 +42,18 @@ export default function Home() {
           </ExternalLinks.Link>
         </ExternalLinks>
 
+        <ExternalLinks title="Pasatiempos y comunidades">
+          <ExternalLinks.Link href="https://www.facebook.com/javascriptmerida/">
+            JavaScript Merida
+          </ExternalLinks.Link>
+          <ExternalLinks.Link href="https://www.awayfromjs.dev/">
+            Away from JavaScript
+          </ExternalLinks.Link>
+          <ExternalLinks.Link href="https://redactado.cafe/">
+            Redactado Café
+          </ExternalLinks.Link>
+        </ExternalLinks>
+
         <ExternalLinks title="Compartiendo mis ideas en software">
           <ExternalLinks.Link href="https://www.beyond.dev/people/jerome-olvera">
             Conoce a Jerome Olvera (una pequeña entrevista con el equipo de
@@ -52,18 +64,6 @@ export default function Home() {
           </ExternalLinks.Link>
           <ExternalLinks.Link href="https://medium.com/tauon/trabajando-con-monorepos-cf941c7d57dc">
             Trabajando con Monorepos
-          </ExternalLinks.Link>
-        </ExternalLinks>
-
-        <ExternalLinks title="Pasatiempos y comunidades">
-          <ExternalLinks.Link href="https://www.facebook.com/javascriptmerida/">
-            JavaScript Merida
-          </ExternalLinks.Link>
-          <ExternalLinks.Link href="https://www.awayfromjs.dev/">
-            Away from JavaScript
-          </ExternalLinks.Link>
-          <ExternalLinks.Link href="https://coffee.really-good.dev/">
-            Really Good Coffees
           </ExternalLinks.Link>
         </ExternalLinks>
       </div>
