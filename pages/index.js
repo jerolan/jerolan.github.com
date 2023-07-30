@@ -6,11 +6,21 @@ export default function Home() {
     <Page.Html title="Jerome Olvera" description="Software Engineer">
       <section className="max-w-xl pb-8">
         <p className="text-base sm:text-lg">
-          Soy un ingeniero apasionado por la tecnología, la cultura y la
-          formación de equipos. Gran aficionado del diseño UX y el Lean
-          Thinking. Estoy enfocado en enseñar conceptos básicos o modernos
-          impulsados por un entorno colaborativo con técnicas como el Pair
-          programming. Me encanta crear productos que la gente quiera usar.
+          Soy un Ingeniero de Software apasionado por la tecnología, impulsado
+          por la integración de la cultura y la formación de equipos altamente
+          efectivos. Con un gran interés en el diseño de Experiencia de Usuario
+          (UX) y una firme adherencia a la filosofía Lean Thinking, me dedico a
+          implementar y enseñar tanto conceptos básicos como modernos.
+          <br />
+          Mi enfoque se centra en fomentar un entorno colaborativo, utilizando
+          técnicas innovadoras como el Pair Programming. Esta metodología me
+          permite no solo mejorar la calidad del código, sino también compartir
+          conocimientos y fortalecer la cohesión del equipo.
+          <br />
+          Lo que realmente me entusiasma es la creación de productos que las
+          personas quieran utilizar. Creo en desarrollar soluciones que no solo
+          satisfagan las necesidades del usuario, sino que también ofrezcan una
+          experiencia intuitiva y agradable.
         </p>
       </section>
 
