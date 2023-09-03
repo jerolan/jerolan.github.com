@@ -49,7 +49,7 @@ export default function Home() {
           <ExternalLinks.Link href="https://www.awayfromjs.dev/">
             Away from JavaScript
           </ExternalLinks.Link>
-          <ExternalLinks.Link href="https://redactado.cafe/">
+          <ExternalLinks.Link href="https://www.instagram.com/redactado.cafe/">
             Redactado Café
           </ExternalLinks.Link>
         </ExternalLinks>
