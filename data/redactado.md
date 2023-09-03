@@ -1,6 +1,6 @@
 ---
-title: "¿Por que lance mi propio cafe?"
-excerpt: "En Julio del 2023 lance mi propia marca de cafe, principalmente por que quería encontrar la mejor forma de tomar siempre el cafe a mi me gusta. Motivado por la idea de construir una marca con ayuda de AI, pude construir la marca en 2 semanas. Durante este proceso descubrí que la mejor forma de construir una marca es comenzar con lo que ya tienes, compartir y disfrutar."
+title: "¿Por que lance mi propia marca café?"
+excerpt: "En Julio del 2023 lance mi propia marca de café, principalmente por que quería encontrar la mejor forma de tomar siempre el café a mi me gusta. Motivado por la idea de construir una marca con ayuda de AI, pude construir la marca en 2 semanas. Durante este proceso descubrí que la mejor forma de construir una marca es comenzar con lo que ya tienes, compartir y disfrutar."
 cover:
   alt: "Patron de marca redactado"
   src: "redactado.png"
