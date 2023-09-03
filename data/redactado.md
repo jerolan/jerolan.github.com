@@ -7,7 +7,7 @@ cover:
 date: "2023-09-02T00:00:00.000Z"
 ---
 
-En julio de 2023, lancé mi propia marca de café. Lo hice principalmente porque buscaba la manera perfecta de disfrutar el café tal y como me gusta. Esta marca me ha brindado la oportunidad de mantener un flujo de importación constante desde diversas partes del mundo. Nos enfocamos en tener cafes que simplemente se describan como algo diferente, ya sea debido a su proceso de producción, su origen o su sabor. Contamos con cafés de Colombia, África y Asia.
+En julio de 2023, [lancé mi propia marca de café](https://www.instagram.com/redactado.cafe/). Lo hice principalmente porque buscaba la manera perfecta de disfrutar el café tal y como me gusta. Esta marca me ha brindado la oportunidad de mantener un flujo de importación constante desde diversas partes del mundo. Nos enfocamos en tener cafes que simplemente se describan como algo diferente, ya sea debido a su proceso de producción, su origen o su sabor. Contamos con cafés de Colombia, África y Asia.
 
 ## ¿Por que el nombre?
 
