@@ -2,8 +2,8 @@
 title: "Soft Skills para Ingenieros"
 excerpt: "Técnicas para mejorar la comunicación, gestión de proyectos y resolución de problemas."
 cover:
-  alt: "People in silhouette by Papaioannou Kostas"
-  src: "https://unsplash.com/photos/tysecUm5HJA"
+  alt: "Photo by Papaioannou Kostas on Unsplash"
+  src: "softskils.jpg"
 date: "2023-09-30T00:00:00.000Z"
 ---
 
