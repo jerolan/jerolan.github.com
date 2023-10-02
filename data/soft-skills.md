@@ -25,7 +25,7 @@ Cuando algo falla, es crucial tener un plan de recuperación. Si algo se atasca 
 
 Mantener el enfoque en el tema sin divagar asegura que todos en la sesión puedan seguir el hilo de la conversación. Si decidimos explorar nuevas ideas como forma de divergencia, siempre es necesario luego "converger", delimitar y concluir.
 
-Por ejemplo, cuando [*shapeamos*](https://basecamp.com/shapeup) trabajo, tendemos a divergir en múltiples ideas, explorando toda la funcionalidad: enviar un nuevo email para este caso de error, o automatizar la carga de usuarios para hacerla más eficiente. Está bien darles una oportunidad a todas estas ideas, pero necesitamos concluir en el siguiente argumento:
+Por ejemplo, cuando [_shapeamos_](https://basecamp.com/shapeup) trabajo, tendemos a divergir en múltiples ideas, explorando toda la funcionalidad: enviar un nuevo email para este caso de error, o automatizar la carga de usuarios para hacerla más eficiente. Está bien darles una oportunidad a todas estas ideas, pero necesitamos concluir en el siguiente argumento:
 
 > dada la cantidad de tiempo o esfuerzo que queremos invertir para resolver este problema, vamos a enfocarnos en cumplir [feature verdaderamente core] para el siguiente sprint y luego revisaremos si las otras alternativas se vuelven viables.
 
@@ -41,17 +41,17 @@ Durante una presentación, también es crucial conocer a tu audiencia y utilizar
 
 En las organizaciones, a menudo enfrentamos muchas malas sesiones. ¿Qué define a una mala sesión? La falta de un responsable claro de la sesión, una gran cantidad de personas haciendo “back-seat” (no participando), la ausencia de un objetivo claro (acudimos para resolver un problema y terminamos discutiendo cómo nos gustaría resolver otros 99 problemas), y la falta de acciones concretas a seguir.
 
-Ante estas situaciones, mi recomendación es la siguiente: si no hay un responsable claro (aunque haya un organizador), considera que acciones puedes ejecutar para dirigir la atención de la audiencia hacia un objetivo claro. 
+Ante estas situaciones, mi recomendación es la siguiente: si no hay un responsable claro (aunque haya un organizador), considera que acciones puedes ejecutar para dirigir la atención de la audiencia hacia un objetivo claro.
 
 Define un objetivo: “¿Qué queremos obtener de esta sesión?” y trabaja para lograrlo. Las sesiones que principalmente buscan solucionar o definir un problema, muchas veces se desvían hacia la necesidad de realizar actos heroicos o coordinar a múltiples equipos para abordar un problema masivo. Es cierto que, probablemente, estas grandes acciones sean necesarias para solucionar un gran problema. Pero las acciones más importantes son las que ocurren ahora, no en 3, 5 o 10 años. Las soluciones que nos acercan a nuestros objetivos son aquellas que podemos acordar solucionar en el corto o mediano plazo, de manera efectiva, y seguir avanzando.
 
 Soy un fanático de las listas y probablemente estaría perdido sin mi lista de recordatorios. Mi enfoque para abordar las tareas diarias consiste en enlistarlas, priorizarlas y seguir la lista. Mi lista de tareas tiende a expandirse y contraerse dinámicamente a lo largo del día, dado que las tareas complejas se desglosan en tareas más pequeñas. Y las únicas tareas que realmente me permiten avanzar son aquellas lo suficientemente delimitadas como para poder completarlas. No sé, tal vez si solo tuviera una tarea llamada “Hacer el Proyecto", es probable que nunca dé un paso firme y concreto hacia “Hacer el Proyecto".
 
-Por otro lado, las tareas excesivamente ambiciosas generan dos efectos comunes: la fatiga de intentar manejar algo tan ambicioso y la sensación de que no se está avanzando hacia la solución. Es probable que la solución que necesitabas podría haberse resuelto de forma mas directa, pero la ambición de buscar “La solución” hizo que nos perdiéramos en el camino. El segundo efecto común es que, cuando se comienza a delimitar de manera adecuada una solución ambiciosa, generando valor de forma continua y básicamente haciendo que el negocio funcione, te das cuenta de que tal vez “La solución” ni siquiera era tan crucial, y todo el proyecto termina en un destino muy distinto a “La solución”. 
+Por otro lado, las tareas excesivamente ambiciosas generan dos efectos comunes: la fatiga de intentar manejar algo tan ambicioso y la sensación de que no se está avanzando hacia la solución. Es probable que la solución que necesitabas podría haberse resuelto de forma mas directa, pero la ambición de buscar “La solución” hizo que nos perdiéramos en el camino. El segundo efecto común es que, cuando se comienza a delimitar de manera adecuada una solución ambiciosa, generando valor de forma continua y básicamente haciendo que el negocio funcione, te das cuenta de que tal vez “La solución” ni siquiera era tan crucial, y todo el proyecto termina en un destino muy distinto a “La solución”.
 
 ## ¿Como resolver problemas?
 
-Todos tenemos intereses que deseamos proteger, personas a quienes reportar y nadie quiere ser señalado como culpable. Las malas sesiones suelen caracterizarse por estas dinámicas: “¿Cómo hago yo, para que **tú** hagas lo que **yo** necesito cumplir?” y otra persona estará pensando: “Si me pongo a hacer lo que **tu** quieres que haga, no voy a poder cumplir con lo que **yo** necesito hacer”. 
+Todos tenemos intereses que deseamos proteger, personas a quienes reportar y nadie quiere ser señalado como culpable. Las malas sesiones suelen caracterizarse por estas dinámicas: “¿Cómo hago yo, para que **tú** hagas lo que **yo** necesito cumplir?” y otra persona estará pensando: “Si me pongo a hacer lo que **tu** quieres que haga, no voy a poder cumplir con lo que **yo** necesito hacer”.
 
 Esto es normal; en roles entre áreas multifuncionales somos roles adversariales por naturaleza, pero nuestra responsabilidad siempre radica en cómo generamos la mejor solución posible que beneficie a ambas partes.
 
@@ -68,8 +68,6 @@ Identificar de forma activa estos patrones y comportamientos en las personas, no
 
 ## Algunas referencias
 
-https://staffeng.com/guides/
-
-https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073
-
-https://guykawasaki.com/the-only-10-slides-you-need-in-your-pitch/
+- [Staffeng](https://staffeng.com/guides/)
+- [The Clean Coder: A Code of Conduct for Professional Programmers](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073)
+- [The Only 10 Slides You Need in Your Pitch](https://guykawasaki.com/the-only-10-slides-you-need-in-your-pitch/)
