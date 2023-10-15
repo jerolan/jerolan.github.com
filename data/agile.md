@@ -4,7 +4,7 @@ excerpt: "Explorando la relación entre Agile y videojuegos, descubrimos similit
 cover:
   alt: "Yo en la Raid Corona del Dolor en Destiny 2"
   src: "destiny2.png"
-date: "2021-10-14T00:00:00.000Z"
+date: "2023-10-14T00:00:00.000Z"
 ---
 
 En 2020, cuando el mundo se encontraba en el apogeo de una pandemia, muchas personas buscaron maneras de adaptarse, conectarse y encontrar alivio. Para mis amigos y yo, esta adaptación tomó la forma de sumergirnos en los videojuegos. No fue una simple incursión ocasional; decidimos convertirlo en una verdadera inmersión. No solo adquirimos juegos, sino que invertimos en un equipamiento completo que transformaría nuestra experiencia. Desde PCs de alta gama hasta periféricos de última generación y micrófonos al estilo de los streamers.
