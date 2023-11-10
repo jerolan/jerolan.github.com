@@ -1,9 +1,9 @@
 ---
-title: "La arquitectura limpia no existe. Más Allá del Artículo de Uncle Bob"
-excerpt: ""
+title: "La arquitectura limpia no existe."
+excerpt: "Contrario a lo que muchos asocian con Clean Architecture, el libro de Robert C. Martin no se limita a las cuatro capas propuestas en su famoso artículo, ni se enfoca en una prescripción rígida de la estructura de carpetas — salvo por una breve discusión en el último capítulo."
 cover:
   alt: "Sere honesto contigo dev. No existe la Clean Architecture"
-  src: "https://i.imgflip.com/85jhi9.jpg"
+  src: "clean.jpg"
 date: "2023-11-09T00:00:00.000Z"
 ---
 
