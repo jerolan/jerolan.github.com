@@ -34,7 +34,7 @@
 }
 
 .markdown pre {
-  @apply overflow-auto sm:overflow-visible bg-gray-800 p-4 rounded-md text-white;
+  @apply overflow-auto bg-gray-800 p-4 rounded-md text-white;
 }
 
 .markdown pre code {

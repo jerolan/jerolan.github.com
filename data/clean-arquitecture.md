@@ -1,5 +1,5 @@
 ---
-title: "La arquitectura limpia no existe."
+title: "La arquitectura limpia no existe"
 excerpt: "Contrario a lo que muchos asocian con Clean Architecture, el libro de Robert C. Martin no se limita a las cuatro capas propuestas en su famoso artículo, ni se enfoca en una prescripción rígida de la estructura de carpetas — salvo por una breve discusión en el último capítulo."
 cover:
   alt: "Sere honesto contigo dev. No existe la Clean Architecture"
@@ -40,8 +40,6 @@ El libro comienza estableciendo un marco para entender la "Arquitectura y Diseñ
 Respecto a los paradigmas de programación, Martin nos lleva a través de un recorrido que subraya cómo el software es usualmente la combinación de varios de estos paradigmas y no dogmáticamente uno sobre otro.
 
 Sobre todo, el libro es un tratado sobre principios — desde los principios SOLID hasta los principios de Componentes, Arquitectura y Capas —, culminando en la discusión de patrones de diseño comunes que sirven para cumplir con lo que podría considerarse el corazón de Clean Architecture: _The Dependency Rule_.
-
-![Sere honesto contigo dev. No existe la Clean Architecture](https://i.imgflip.com/85jhi9.jpg)
 
 ## The Dependency Rule y la verdadera esencia de Clean Architecture
 
