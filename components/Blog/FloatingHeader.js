@@ -9,6 +9,8 @@ export default function FloatingHeader({ title }) {
   const window = useWindow();
 
   const setFloatingHeaderTop = useCallback(() => {
+    "use client";
+
     // use Page.Header as reference
     const topLimit = document.querySelector("header").offsetHeight * threshold;
 
