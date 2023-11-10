@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "deploy": "bun run build && npx gh-pages -d out -b gh-pages --dotfiles",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next dev",
     "serve": "next build && next start",
     "lint": "./node_modules/.bin/eslint --ext .js .",
