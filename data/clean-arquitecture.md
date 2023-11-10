@@ -166,7 +166,7 @@ La Regla de Dependencia: La Regla de Dependencia establece que las dependencias 
 
 Principios SOLID: El principio de Inversión de Dependencias (D en SOLID) está presente en la interfaz ICreateUserService.
 
-# En conclusión
+## En conclusión
 
 Como lo dice el buen libro de [Eric Eliot, Composing Software](https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea). La composicion es la esencia de la programación. El ejemplo que vimos se reduce a aplicar en React simple composicion, de forma que, todos los principios y reglas que conforman la arquitectura tienen un mismo origen que la programacion misma y la Rule of Dependency es solo un alias de la composicion.
 
