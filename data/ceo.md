@@ -1,5 +1,5 @@
 ---
-title: "No te autodenomines CEO... aún"
+title: "No te autodenomines CEO(o Senior o Director, etc.)... aún"
 excerpt: "En mis tiempos de estudiante de ingeniería, cuando mis compañeros y yo pensábamos en a qué nos dedicaríamos al graduarnos, la idea común era que podríamos fundar nuestra propia empresa de software. Siempre los que lideraban esta idea, ya fuera solos o formando un grupo de 'freshmen', se autodenominaban directores, gerentes, jefes, y en cualquiera de los casos, algún cargo de C-level: CEO, CTO, COO, etc."
 cover:
   alt: "black and white photo of couch – Photo by Marius Ciocirlan on Unsplash"
