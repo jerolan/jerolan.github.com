@@ -19,9 +19,9 @@ Es entonces cuando me pregunté: ¿cuáles eran esos otros elementos en mi queha
 
 Entonces, tras un periodo de reflexión y aprendizaje, entendí lo importante que es completar las cosas que comenzamos. Solo así, al igual que terminar los juegos que deseaba tener, los proyectos en el trabajo comenzaron a agregar valor. Los elementos más importantes a los que me tuve que enfrentar para poder transformar estos hábitos fueron principalmente la ansiedad que se genera por quedar mal con las personas que ponen su confianza en ti.
 
-Un libro que me hizo razonar al respecto ha sido ("Clean Coder" de Uncle Bob)[https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073], el cual es una serie de anécdotas que enseñan actitudes que un profesional debe ejercitar. Comencé a desarrollar mejores soft skills para mediar discusiones con otras personas, aprender y empatizar con los demás. Una lección muy importante es que las personas a nuestro alrededor, durante una discusión, van a tratar de transferir sobre ti la responsabilidad individual que ellos tienen sobre un mismo tema. Tienes que aprender a identificar y delimitar la responsabilidad que te corresponde, no asumir responsabilidades que no te conciernen, pero ser un jugador de equipo para apoyar a otras personas a lograr un bien común.
+Un libro que me hizo razonar al respecto ha sido ["Clean Coder" de Uncle Bob](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073), el cual es una serie de anécdotas que enseñan actitudes que un profesional debe ejercitar. Comencé a desarrollar mejores soft skills para mediar discusiones con otras personas, aprender y empatizar con los demás. Una lección muy importante es que las personas a nuestro alrededor, durante una discusión, van a tratar de transferir sobre ti la responsabilidad individual que ellos tienen sobre un mismo tema. Tienes que aprender a identificar y delimitar la responsabilidad que te corresponde, no asumir responsabilidades que no te conciernen, pero ser un jugador de equipo para apoyar a otras personas a lograr un bien común.
 
-# Determinación
+## Determinación
 
 "Undertale" es un juego tipo RPG que narra una historia que podrías encontrar en cualquier otro juego: humanos vs. monstruos, peleas por turnos, bien y mal, etc. Sin embargo, este juego tiene un diseño particular. Ya avanzado en la partida, como jugador puedes enfrentarte a uno de los varios finales que el juego posee. "Undertale", por su dinámica, siempre te hace saber que puede romper la cuarta pared y que los personajes pueden llegar a hablarte directamente.
 
@@ -35,14 +35,13 @@ Las personas tienen que trabajar en algo que les dé sentido para poder desarrol
 
 > Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. - Steve Jobs.
 
-# Parte del viaje es el final
+## Parte del viaje es el final
 
 Cuando vemos cualquier película de héroes y villanos, buenos vs. malos, sabemos con gran certeza que los buenos van a ganar, que la justicia siempre triunfa, y más. ¿Por qué vemos estas películas en primer lugar si ya sabemos cuál es el final? En los videojuegos, Mario siempre va a salvar a la princesa Peach, y Link siempre va a derrotar a Ganondorf y salvar a Zelda.
 
 La realidad es que no estamos ahí por el final; estamos ahí por toda la historia que se construye en medio. Siempre se nos hará un nudo en el estómago cuando parece que todo está perdido. Pero si desde el inicio ya conocemos el final, ¿entonces por qué nos emociona tanto? La verdad es que lo interesante de todo lo que hacemos todos los días está en cada uno de esos días. Al final de todo, una cosa es segura: todos nos vamos a morir. Pero cualquier cosa que estemos haciendo ahora siempre será más importante.
 
-Detesto la ansiedad y el enfoque que se ha generado por las redes sociales. Detesto ver cualquier noticia que trate de atender a mis emociones más que informarnos. Los medios están hechos para manipularnos y no dejarnos disfrutar de todas esas historias intermedias que ocurren todos los días frente a nosotros. La forma en la que llevo mi vida la escuché en un bit del especial de comedia de (Ronny Chieng: Asian Comedian Destroys America!
-)[https://www.netflix.com/title/81070659]
+Detesto la ansiedad y el enfoque que se ha generado por las redes sociales. Detesto ver cualquier noticia que trate de atender a mis emociones más que informarnos. Los medios están hechos para manipularnos y no dejarnos disfrutar de todas esas historias intermedias que ocurren todos los días frente a nosotros. La forma en la que llevo mi vida la escuché en un bit del especial de comedia de [Ronny Chieng: Asian Comedian Destroys America!](https://www.netflix.com/title/81070659)
 
 > It's using the freedoms we have, to help other people who don't have that many freedoms
 
