@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "bun run build && npx gh-pages -d out -b gh-pages --dotfiles",
+    "deploy": "bun run build && bunx gh-pages -d out -b gh-pages --dotfiles",
     "build": "next build",
     "start": "next dev",
     "serve": "next build && next start",
