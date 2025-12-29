@@ -81,11 +81,11 @@ El beneficio de escribir archivos para Copilot Chat es inmediato: desde el prime
 
 La mejor forma que he encontrado para crear mis archivos es explicarlos paso a paso como si se los estuviera enseñando a un nuevo miembro del equipo. De hecho, en la práctica esto se ha vuelto habitual: cuando un compañero tiene una duda sobre un patrón o módulo del proyecto, iniciamos una sesión de pair programming, abro mi editor y comenzamos una nueva ventana de Copilot Chat.
 
-![Chat1](../public/images/como-utilizo-copilot-para-escribir-codigo/Screenshot%202025-12-29%20at%200.29.34.png)
+![Chat1](../images/como-utilizo-copilot-para-escribir-codigo/Screenshot%202025-12-29%20at%200.29.34.png)
 
 El flujo consiste en ir pidiéndole a Copilot que me explique qué hace el módulo o componente que estoy revisando; a medida que Copilot genera la explicación, le doy feedback y le pido que mejore o agregue más detalles, hasta que la explicación quede clara y completa. Una vez que estoy satisfecho con la explicación, le pido que genere el archivo .md.
 
-![Chat1](../public/images/como-utilizo-copilot-para-escribir-codigo/Screenshot%202025-12-29%20at%200.34.41.png)
+![Chat1](../images/como-utilizo-copilot-para-escribir-codigo/Screenshot%202025-12-29%20at%200.34.41.png)
 
 El resultado no siempre es perfecto, pero es un excelente punto de partida que puedo ajustar y mejorar rápidamente. Es necesario ponerlo en práctica e ir afinando los parámetros para que el modelo haga exactamente lo que necesitamos.
 
@@ -144,7 +144,7 @@ Estos mismos "planes" o "specs" me han ayudado durante sesiones de Pair Programm
 
 Originalmente construía mis planes siguiendo los pasos descritos en el segmento anterior; sin embargo, Copilot Chat ahora cuenta con un ["Plan Mode"](https://code.visualstudio.com/docs/copilot/chat/chat-planning) que permite iterar un tren de pensamiento antes de ejecutar cualquier cambio en el código, dándole al usuario la opción de aprobar o rechazar cada paso del plan.
 
-![Plan Mode](../public/images/como-utilizo-copilot-para-escribir-codigo/plan.png)
+![Plan Mode](../images/como-utilizo-copilot-para-escribir-codigo/plan.png)
 
 El segundo recurso fue la publicación de [Anthropic, Disrupting the first reported AI-orchestrated cyber espionage campaign](https://www.anthropic.com/news/disrupting-AI-espionage), este narra atacantes usaban Claude Code para orquestar e inyectar ataques automáticos basados en agentes
 
