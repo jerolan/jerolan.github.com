@@ -45,7 +45,7 @@ He conocido fundadores con los que mi visión simplemente no se alinea. Están c
 
 Como el estudiante de Ingeniería que fui, creo que muchos tenían la misma idea al graduarse: crear o trabajar para una empresa que se encargará de desarrollar productos de software para otras empresas, un modelo muy similar a las fábricas. Otros veían más el modelo de consultoría de software, donde uno, como "profesional" en el área, brinda soporte a otras empresas de diferentes ramos con sus soluciones tecnológicas. Y finalmente, el sueño de todo desarrollador: trabajar en Microsoft, Google, Facebook, etc.
 
-Para una pequeña [entrevista que tuve con el equipo de Beyond](https://www.beyond.dev/people-stories/jerome-olvera), dije algo como:
+Para una pequeña entrevista que tuve con el equipo de Beyond, dije algo como:
 
 > "No te personifiques como una persona técnica, sé un colaborador que quiere ayudar a toda la empresa."
 
