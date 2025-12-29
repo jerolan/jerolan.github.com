@@ -1,3 +1,12 @@
+---
+title: "¿Cómo utilizo Copilot para escribir código?"
+excerpt: "Mi forma de integrar la IA en el flujo de trabajo ha evolucionado principalmente con un objetivo claro: reducir la fricción entre el modelo y el contexto real del código."
+cover:
+  alt: ""
+  src: ""
+date: "2025-12-29"
+---
+
 # **¿Cómo utilizo Copilot para escribir código?**
 
 Mi forma de integrar la IA en el flujo de trabajo ha evolucionado principalmente con un objetivo claro: reducir la fricción entre el modelo y el contexto real del código. Con el tiempo, en función de las nuevas funcionalidades que cada IDE incorpora y de la capacidad de integrar modelos de IA directamente en el editor. Sin embargo, cada nueva característica introduce realmente una nueva manera de reducir el ciclo de copiar y pegar con el modelo y, en su lugar, permite que el modelo esté lo más cerca posible de aquello que queremos que logre.
@@ -54,11 +63,11 @@ En algún momento leí que *la calidad no es lo que predicas, es lo que toleras
 
 Para abordar este problema, la única forma de garantizar que los estándares se cumplan es automatizándolos. Existen muchas herramientas para hacer análisis estático de código, linters, formateadores, etc. Pero la parte más delicada llega cuando queremos garantizar que los patrones de diseño y las buenas prácticas se sigan en el código que se escribe día a día.
 
-Aquí es donde los *.instructions.md juegan un papel fundamental para hacer cumplir estos estándares, pues si puedes automatizar tests y documentación con Copilot, ¿por qué no automatizar acuerdos para escribir eventos, principios de programación, hacks internos del proyecto, etc.?
+Aquí es donde los \*.instructions.md juegan un papel fundamental para hacer cumplir estos estándares, pues si puedes automatizar tests y documentación con Copilot, ¿por qué no automatizar acuerdos para escribir eventos, principios de programación, hacks internos del proyecto, etc.?
 
-Es muy probable que tú o tu equipo utilicen algún recurso documental interno de principios, segundad en la organization u obtengan información de algún libro o artículo que hayan decidido adoptar como estándar. Finalmente, a través de MCPs o redactando instrucciones claras en archivos *.instructions.md, puedes lograr que el modelo siga esos principios y patrones al momento de sugerir código.
+Es muy probable que tú o tu equipo utilicen algún recurso documental interno de principios, segundad en la organization u obtengan información de algún libro o artículo que hayan decidido adoptar como estándar. Finalmente, a través de MCPs o redactando instrucciones claras en archivos \*.instructions.md, puedes lograr que el modelo siga esos principios y patrones al momento de sugerir código.
 
-Recientemente, un compañero me mostró [context7](https://context7.com/), al cual puedes acceder desde un MCP o simplemente copiar y pegar en algún archivo *.md. Context7 se encarga de resumir repositorios, artículos, etc., en un formato amigable para que los modelos de lenguaje puedan aprovechar ese contexto adicional.
+Recientemente, un compañero me mostró [context7](https://context7.com/), al cual puedes acceder desde un MCP o simplemente copiar y pegar en algún archivo \*.md. Context7 se encarga de resumir repositorios, artículos, etc., en un formato amigable para que los modelos de lenguaje puedan aprovechar ese contexto adicional.
 
 ### Documentation accidental
 
