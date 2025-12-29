@@ -5,26 +5,26 @@ This site has been built with [Next.js](https://nextjs.org/) and [Tailwind.css](
 
 ## Development
 
-If you want to make use of this project, you will only need Node.js installed.
+If you want to make use of this project, you will only need Bun installed. You can get Bun at [https://bun.sh/](https://bun.sh/).
 
 ### 1. Install the dependencies
 
 ```bash
-yarn install
+bun install
 ```
 
 ### 2. Run the project
 
 ```bash
-yarn start
+bun start
 ```
 
 ### 3. Build and deploy
 
-This command will generate the static site (thanks to next static export) on `/out`, you could serve it in any HTTP server, like [Netlify](https://app.netlify.com/) o Github Pages
+This command will generate the static site (thanks to next static export) on `/out`. You can serve it with any HTTP server, like [Netlify](https://app.netlify.com/) or Github Pages.
 
 ```bash
-yarn build
+bun run deploy
 ```
 
 ### 5. Additional notes
