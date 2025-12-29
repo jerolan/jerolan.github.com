@@ -32,7 +32,10 @@ export async function getStaticProps({ params }) {
     "excerpt",
   ]);
 
-  const content = await markdownToHtml(post.content || "");
+  let content = await markdownToHtml(post.content || "");
+
+  // Adjust image paths for public folder
+  content = content.replaceAll("/public/", "/");
 
   return {
     props: {
