@@ -152,6 +152,8 @@ El articulo es interesante, sin embargo lo mas impactante para mi fue el diagram
 
 Nuevamente son los mismos principios de descomponer en pequeños instrucciones, las cuales se ejecutan de forma secuencial partiendo desde un objetivo general, las cuales pueden tener forma de agentes o prompts.
 
+![anthropic](../images/como-utilizo-copilot-para-escribir-codigo/anthropic.png)
+
 ### Delegar tareas a un Agente
 
 Dentro de la pirámide de abstracción que uno puede lograr con los LLMs, una de las capas más interesantes es la de delegar tareas a un agente. Esta no es una capacidad que yo haya utilizado aun, pero, en teoría, si tienes un conjunto de instrucciones claras y bien definidas, luego tienes especificaciones de alto nivel sobre como esta constituido un modulo, puedes delegar la tarea de implementar ese módulo a un agente, tal como el artículo de Anthropic describe.
