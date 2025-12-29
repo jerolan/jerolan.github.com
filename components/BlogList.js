@@ -8,14 +8,14 @@ export default function BlogList({ children }) {
 function Item({ slug, title, date, content }) {
   const formatedDate = new Intl.DateTimeFormat("es-MX", {
     dateStyle: "full",
-    timeStyle: "short",
   }).format(new Date(date));
 
   return (
     <Link
       href={`/blog/${slug}`}
       className="block border-b dark:border-neutral-800 pb-8"
-      legacyBehavior>
+      legacyBehavior
+    >
       <div className="space-y-2">
         <h3 className="font-bold text-xl md:text-2xl">{title}</h3>
         <p className="capitalize pb-2 opacity-90 dark:opacity-100">
