@@ -2,8 +2,8 @@
 title: "¿Cómo utilizo Copilot para escribir código?"
 excerpt: "Mi forma de integrar la IA en el flujo de trabajo ha evolucionado principalmente con un objetivo claro: reducir la fricción entre el modelo y el contexto real del código."
 cover:
-  alt: ""
-  src: ""
+  alt: "Github Copilot Cover"
+  src: "como-utilizo-copilot-para-escribir-codigo/cover.png"
 date: "2025-12-29"
 ---
 
