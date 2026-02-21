@@ -40,3 +40,27 @@
 .markdown pre code {
   @apply font-mono;
 }
+
+.markdown table {
+  @apply block w-full max-w-full overflow-x-auto border-collapse my-8 text-base;
+}
+
+.markdown thead {
+  @apply border-b border-gray-300 dark:border-neutral-700;
+}
+
+.markdown tbody tr {
+  @apply border-b border-gray-200 dark:border-neutral-800;
+}
+
+.markdown tbody tr:nth-child(even) {
+  @apply bg-gray-500 bg-opacity-5;
+}
+
+.markdown th {
+  @apply text-left font-semibold px-4 py-3 align-top;
+}
+
+.markdown td {
+  @apply px-4 py-3 align-top;
+}
