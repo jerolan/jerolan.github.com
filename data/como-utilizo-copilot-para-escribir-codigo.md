@@ -7,163 +7,346 @@ cover:
 date: "2025-12-29"
 ---
 
-# **¿Cómo utilizo Copilot para escribir código?**
+# ¿Cómo utilizo Copilot para escribir código?
 
-Mi forma de integrar la IA en el flujo de trabajo ha evolucionado principalmente con un objetivo claro: reducir la fricción entre el modelo y el contexto real del código. Con el tiempo, en función de las nuevas funcionalidades que cada IDE incorpora y de la capacidad de integrar modelos de IA directamente en el editor. Sin embargo, cada nueva característica introduce realmente una nueva manera de reducir el ciclo de copiar y pegar con el modelo y, en su lugar, permite que el modelo esté lo más cerca posible de aquello que queremos que logre.
-
-Esta misma evolución la hemos visto dentro del propio ChatGPT, donde el flujo original consistía únicamente en una interfaz de chat. Si bien podías preguntarle al propio GPT sobre conocimiento general y el modelo respondía con cierto grado de precisión, cuando querías consultar elementos más específicos tenías que obtener datos de alguna fuente, pegarlos en la ventana de chat y, solo entonces, GPT podía ofrecer respuestas más acertadas.
-
-Finalmente, el propio ChatGPT ha permitido hacer búsquedas en internet y cargar archivos y documentos. Incluso puede integrar apps (MCPs), lo que acerca aún más al modelo al contexto real de trabajo y anticipa el tipo de integración profunda que hoy ofrece Copilot dentro del IDE.
-
-En este artículo nos vamos a enfocar en cómo utilizo GitHub Copilot, específicamente Copilot Chat integrado en un IDE como VS Code.
-
-## Personalización
-
-[Copilot Chat permite personalizar](https://docs.github.com/en/copilot/concepts/prompting/response-customization) las respuestas del modelo a nivel de organización, personal y de proyecto. En mi caso, me he enfocado principalmente en la personalización por proyecto, utilizando el archivo principal de configuración `github/copilot-instructions.md` y archivos individuales `*.instructions.md`.
-
-Si bien un buen inicio es describir los detalles del proyecto de forma clara y detallada en el archivo `copilot-instructions.md`, me he topado con dos limitaciones importantes: a veces el archivo se vuelve demasiado grande y complejo, por lo que, según el modelo que estés implementando, puedes obtener respuestas de baja calidad causadas por romper la ventana de contexto. La segunda limitación es que, personalmente, suelo trabajar en proyectos con múltiples tecnologías, por lo que patrones que para mí aplican bien en, por ejemplo, JavaScript, no necesariamente aplican de igual forma en SQL, C#, etc.
-
-Para mitigar estas limitaciones, me he enfocado en crear archivos de instrucciones con diferentes propósitos según el contexto del proyecto que estoy modificando. Esto significa que un proyecto puede tener distintas capas: en el backend puedes tener API, Controllers, Application Services, Domain, etc.; en el frontend, UI Components, State Managers, Pages, etc. Además, puedes tener pequeños submódulos o librerías con propósitos particulares, como una librería de encriptación o una librería de acceso a datos.
-
-Entonces, cuando estoy trabajando en agregar, modificar o corregir código en mi proyecto, no siempre modifico todas las capas y módulos al mismo tiempo; siempre me enfoco en una parte muy específica. Ya sea que esté agregando un nuevo endpoint o incorporando lógica de negocio nueva, en ese caso, prefiero segmentar mis archivos de instrucciones según el segmento de código que estoy modificando.
-
-```
-my-project/
-├─ backend/
-│  ├─ api/
-│  │  ├─ users/
-│  │  │  └─ index.js
-│  │  └─ auth/
-│  │     └─ index.js
-│  ├─ services/
-│  │  └─ paymentService.js
-│  └─ domain/
-│     └─ order.js
-├─ frontend/
-│  ├─ components/
-│  │  ├─ Button.js
-│  │  └─ Header.js
-│  └─ pages/
-│     └─ checkout.js
-├─ .github/
-│  ├─ copilot-instructions.md
-│  └─ instructions/
-│     ├─ api-standard.instructions.md <- Instrucciones para endpoints de API RESTful
-│     ├─ domain-entities.instructions.md <- Instrucciones para entidades de dominio
-│     └─ ui-patterns.instructions.md <- Instrucciones para componentes UI
-```
-
-La clave está en definir el propósito de cada archivo de instrucciones y asegurarse de que tenga la longitud adecuada para que el modelo pueda aprovecharlo, previniendo romper la ventana de contexto mas frecuentemente. Esto puede requerir algo de prueba y error, ya que cargar demasiados archivos de instrucciones puede tener el mismo efecto que simplemente tener un archivo muy grande.
-
-### Estandarización de patrones
-
-Al inicio de la integration de Copilot Chat en mis equipos podia observar que bien, muchos developers resolvían actividades repetidas como escribir Tests y Documentation, si bien esto era un gran avance, aun podia ver como en los Code Reviews se seguían abordando temas relacionados con la estandarización de patrones y buenas prácticas.
-
-En algún momento leí que *la calidad no es lo que predicas, es lo que toleras*. Esto me hizo reflexionar que, en los equipos y en las organizaciones, hay estándares y principios —que las personas hagan TDD, que sigan Clean Code, que documenten bien—, pero al final del día, si no hay una forma automatizada de hacer cumplir esos estándares, la calidad se diluye.
-
-Para abordar este problema, la única forma de garantizar que los estándares se cumplan es automatizándolos. Existen muchas herramientas para hacer análisis estático de código, linters, formateadores, etc. Pero la parte más delicada llega cuando queremos garantizar que los patrones de diseño y las buenas prácticas se sigan en el código que se escribe día a día.
-
-Aquí es donde los \*.instructions.md juegan un papel fundamental para hacer cumplir estos estándares, pues si puedes automatizar tests y documentación con Copilot, ¿por qué no automatizar acuerdos para escribir eventos, principios de programación, hacks internos del proyecto, etc.?
-
-Es muy probable que tú o tu equipo utilicen algún recurso documental interno de principios, segundad en la organization u obtengan información de algún libro o artículo que hayan decidido adoptar como estándar. Finalmente, a través de MCPs o redactando instrucciones claras en archivos \*.instructions.md, puedes lograr que el modelo siga esos principios y patrones al momento de sugerir código.
-
-Recientemente, un compañero me mostró [context7](https://context7.com/), al cual puedes acceder desde un MCP o simplemente copiar y pegar en algún archivo \*.md. Context7 se encarga de resumir repositorios, artículos, etc., en un formato amigable para que los modelos de lenguaje puedan aprovechar ese contexto adicional.
-
-![Context7](../public/images/como-utilizo-copilot-para-escribir-codigo/context7.png)
-
-### Documentation accidental
-
-Un estilo que he optado para redactar mis archivos para Copilot Chat es seguir un lenguaje natural, como si estuviera escribiendo documentación para que una persona la lea. Quizá esto sea algún antipatrón para escribir instrucciones para un LLM, pero me agrada que estos archivos no parezcan información digerida y mecánica.
-
-En caso de relevar el proyecto a nuevos miembros del equipo, estos archivos pueden servir como documentación adicional para entender el propósito y las convenciones del proyecto, lo que facilita la incorporación de nuevos desarrolladores.
-
-El beneficio de escribir archivos para Copilot Chat es inmediato: desde el primer prompt, inmediatamente después de refinar mis instrucciones, los resultados del modelo son de mayor calidad e, inmediatamente, otros compañeros del equipo se benefician de tener más y mejores módulos documentados.
-
-## Construye tu agente base a ejemplos
-
-La mejor forma que he encontrado para crear mis archivos es explicarlos paso a paso como si se los estuviera enseñando a un nuevo miembro del equipo. De hecho, en la práctica esto se ha vuelto habitual: cuando un compañero tiene una duda sobre un patrón o módulo del proyecto, iniciamos una sesión de pair programming, abro mi editor y comenzamos una nueva ventana de Copilot Chat.
-
-![Chat1](../public/images/como-utilizo-copilot-para-escribir-codigo/Screenshot%202025-12-29%20at%200.29.34.png)
-
-El flujo consiste en ir pidiéndole a Copilot que me explique qué hace el módulo o componente que estoy revisando; a medida que Copilot genera la explicación, le doy feedback y le pido que mejore o agregue más detalles, hasta que la explicación quede clara y completa. Una vez que estoy satisfecho con la explicación, le pido que genere el archivo .md.
-
-![Chat1](../public/images/como-utilizo-copilot-para-escribir-codigo/Screenshot%202025-12-29%20at%200.34.41.png)
-
-El resultado no siempre es perfecto, pero es un excelente punto de partida que puedo ajustar y mejorar rápidamente. Es necesario ponerlo en práctica e ir afinando los parámetros para que el modelo haga exactamente lo que necesitamos.
-
-> El siguiente prompt lo genere y refine tal para escribir este artículo: [article-template-generator.prompt.md](../.github/prompts/article-template-generator.prompt.md). Ademas de generar aquel punto de partida usando Copilot Chat suelo apoyarme de este otro Custom GPT en ChatGTP para que aplique las mejores practicas de como suelo modelar mis .md files [Diseñador de Copilot Chat](https://chatgpt.com/g/g-68a7b356949c8191839aea1c9438e702-disenador-de-copilot-chat)
-
-Extracto:
-
-```
----
-name: Article Template Generator
-description: Generate a Markdown article template with frontmatter and a slug-based filename.
-argument-hint: title="Article title" description="Short article description"
-agent: agent
-model: GPT-4.1 (copilot)
-tools: ['edit']
 ---
 
-Your task is to generate a Markdown article template.
+## Conceptos clave
 
-## Steps
+Antes de hablar de flujos de trabajo o trucos, hay conceptos que necesitas dominar si vas a trabajar con agentes de AI. Estos conceptos son lo que separa a alguien que obtiene resultados de mala calidad de alguien que obtiene resultados consistentemente buenos.
 
-1. Ask the user for the **article title** if it is not provided.
-2. Ask the user for a **short description** if it is not provided.
-3. Generate a **slug** from the title using these rules:
-   - Convert to lowercase
-   - Remove accents and diacritics
-   - Replace spaces with hyphens
-   - Remove all characters except letters, numbers, and hyphens
-4. Use the slug as the **file name**, ending with `.md`.
-5. Generate the following Markdown content:
+---
+
+## Contexto
+
+El contexto es toda la información que el agente tiene disponible para entenderte y generar algo útil. Yo lo divido en dos tipos: **estático** y **dinámico**.
+
+### Contexto estático
+
+Es todo lo que se carga **siempre**, desde el inicio de la conversación. El agente ya lo tiene antes de que tú escribas una sola palabra.
+
+En Copilot, los artefactos de contexto estático incluyen:
+
+- **`AGENTS.md`** — Instrucciones a nivel de workspace que el agente lee automáticamente.
+- **`copilot-instructions.md`** — Instrucciones globales de Copilot que aplican a todas las conversaciones.
+- **`instructions.md`** — Instrucciones adicionales que se pueden modularizar por carpeta o propósito.
+- **Archivos de agente** (anteriormente llamados _chat modes_) — Definiciones de agentes personalizados que incluyen su propio texto de sistema.
+
+Piensa en esto como la "memoria base" del agente: le dice quién es, qué reglas seguir, y cómo comportarse en tu proyecto.
+
+### Contexto dinámico
+
+Es todo lo que el agente va descubriendo solo mientras trabaja. No está predefinido; lo adquiere conforme avanza en la tarea.
+
+Ejemplos:
+
+- **Código fuente** que el agente lee al buscar en el workspace.
+- **Archivos de instrucciones adicionales** que descubre al navegar las carpetas (por ejemplo, archivos `instructions.md` applyTo específicos).
+- **Archivos `AGENTS.md` nested** dentro de subcarpetas del proyecto, que el agente encuentra al explorar la estructura.
+- **Resultados de búsquedas**, errores de compilación, salidas de terminal, y cualquier otro artefacto que el agente consulte durante la sesión.
+- **SKILLS y MCPs**, se explicarán más adelante.
+
+---
+
+## [Skills](https://skills.sh/)
+
+Los skills son relativamente nuevos y ganaron popularidad muy rápido por lo fácil que hacen compartir contexto entre proyectos y agentes.
+
+Para mí, los skills cambiaron por completo la forma de trabajar con agentes de AI. Cuando empecé a escribir este artículo, los skills aun no existían. Un mes después, ya definían cómo se desarrolla código con AI.
+
+Un skill es un archivo `SKILL.md` que encapsula conocimiento de dominio, mejores prácticas y flujos probados para un área específica — testing, diseño técnico, performance, API design, etc.
+
+Antes de los skills, cada proyecto tenía que reinventar sus instrucciones desde cero. Los skills resuelven eso: son portables y reutilizables. Escribes el conocimiento una vez y lo aplicas en cualquier proyecto o agente.
+
+Sobre todo fuera de Github Copilot donde no existían las instructions.md, la gente buscaban una forma de resolver el problema de compartir conocimiento entre proyectos y agentes.
+
+Lo bueno es que los skills son un estándar universal similar a `AGENTS.md`, así que los puedes usar en el agente que prefieras: Claude Code, OpenCode, GitHub Copilot, etc.
+
+> En Copilot Chat, el soporte de skills pasó de experimental a estable hace relativamente poco de la fecha en la que escribe este artículo.
+
+### Cómo instalar skills
+
+Tienes varias formas de agregar skills a tu proyecto:
+
+**1. Manual** — Copia el archivo `SKILL.md` directamente en la carpeta de skills de tu proyecto (e.g., `.copilot/skills/mi-skill/SKILL.md`). Funciona siempre, sin dependencias.
+
+**2. CLI de Vercel ([skills.sh](https://skills.sh/))** — Vercel creó un ecosistema abierto de skills con un CLI que los instala con un solo comando:
+
+```bash
+npx skills add vercel-labs/agent-skills
 ```
 
-### Escribir agentes no es tan distinto de programar
+El CLI descarga los archivos del skill desde GitHub y los configura automáticamente para tu agente.
 
-Aun no es posible pedirle a ningún LLM que produzca el 100% del código respetando todos los estándares y patrones con un solo prompt.
+**3. CLI de Context7** — [Context7](https://context7.com/) también ofrece un catálogo de skills instalables:
 
-> Haz un e-commerce.
+```bash
+npx ctx7 skills install <owner/repo>
+```
 
-Como siempre el *diablo* está en los detalles, y ahi es donde eso de ser un Ingeniero de Software se vuelve relevante. Uno como profesional debe entender el problema y conocer las posibles soluciones, las mas adecuadas o las que mejor se adaptan al contexto del proyecto.
+### Ejemplos de skills
 
-Finalmente eso se traduce en pequeños módulos, en pasos, condicionales, iteraciones, etc. Tantos detalles que parece que tus prompts se ven como pseudocódigo. Si miras otra vez el ejemplo del prompt anterior, hay una serie de pasos que el agente debe seguir para llegar al resultado esperado, son exactamente los mismos pasos que uno como desarrollador seguiría para resolver el problema.
+| Skill                         | Fuente                   | Qué hace                                                               |
+| ----------------------------- | ------------------------ | ---------------------------------------------------------------------- |
+| `vercel-react-best-practices` | vercel-labs/agent-skills | 40+ reglas de performance para React/Next.js, priorizadas por impacto. |
+| `web-design-guidelines`       | vercel-labs/agent-skills | Audita tu UI contra 100+ reglas de accesibilidad, performance y UX.    |
 
-Las instrucciones se alinean al tren de pensamiento que uno como desarrollador debe seguir para resolver un problema.
+### Como activar skills de forma predecible
 
-## Spec-Driven Development
+El agente activa un skill automáticamente cuando detecta que tu tarea coincide con su dominio — no necesitas invocarlo manualmente.
 
-A la fecha hay dos recursos que me han motivado profundamente de seguir este camino de construir instrucciones y agentes para Copilot Chat.
+Cuando comencé a usar skills me daba cuenta que otras personas reportaban un efecto similar al mio, que a veces el skill no se activaba o que el agente parecía no usarlo. Incluso VSCode ofrece un setting `Use Skill Adherence Prompt` para obligar al agente a usar los skills de forma más predecible. Con el tiempo esto es menos común, supongo que con la adopción de los skills y actualizaciones de las herramientas.
 
-El primer concepto fue [Spec-Driven Development](https://kiro.dev/docs/specs/concepts/) planteado en la documentation y la fundación del editor Kiro, en lugar de escribir código directamente, comienza por la especificación ahi uno como profesional describe el comportamiento esperado del código. Estas especificaciones sirven como una guía para que los modelos de lenguaje generen código que cumpla con los requisitos definidos.
+Pero un consejo o buena practica para asegurar que esto no te pase es ser muy obvio y claro de cuando se debe activar un skill dentro del header de metadatos, piensa que ese header es lo único que el agente tiene para decidir si el skill aplica o no a la tarea.
 
-Esto no es muy distinto de las practicas comunes en desarrollo de software como BDD (Behavior-Driven Development) o TDD (Test-Driven Development), donde uno define el comportamiento esperado del sistema antes de escribir el código.
+```markdown
+---
+name: technical-design-writer
+description: |
+  Use when the user explicitly asks to:
+  - Create, write, or draft a "tech design", "technical design", "diseño técnico", or "technical design document"
+  - Document a system design, architecture proposal, or implementation plan using a formal template
+  - Follow a standard format for technical decisions with APIs, data models, and operational impact
 
-Solo que la interfaz en este caso cambia, directamente es un manual de instrucciones para que el modelo pueda seguir y generar código acorde a esas especificaciones. Yo siguiendo el estilo mencionado previamente sobre escribir instrucciones como si fuera documentation para humanos, tiendo a llegar a un resultado que si bien no es el 100% perfecto, acelera la generación de código boilerplate, y me permite enfocarme en los detalles más complejos del problema.
+  DO NOT use for: specs, ADRs only, slide presentations, diagrams only, or informal technical notes.
 
-Estos mismos "planes" o "specs" me han ayudado durante sesiones de Pair Programming con compañeros, donde juntos definimos el comportamiento esperado de un módulo o componente, y luego puedo delegar a otro programador la tarea de implementar ese módulo siguiendo las especificaciones definidas.
+  This skill enforces a mandatory Markdown template with sections for: Summary, Context, Options, Detailed Design (APIs, data, code, PoC), Metrics, and Consequences.
+compatibility: opencode
+---
+```
 
-Originalmente construía mis planes siguiendo los pasos descritos en el segmento anterior; sin embargo, Copilot Chat ahora cuenta con un ["Plan Mode"](https://code.visualstudio.com/docs/copilot/chat/chat-planning) que permite iterar un tren de pensamiento antes de ejecutar cualquier cambio en el código, dándole al usuario la opción de aprobar o rechazar cada paso del plan.
+---
 
-![Plan Mode](../public/images/como-utilizo-copilot-para-escribir-codigo/plan.png)
+## [MCPs (Model Context Protocol)](https://modelcontextprotocol.io/)
 
-El segundo recurso fue la publicación de [Anthropic, Disrupting the first reported AI-orchestrated cyber espionage campaign](https://www.anthropic.com/news/disrupting-AI-espionage), este narra atacantes usaban Claude Code para orquestar e inyectar ataques automáticos basados en agentes
+Los MCPs llevan más tiempo en el ecosistema que los skills y también son parte del contexto dinámico. La diferencia: los skills le dan al agente _conocimiento_, los MCPs le dan _capacidades_. Con un MCP el agente puede hacer cosas y consultar fuentes externas que de otra forma no alcanzaría.
 
-El articulo es interesante, sin embargo lo mas impactante para mi fue el diagrama de flujo utilizado para explicar el proceso de ataque, pues estos no son mas que pipelines de instrucciones para que un agente pueda seguir y ejecutar una serie de pasos.
+Un MCP es un estándar abierto que conecta agentes de AI con herramientas y servicios externos mediante un protocolo uniforme. En la práctica, un MCP server expone **tools** que el agente invoca directamente — buscar documentación, crear issues, consultar APIs, interactuar con bases de datos, etc.
 
-Nuevamente son los mismos principios de descomponer en pequeños instrucciones, las cuales se ejecutan de forma secuencial partiendo desde un objetivo general, las cuales pueden tener forma de agentes o prompts.
+Sin MCPs, un agente solo puede leer archivos y correr comandos en la terminal. Con MCPs, el alcance se multiplica:
 
-![anthropic](../public/images/como-utilizo-copilot-para-escribir-codigo/anthropic.png)
+- Acceso a documentación actualizada, en lugar de depender de datos de entrenamiento que pueden estar obsoletos.
+- Interacción con servicios externos como Jira, GitHub, Confluence, bases de datos, APIs propietarias.
+- Automatización de flujos: crear issues, abrir PRs, publicar páginas, todo desde el chat.
 
-### Delegar tareas a un Agente
+### Ejemplos de MCPs
 
-Dentro de la pirámide de abstracción que uno puede lograr con los LLMs, una de las capas más interesantes es la de delegar tareas a un agente. Esta no es una capacidad que yo haya utilizado aun, pero, en teoría, si tienes un conjunto de instrucciones claras y bien definidas, luego tienes especificaciones de alto nivel sobre como esta constituido un modulo, puedes delegar la tarea de implementar ese módulo a un agente, tal como el artículo de Anthropic describe.
+| MCP                                   | Qué habilita                                                                                                               | Ejemplo                                                            |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| **[Context7](https://context7.com/)** | Documentación actualizada de +69,000 librerías inyectada directo en el prompt. Elimina alucinaciones de APIs inexistentes. | `Crea un middleware en Next.js 14 que valide un JWT. use context7` |
+| **Atlassian**                         | Crea/edita issues en Jira, publica en Confluence, busca con JQL — sin salir del editor.                                    | `Crea un issue en INS con título "Fix timeout en RFQ"`             |
+| **GitHub**                            | Gestiona repos, issues, PRs, branches desde el agente.                                                                     | `Abre un PR con los cambios de esta sesión`                        |
+| **Fetch**                             | Lee páginas web arbitrarias para investigar o extraer información.                                                         | `Investiga la API de Stripe en su página de docs`                  |
 
-Supongo que eventualmente cuando haga uso de esa funcionalidad estaré actualizando este articulo con mis experiencias.
+> [!tip] Skills vs MCPs
+>
+> |                  | Skills                                  | MCPs                                              |
+> | ---------------- | --------------------------------------- | ------------------------------------------------- |
+> | Le dan al agente | Conocimiento                            | Capacidades                                       |
+> | Se activan       | Cuando la tarea coincide con su dominio | Cuando el agente necesita una herramienta externa |
+> | Ejemplo          | "Usa este patrón para tests"            | "Consulta la API de Jira"                         |
+> | Formato          | Archivo `SKILL.md` en el repo           | Server externo con protocolo MCP                  |
 
-## En conclusión
+---
 
-Los nuevos flujos de trabajo con IA desde la aparición de Copilot, GPT-3, etc., han evolucionado en una dirección que para mí se resume en: _cómo reducir el ciclo de copiar y pegar con el modelo y, en su lugar, permitir que el modelo esté lo más cerca posible de aquello que queremos que logre._
+## Instructions
 
-Escribir código con Copilot Chat es cada vez más parecido a simplemente escribir código de mejor calidad, ya que las buenas prácticas de toda la vida siguen siendo válidas: escribir código modular, reutilizable, documentado, testeado, etc. Al final, la IA solo logró que los ingenieros finalmente escribieran sus pruebas y documentación, segmentaran su tren de pensamiento en pasos claros y plasmaran todo eso en un recurso que cualquier persona pueda entender. Qué sorpresa, ¿no?
+Los _instruction files_ de Copilot son archivos Markdown (`.instructions.md`) que agregas a tu proyecto para compartir conocimiento entre agentes y modos de programación. Se parecen a los skills en concepto, pero impactan el contexto de forma muy diferente.
+
+Cuando empecé con Copilot, los instructions eran mi herramienta principal. Llenaba archivos con convenciones de código, patrones preferidos, reglas de linting, todo lo que quería que el agente "supiera" de antemano. Y funcionaban bien para establecer una base.
+
+Pero con el tiempo, y sobre todo cuando llegaron los skills, los instructions me fueron dejando de hacer sentido. Los skills ofrecen lo mismo pero de forma más modular y portable. Y lo más importante: se activan solo cuando aplican, en lugar de cargarse siempre. (Obvio según `applyTo`)
+
+### Instrucciones no escalan
+
+Puedes tener múltiples archivos de instrucciones, cada uno con un `applyTo` que define a qué archivos aplica. El problema aparece cuando:
+
+1. **Los archivos son demasiado largos** — Decenas de reglas, convenciones y ejemplos.
+2. **Aplican a todo** — Usar `applyTo: "**"` los inyecta en cada conversación, sin importar el contexto.
+3. **Se acumulan** — Varios archivos con scope amplio terminan sumando cientos o miles de tokens antes de que escribas una sola palabra.
+
+Lo que debería funcionar como contexto dinámico se convierte en contexto estático. Presente siempre, ocupe o no.
+
+La ventana de contexto es finita. Cada token que gastas en instrucciones es un token menos para:
+
+- Leer tu código fuente.
+- Analizar errores.
+- Razonar sobre la tarea.
+- Generar una respuesta de calidad.
+
+Si saturas el contexto con instrucciones genéricas, el agente pierde atención sobre lo que realmente importa: tu tarea actual. Más instrucciones, menos calidad.
+
+### Cómo los uso yo
+
+Mi caso de uso para los instruction files es casi mínimo. Unos cuantos bullet points — solo para ajustar cositas que la AI repetidamente hace raro o mal. Si detecto un patrón molesto, agrego un solo bullet para corregirlo y no agrego más contexto ahí. La idea es que sean correcciones minimas, no manuales de estilo.
+
+Algo impresionante de los skills es que los puedes distribuir junto otros artefactos de contexto que el agente puede usar, ligeramente fragmentos de código, mas documentos md, etc. Un ejemplo notable es [`vercel-labs/react-native-skills`](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills) el cual es un solo skill que se distribuye junto a otro folder de archivos md que fungen como reglas individuales que el agente puede consultar sin tener que cargar todas al contexto.
+
+---
+
+## Ventana de contexto
+
+La ventana de contexto es la cantidad máxima de tokens que un modelo puede procesar en una sola conversación. Esto incluye todo: instrucciones del sistema, archivos leídos, tu prompt y la respuesta generada. Dependiendo del modelo que uses, la ventana cambia. Por ejemplo, Claude Opus 4.6 en GitHub Copilot tiene 128K tokens.
+
+Todo lo que hemos hablado (contexto estático, dinámico, skills, MCPs, instructions) compite por espacio dentro de esta misma ventana. Si la llenas rápido con instrucciones genéricas o conversaciones largas, al modelo le queda menos espacio para pensar en lo que le estás pidiendo.
+
+### La regla del 60–70%
+
+Hay un consenso no formal entre programadores que trabajan con agentes de AI: conviene usar máximo el 60–70% de la ventana de contexto antes de abrir un chat nuevo. Pasado ese punto, la calidad se degrada. El modelo empieza a "olvidar" contexto temprano, pierde precisión y genera respuestas más genéricas.
+
+> [!example] Ejemplo: Claude Opus 4.6 (128K tokens)
+>
+> | Rango   | Tokens  | Estado                                                      |
+> | ------- | ------- | ----------------------------------------------------------- |
+> | 0–40%   | 0–51K   | Zona óptima. El modelo tiene espacio de sobra para razonar. |
+> | 40–70%  | 51–90K  | Zona funcional. Aún hay calidad, pero empieza a costar.     |
+> | 70–100% | 90–128K | Zona de riesgo. Abre un chat nuevo.                         |
+
+### Auto-compactación
+
+Herramientas como Copilot y OpenCode ya tienen mecanismos que auto-compactan el contexto cuando la conversación se acerca al límite. El agente resume o descarta partes anteriores para liberar espacio y seguir funcionando. Es útil, pero no es magia. La compactación pierde detalle, así que no conviene depender de ella como estrategia principal.
+
+---
+
+## Vibe Coding vs Spec Driven
+
+Originalmente, el concepto de vibe coding como yo lo interpreto es un flujo de desarrollo basado en el _Agent Build_ por defecto de tu herramienta de AI como primera y única instancia. A medida que salen las ideas, usas tu Build mode para ir desarrollando código.
+
+Esto funciona bien. Pero puede llevar al desorden. Recordemos que el contexto es el rey: si tienes buenos skills, buenos prompts y archivos de instrucción justos, el vibe coding va muy bien para proyectos en general.
+
+Para proyectos colaborativos es donde empieza la fricción. Sin embargo, el siguiente escalón natural hacia el orden es el patron _Plan Mode → Agent Mode._
+
+Todos hemos llegado a la conclusión de que rebotar ideas con AI a veces resulta en resolver el problema tú mismo. _El efecto del rubber ducky._
+
+Ahora bien, para un desarrollo estandarizado, escalable y consistente, existe Spec Driven Development. Hay muchos approaches que puedes tomar, desde usar solo Plan Mode y guardar eso en un archivo Markdown (Claude Code incluso agregó una funcionalidad para llevar el control de tus tasks en archivos `.md`), hasta usar frameworks completos como [github/spec-kit](https://github.com/github/spec-kit) o [bmad](https://github.com/bmadcode/BMAD-METHOD).
+
+### Mi approach actual
+
+Mi forma de hacer Spec Driven es a través de un agente que yo mismo personalicé. Unas pocas líneas de instrucción en un agente que me ayuda a crear archivos `.md` dentro de un folder `tasks/`, similar a lo que hace Claude Code. Por ahora me es suficiente.
+
+Me pongo a rebotar ideas con mi agente "task-builder", usando referencias de código que mejoren la calidad del plan, y finalmente lo guardo en un archivo de texto `.md` que me ayuda a llevar un estado de avance de mis actividades.
+
+Literalmente se ve como un TODO list que el mismo agente va palomeando:
+
+```markdown
+# TASK-042: Migrar servicio de notificaciones a arquitectura serverless
+
+## Contexto
+
+El servicio actual de notificaciones corre en un ECS task dedicado.
+Queremos moverlo a Lambda + SQS para reducir costos y simplificar el deploy.
+
+## Tasks
+
+- [x] Definir el esquema de eventos SQS para cada tipo de notificación
+- [x] Crear Lambda handler con dead-letter queue
+- [x] Migrar templates de correo a S3
+- [ ] Implementar retry policy con backoff exponencial
+- [ ] Agregar métricas de CloudWatch por tipo de notificación
+- [ ] Actualizar integration tests
+- [ ] Cleanup: eliminar ECS task definition y security groups viejos
+
+## Notas
+
+- El equipo de infra confirmó que el límite de concurrencia en Lambda es 500.
+- Los templates actuales usan Handlebars, se mantienen igual.
+```
+
+En cuanto tengo mi archivo de tasks escrito usando Opus 4.6, guardado y commiteado, le delego a Codex 5.3 implementar.
+
+Al finalizar, regreso a Opus 4.6 y le hago una pregunta simple: que audite si la tarea realmente está completa o si detecta drift en la implementación.
+
+Si todo sale bien, hago el commit final con los cambios implementados y borro el archivo de tasks. Para mí los task files son disposables: cumplen su función durante el desarrollo y después no los necesito.
+
+El flujo se ve así:
+
+![[Flujo Spec Driven con Agentes.mermaid]](../public/images/como-utilizo-copilot-para-escribir-codigo/Flujo%20Spec%20Driven%20con%20Agentes.png)
+
+### Memorias a largo plazo
+
+Otra pieza de mi Spec Driven Development son las memorias a largo plazo. Herramientas como spec-kit generan archivos llamados [`constitucion.md`](https://github.com/github/spec-kit?tab=readme-ov-file#2-establish-project-principles) donde documentas los pilares del proyecto, y cada tarea generada debe satisfacerlos.
+
+No uso spec-kit completamente, solo algunas partes. Lo que me gusta por ahora es que puede ser una técnica de adopción progresiva, porque la curva de aprendizaje del framework completo puede ser abrumadora.
+
+En mi caso, con mis equipos, el ciclo funciona así: cada que se completa un documento de tareas (que nacen de las HUs de Jira), procuro a través de otro agente llamado "memory-writer" actualizar la documentación técnica o de arquitectura del proyecto. También uso Opus 4.6 para esa documentación.
+
+El ciclo de desarrollo completo entonces se ve así:
+
+![[SDLC Spec Driven con Agentes.mermaid]](../public/images/como-utilizo-copilot-para-escribir-codigo/SDLC%20Spec%20Driven%20con%20Agentes.png)
+
+Sé que existe un plugin para Claude Code que lleva una memoria a largo plazo. De mi lado aún no he implementado algo para hacer RAG de mis memorias, pero pienso que algún MCP que haga [Vector DB](https://github.com/chroma-core/chroma-mcp) puede ayudarme a extraer datos específicos sin cargar todo el documento al contexto.
+
+Y aquí de nuevo, context is king.
+
+> [!abstract] Tasks vs Memorias
+>
+> |               | Tasks                                         | Memorias                              |
+> | ------------- | --------------------------------------------- | ------------------------------------- |
+> | Ciclo de vida | Nacen, se ejecutan, se borran                 | Viven con el proyecto                 |
+> | Mutabilidad   | Inmutables (se palomean, no se editan)        | Mutables (evolucionan cada iteración) |
+> | Persistencia  | Disposables, el historial de git las respalda | Persistentes en el repo               |
+> | Ejemplo       | `TASK-042.md`                                 | `arquitectura.md`, `decisions.md`     |
+
+---
+
+## Técnicas multi-agente
+
+A este punto ya tenemos las bases y las reglas del juego establecidas. Gracias a las specs podemos distribuir el trabajo que no es dependiente entre sí. Los archivos de tasks deben ser ejecutables con la menor dependencia entre sí. Si logras eso, puedes escalar el flujo de trabajo.
+
+GitHub Copilot ofrece la capacidad de correr agentes tanto en la [nube](https://code.visualstudio.com/docs/copilot/agents/cloud-agents) como en [background](https://code.visualstudio.com/docs/copilot/agents/background-agents), trabajando en diferentes worktrees. Si nuestras tareas son independientes, podemos pedirle a Copilot que trabaje en diferentes branches y que cuando termine nos mande un PR para que nosotros podamos revisar, aprobar, rechazar o integrar.
+
+Esta misma técnica se integra en herramientas como [Codex de OpenAI](https://openai.com/es-ES/codex/), o herramientas open source como [Conductor](https://www.conductor.build/) u [OpenCode UI](https://opencode.ai/download).
+
+Pero no es algo que tú mismo no puedas hacer con algunos comandos e instrucciones personalizadas de agentes. Estas herramientas simplemente son mejores UIs para estas nuevas formas de trabajar.
+
+![[Flujo Multi-Agente con Worktrees.mermaid]](../public/images/como-utilizo-copilot-para-escribir-codigo/Flujo%20Multi-Agente%20con%20Worktrees.png)
+
+### Profundizando en patrones multi-agente
+
+Desde aquel artículo de Anthropic sobre [cómo disrumpieron una operación de espionaje con AI](https://www.anthropic.com/news/disrupting-AI-espionage), he tratado de aprender y mejorar mis técnicas de desarrollo autónomas multi-agente. En otro artículo más enfocado sobre su [sistema de investigación multi-agente](https://www.anthropic.com/engineering/multi-agent-research-system), Anthropic muestra algunos patrones concretos para este tipo de desarrollo.
+
+Anthropic describe un patrón donde un LeadResearcher orquesta subagentes especializados, cada uno con su propio contexto de ejecución, memoria compartida y un ciclo iterativo de investigación:
+
+![[Multi-Agent Research System - Anthropic.mermaid]](../public/images/como-utilizo-copilot-para-escribir-codigo/Multi-Agent%20Research%20System%20-%20Anthropic.png)
+
+#### Workers: subagentes funcionales
+
+Por ahora mi stack va así. Suelo tener subagentes "workers" encargados de tareas funcionales que no requieran más contexto o investigación: correr tests, extraer output de la consola, ejecutar scripts.
+
+Estos subagentes te ayudan a ahorrar contexto del agente principal, porque cada uno crea su propio contexto de ejecución. El worker hace su trabajo, te regresa el resultado, y el agente principal no gasta tokens en toda esa ejecución intermedia.
+
+#### Pipelines: orquestación de alto nivel
+
+También tengo agentes de alto nivel que se encargan de orquestar. Por ejemplo, un pipeline tipo:
+
+> **Challenger → Coder → Refactorer → Reviewer**
+
+Es el flujo de TDD pero orientado a agentes. El Challenger escribe los tests o define los criterios, el Coder implementa, el Refactorer limpia, y el Reviewer audita.
+
+#### Routers: especialización por dominio
+
+También puedes tener modelos router. Un Coder que enruta a diferentes subagentes o skills dependiendo del tipo de tarea. Si quieres que adquiera el arquetipo de FE developer, React developer, QA, Tester, etc., con subagentes creas contextos específicos de ejecución que los vuelven especialistas sobre un subject.
+
+![[Patron Router Multi-Agente.mermaid]](../public/images/como-utilizo-copilot-para-escribir-codigo/Patron%20Router%20Multi-Agente.png)
+
+#### Competing Solutions
+
+Otro patrón que me gusta es abrir múltiples subagentes que implementen la misma solución pero con diferentes modelos o approaches, y al final poner un revisor que escoja la más óptima. Es como hacer un concurso entre agentes: cada uno ataca el problema por su lado, y el reviewer final compara resultados y se queda con el mejor.
+
+![[Patron Competing Solutions.mermaid]](../public/images/como-utilizo-copilot-para-escribir-codigo/Patron%20Competing%20Solutions.png)
+
+#### Agentes como pipelines
+
+Yo ahora miro mis custom agents más como pipelines, como si de un CI/CD se tratara. Son pipelines para orquestar flujos de trabajo, y los skills, la memoria y las tasks son todo lo que los hace ricos en contexto.
+
+---
+
+## Conclusión
+
+Desde que aparecieron Copilot, GPT-3 y compañía, los flujos de trabajo han evolucionado en una dirección que para mí se resume en: cómo dejar de copiar y pegar con el modelo y, en su lugar, dejar que el modelo esté lo más cerca posible de lo que queremos que logre. Hoy con skills, MCPs, specs, memorias y pipelines multi-agente, esa distancia es cada vez más corta.
+
+Pero lo curioso es que escribir código con agentes de AI es cada vez más parecido a simplemente escribir buen código. Las buenas prácticas de toda la vida siguen siendo las que mandan: código modular, reutilizable, documentado, testeado. Lo que cambió es quién las ejecuta y a qué velocidad.
+
+Al final, la AI solo logró que los ingenieros finalmente escribieran sus pruebas y documentación, segmentaran su tren de pensamiento en pasos claros, y plasmaran todo eso en un recurso que cualquier persona pueda entender.
+
+Qué sorpresa, ¿no?
