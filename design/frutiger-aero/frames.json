@@ -1,0 +1,44 @@
+{
+  "inicio-desktop": {
+    "id": "1195654970:3",
+    "pageId": "1195654970:2",
+    "width": 1440,
+    "height": 1460
+  },
+  "articulos-desktop": {
+    "id": "1195654970:110",
+    "pageId": "1195654970:2",
+    "width": 1440,
+    "height": 2085
+  },
+  "lectura-desktop": {
+    "id": "1195654970:252",
+    "pageId": "1195654970:2",
+    "width": 1440,
+    "height": 1760
+  },
+  "inicio-mobile": {
+    "id": "1195654970:328",
+    "pageId": "1195654970:327",
+    "width": 390,
+    "height": 2130
+  },
+  "articulos-mobile": {
+    "id": "1195654970:396",
+    "pageId": "1195654970:327",
+    "width": 390,
+    "height": 2210
+  },
+  "lectura-mobile": {
+    "id": "1195654970:481",
+    "pageId": "1195654970:327",
+    "width": 390,
+    "height": 2110
+  },
+  "sistema-visual": {
+    "id": "1195654970:511",
+    "pageId": "1195654970:510",
+    "width": 1200,
+    "height": 1050
+  }
+}
