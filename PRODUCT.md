@@ -14,7 +14,7 @@ Sitio personal de Jerome Olvera para presentar su trabajo, enlazar sus comunidad
 
 El sitio existente tiene portada, índice de artículos y páginas individuales de lectura. Usa Next.js, React, Tailwind y Bun, con exportación estática. Los artículos viven en `data/` y sus recursos en `public/images/`. Conservar los textos, enlaces y slugs existentes.
 
-La entrega actual es un diseño editable `.fig` creado con OpenPencil, partiendo de las páginas actuales. La implementación y publicación del rediseño quedan para después de revisar el diseño.
+El rediseño se implementa en las páginas reales, conservando Next.js y la exportación estática. El usuario autorizó publicar mediante commit y push a `main`, dejando el despliegue al flujo automático de GitHub Pages. El `.fig` es la referencia de composición. Los recursos que se sirven en el sitio proceden de Frutiger Aero Archive y de los paquetes enlazados por el archivo, con atribución visible. No generar imágenes ni usar la ilustración generada de la propuesta como recurso del sitio.
 
 ## Brand commitments
 

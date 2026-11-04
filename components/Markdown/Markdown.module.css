@@ -1,66 +1,174 @@
 .markdown {
-  @apply text-lg leading-relaxed;
+  color: #244b60;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.markdown > :first-child {
+  margin-top: 0;
+}
+
+.markdown > :last-child {
+  margin-bottom: 0;
 }
 
 .markdown p,
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-  @apply my-6;
+  margin: 1.75rem 0;
 }
 
-.markdown blockquote {
-  @apply px-4 py-1 italic bg-gray-500 bg-opacity-10 rounded;
-}
-
-.markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
-}
-
-.markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+.markdown ul,
+.markdown ol {
+  padding-left: 1.75rem;
 }
 
 .markdown ul {
-  @apply list-inside list-disc px-8 space-y-4;
+  list-style: disc;
+}
+
+.markdown ol {
+  list-style: decimal;
+}
+
+.markdown li + li {
+  margin-top: 0.5rem;
+}
+
+.markdown blockquote {
+  border-left: 0.25rem solid #74b9d2;
+  background: #eef7fa;
+  padding: 0.75rem 1rem;
+}
+
+.markdown blockquote > :first-child {
+  margin-top: 0;
+}
+
+.markdown blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  color: #174f70;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 2.75rem 0 1rem;
+  overflow-wrap: anywhere;
+}
+
+.markdown h2 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+.markdown h3 {
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+}
+
+.markdown h4 {
+  font-size: 1.125rem;
 }
 
 .markdown a {
-  @apply text-indigo-500 italic;
+  color: #006da7;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
 }
 
 .markdown a:hover {
-  @apply underline;
+  color: #004d79;
+}
+
+.markdown a:focus-visible {
+  border-radius: 0.125rem;
+  outline: 2px solid #006da7;
+  outline-offset: 3px;
 }
 
 .markdown pre {
-  @apply overflow-auto bg-gray-800 p-4 rounded-md text-white;
+  max-width: 100%;
+  overflow: auto;
+  border-radius: 0.25rem;
+  background: #edf5f8;
+  color: #194c68;
+  padding: 1.25rem;
+  tab-size: 2;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
 }
 
 .markdown pre code {
-  @apply font-mono;
+  font-family: "Aero Mono", Consolas, monospace;
+  font-size: 0.9em;
+}
+
+.markdown :not(pre) > code {
+  border-radius: 0.2rem;
+  background: #edf5f8;
+  color: #194c68;
+  padding: 0.1em 0.3em;
+  overflow-wrap: anywhere;
+}
+
+.markdown img {
+  display: block;
+  height: auto;
+  margin: 2rem auto;
+  max-width: 100%;
 }
 
 .markdown table {
-  @apply block w-full max-w-full overflow-x-auto border-collapse my-8 text-base;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
-.markdown thead {
-  @apply border-b border-gray-300 dark:border-neutral-700;
-}
-
-.markdown tbody tr {
-  @apply border-b border-gray-200 dark:border-neutral-800;
-}
-
-.markdown tbody tr:nth-child(even) {
-  @apply bg-gray-500 bg-opacity-5;
+.markdown th,
+.markdown td {
+  border: 1px solid #c3dce7;
+  padding: 0.65rem 0.85rem;
+  text-align: left;
+  vertical-align: top;
 }
 
 .markdown th {
-  @apply text-left font-semibold px-4 py-3 align-top;
+  background: #edf7fa;
+  color: #174f70;
+  font-weight: 700;
 }
 
-.markdown td {
-  @apply px-4 py-3 align-top;
+.markdown tbody tr:nth-child(even) {
+  background: #f5fafc;
+}
+
+@media (max-width: 640px) {
+  .markdown {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .markdown p,
+  .markdown ul,
+  .markdown ol,
+  .markdown blockquote {
+    margin: 1.5rem 0;
+  }
+
+  .markdown pre {
+    padding: 1rem;
+  }
+
+  .markdown th,
+  .markdown td {
+    padding: 0.5rem 0.65rem;
+  }
 }

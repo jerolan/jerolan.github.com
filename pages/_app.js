@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import Script from "next/script";
 import { useEffect } from "react";
 import "tailwindcss/tailwind.css";
+import "../styles/aero.css";
 import * as gtag from "../lib/gtag";
 
 function MyApp({ Component, pageProps }) {

@@ -28,7 +28,7 @@ class MyDocument extends Document {
           />
           <meta name="robots" content="follow, index" />
         </Head>
-        <body className="antialiased leading-7 bg-white transition-colors duration-500 dark:bg-black dark:text-white">
+        <body id="top">
           <Main />
           <NextScript />
         </body>

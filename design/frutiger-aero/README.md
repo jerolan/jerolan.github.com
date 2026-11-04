@@ -1,6 +1,6 @@
 # Propuesta Frutiger Aero
 
-Diseño editable del sitio personal de Jerome Olvera, creado con OpenPencil 0.16.0. Conserva el blog personal y adopta la estética de los portales y foros de los 2000. Es una propuesta visual; el sitio publicado conserva su implementación actual.
+Diseño editable del sitio personal de Jerome Olvera, creado con OpenPencil 0.16.0. Conserva el blog personal y adopta la estética de los portales y foros de los 2000. La composición se ha trasladado a las páginas reales del sitio. El usuario pidió reemplazar las imágenes generadas de esta propuesta por recursos del archivo con atribución; `aero-landscape.png` queda únicamente como parte del artefacto de diseño anterior y no se sirve en el sitio.
 
 ## Abrir el diseño
 

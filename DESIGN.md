@@ -1,10 +1,10 @@
-# Diseño propuesto
+# Diseño del sitio
 
-La propuesta editable está en `design/frutiger-aero/jerome-olvera-frutiger-aero.fig`. La implementación del sitio aún conserva su aspecto anterior.
+La propuesta editable está en `design/frutiger-aero/jerome-olvera-frutiger-aero.fig`. La implementación está en los componentes de página, las vistas de `pages/` y `styles/aero.css`.
 
 ## Dirección
 
-Frutiger Aero y portal personal de los 2000, según la referencia aportada por el autor. Cielo y agua en una cabecera panorámica, pestañas de cristal, relieve brillante y acentos verde hoja. Las filas del archivo evocan temas de foro sin introducir funciones de comunidad.
+Frutiger Aero y portal personal de los 2000, según la referencia aportada por el autor. Cielo, hojas y agua de Material Dictionary 178 en una cabecera panorámica, pestañas de cristal, relieve brillante y acentos verde hoja. Las filas del archivo evocan temas de foro sin introducir funciones de comunidad.
 
 ## Color y materiales
 
@@ -22,4 +22,4 @@ Liberation Sans para interfaz, títulos y lectura. Liberation Mono para ejemplos
 
 ## Fuente de verdad
 
-`PRODUCT.md` recoge el alcance confirmado. El `.fig` es una propuesta pendiente de revisión del autor; no representa un diseño aprobado para publicar. Los recursos y licencias están documentados en `design/frutiger-aero/README.md`.
+`PRODUCT.md` recoge el alcance confirmado. El usuario autorizó trasladar el estilo a las páginas reales y publicarlo. La composición del `.fig` se conserva con una excepción explícita: usar recursos del archivo con mención de origen y no generar imágenes. La ilustración original de la propuesta no se sirve en el sitio. Los recursos actuales y sus fuentes están documentados en `public/images/aero/SOURCES.md` y en la página `/creditos`. El pie de todas las páginas acredita Frutiger Aero Archive y Oxygen / KDE.

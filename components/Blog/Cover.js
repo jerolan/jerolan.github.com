@@ -2,18 +2,17 @@ import Image from "next/image";
 
 export default function Cover({ src, alt }) {
   return (
-    <div className="pb-8 space-y-3">
-      <div className="relative h-96 w-full">
+    <figure className="article-cover">
+      <div className="relative aspect-video w-full overflow-hidden">
         <Image
           fill
-          quality={100}
+          sizes="(max-width: 768px) 100vw, 900px"
           src={`/images/${src}`}
           alt={alt}
           className="object-contain object-center"
-          loading="lazy"
         />
       </div>
-      <p className="text-center text-sm italic opacity-80">{alt}</p>
-    </div>
+      {alt ? <figcaption>{alt}</figcaption> : null}
+    </figure>
   );
 }

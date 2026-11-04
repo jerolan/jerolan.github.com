@@ -1,3 +1,3 @@
 export default function Title({ children }) {
-  return <h1 className="font-bold text-3xl md:text-4xl pb-12">{children}</h1>;
+  return <h1 className="article-heading">{children}</h1>;
 }

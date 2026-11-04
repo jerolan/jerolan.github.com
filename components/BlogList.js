@@ -1,32 +1,45 @@
-import React from "react";
 import Link from "next/link";
 
-export default function BlogList({ children }) {
-  return <section className="space-y-12">{children}</section>;
+function formatDate(date) {
+  return new Intl.DateTimeFormat("es-MX", {
+    day: "numeric",
+    month: "short",
+    timeZone: "UTC",
+    year: "numeric",
+  }).format(new Date(date));
+}
+
+export default function BlogList({ children, heading }) {
+  if (!heading) return <ul className="topic-list">{children}</ul>;
+  return (
+    <section className="aero-panel" aria-label={heading || "Artículos"}>
+      {heading ? <h2 className="panel-heading">{heading}</h2> : null}
+      <ul className="topic-list">{children}</ul>
+    </section>
+  );
 }
 
 function Item({ slug, title, date, content }) {
-  const formatedDate = new Intl.DateTimeFormat("es-MX", {
-    dateStyle: "full",
-  }).format(new Date(date));
+  const dateLabel = formatDate(date);
+  const dateTime = new Date(date).toISOString().slice(0, 10);
 
   return (
-    <Link
-      href={`/blog/${slug}`}
-      className="block border-b dark:border-neutral-800 pb-8"
-      legacyBehavior
-    >
-      <div className="space-y-2">
-        <h3 className="font-bold text-xl md:text-2xl">{title}</h3>
-        <p className="capitalize pb-2 opacity-90 dark:opacity-100">
-          {formatedDate}
-        </p>
-        <div
-          className="opacity-90 dark:opacity-100"
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-      </div>
-    </Link>
+    <li className="topic-row">
+      <img
+        className="topic-icon"
+        src="/images/aero/notes.png"
+        alt=""
+        width="40"
+        height="40"
+      />
+      <h3 className="topic-title">
+        <Link href={`/blog/${slug}`}>{title}</Link>
+      </h3>
+      <time className="topic-date" dateTime={dateTime}>
+        {dateLabel}
+      </time>
+      {content ? <p className="topic-excerpt">{content}</p> : null}
+    </li>
   );
 }
 

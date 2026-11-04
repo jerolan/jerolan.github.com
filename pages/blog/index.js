@@ -5,8 +5,13 @@ import { getAllPosts } from "../../lib/postDataSource";
 export default function Blog({ posts }) {
   return (
     <Page.Html title="Jerome Olvera" description="Blog">
-      <Page.Navigation />
-      <BlogList>
+      <header className="section-title">
+        <h1>Artículos</h1>
+        <p>Software, liderazgo y otras cosas que me interesan.</p>
+      </header>
+      <BlogList
+        heading={`Archivo de artículos · ${posts.length} publicaciones`}
+      >
         {posts.map((post) => (
           <BlogList.Item
             key={post.slug}
