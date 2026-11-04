@@ -768,3 +768,293 @@ img {
     padding: 26px 20px 34px;
   }
 }
+
+/* Keep the new control in the address row without changing the hero flow. */
+.header-glass {
+  position: relative;
+}
+.header-topline {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 18px;
+  padding-right: 128px;
+}
+.header-topline .site-address {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+}
+.theme-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 44px;
+  min-height: 44px;
+  max-width: 128px;
+  padding: 6px 9px;
+  border: 1px solid #91bfd2;
+  border-radius: 7px;
+  background: linear-gradient(#f9feff, #dceff7 48%, #c6e3ef 52%, #edf9fd);
+  box-shadow:
+    inset 0 1px 0 #ffffff,
+    0 2px 5px #174d6d2e;
+  color: #174d6b;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+  transition:
+    background-color 0.15s,
+    box-shadow 0.15s;
+}
+.theme-toggle:hover {
+  box-shadow:
+    inset 0 1px 0 #ffffff,
+    0 3px 8px #174d6d4a;
+}
+.theme-toggle:active {
+  box-shadow: inset 0 2px 4px #174d6d40;
+}
+.theme-toggle-icon {
+  display: block;
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+}
+
+html.dark {
+  color-scheme: dark;
+  --ink: #d9e8f1;
+  --heading: #a8e7f5;
+  --link: #81d9f5;
+  --muted: #b4c8d3;
+  --edge: #31586c;
+  --surface: #112638;
+  --satin: linear-gradient(#29495b 0%, #1b3a4e 46%, #153145 50%, #254657 100%);
+  --glass-blue: linear-gradient(
+    #8be5f3 0%,
+    #55bad0 46%,
+    #459bb4 50%,
+    #70d2e2 100%
+  );
+  --glass-green: linear-gradient(
+    #d8f2a8 0%,
+    #b5dd79 46%,
+    #9cc85c 50%,
+    #c3e78b 100%
+  );
+  scrollbar-color: #47768c #102335;
+}
+html.dark body {
+  background: #071321;
+}
+html.dark body::before {
+  background:
+    linear-gradient(#071321f2, #0a1a29ed),
+    url("/images/aero/longhorn.jpg") center / cover;
+}
+html.dark a {
+  color: var(--link);
+}
+html.dark a:hover {
+  color: #c2f0ff;
+}
+html.dark a:focus-visible,
+html.dark button:focus-visible,
+html.dark [tabindex]:focus-visible {
+  outline-color: #9ceeff;
+  box-shadow: 0 0 0 2px #071321;
+}
+html.dark ::selection {
+  background: #246c83;
+  color: #f2fbff;
+}
+html.dark .skip-link {
+  background: #10283a;
+  color: #c2f0ff;
+}
+html.dark .site-header {
+  background:
+    linear-gradient(90deg, #041727e8, #07182778 65%),
+    url("/images/aero/header.jpg") center 52% / cover;
+  border-bottom-color: #28566e;
+}
+html.dark .header-glass {
+  border-color: #75cfe4;
+  background: linear-gradient(110deg, #08293dea, #16435ab8);
+  box-shadow:
+    inset 0 1px 0 #d8f8ff70,
+    0 5px 20px #000a;
+}
+html.dark .site-name,
+html.dark .site-role {
+  color: #f2fbff;
+  text-shadow: 0 2px 5px #00101c;
+}
+html.dark .site-tagline {
+  color: #d5f6ff;
+  background: #12384bef;
+  border: 1px solid #4d8296;
+}
+html.dark .site-navigation {
+  background: linear-gradient(#142f40, #0c2232 50%, #173649);
+  border-color: #3b6a80;
+  box-shadow:
+    0 3px 9px #0007,
+    inset 0 1px 0 #c9f2ff54;
+}
+html.dark .site-navigation a {
+  color: #d5e8f0;
+}
+html.dark .site-navigation a[aria-current="page"] {
+  background: var(--glass-blue);
+  border-color: #8ce8f4;
+  box-shadow: inset 0 1px 0 #ffffffb0;
+  color: #061b25;
+  text-shadow: none;
+}
+html.dark .site-navigation a:hover {
+  background-color: #8cdae933;
+}
+html.dark .site-navigation a[aria-current="page"]:hover {
+  filter: brightness(1.06);
+}
+html.dark .navigation-note {
+  color: #b4c8d3;
+}
+html.dark .aero-panel {
+  background: var(--surface);
+  border-color: var(--edge);
+  box-shadow: 0 3px 12px #0005;
+}
+html.dark .panel-heading {
+  background: var(--glass-blue);
+  border-bottom-color: #3f8198;
+  color: #061b25;
+}
+html.dark .panel-green > .panel-heading {
+  background: var(--glass-green);
+  border-bottom-color: #779b45;
+  color: #1b3111;
+}
+html.dark .profile-orb {
+  border-color: #74d8e9;
+  background: linear-gradient(#b2f2f5, #328da7 45%, #155a76 50%, #3ca9bc);
+  box-shadow: inset 0 -4px 8px #052b3b80;
+  color: #061b25;
+}
+html.dark .profile-orb::before {
+  background: #ffffff73;
+}
+html.dark .profile-name,
+html.dark .welcome-content h1,
+html.dark .section-title,
+html.dark .article-heading,
+html.dark .credits-content h1,
+html.dark .credits-content h2 {
+  color: var(--heading);
+}
+html.dark .profile-role,
+html.dark .work-links p,
+html.dark .topic-date,
+html.dark .topic-excerpt,
+html.dark .article-breadcrumb,
+html.dark .article-meta,
+html.dark .article-cover figcaption,
+html.dark .section-title p,
+html.dark .site-footer {
+  color: var(--muted);
+}
+html.dark .aero-button {
+  border-color: #69c9df;
+  background: var(--glass-blue);
+  box-shadow:
+    inset 0 1px 0 #ffffffb0,
+    0 1px 3px #0006;
+  color: #061b25;
+  text-shadow: none;
+}
+html.dark .aero-button:hover {
+  filter: brightness(1.08);
+}
+html.dark .aero-button:active {
+  box-shadow: inset 0 2px 4px #123d4b80;
+}
+html.dark .sidebar-links li + li {
+  border-top-color: #294456;
+}
+html.dark .work-links li + li {
+  border-color: #36565c;
+}
+html.dark .panel-actions {
+  border-top-color: #315064;
+}
+html.dark .topic-row {
+  background: #112638;
+}
+html.dark .topic-row:nth-child(even) {
+  background: #152d40;
+}
+html.dark .topic-row + .topic-row {
+  border-top-color: #315064;
+}
+html.dark .topic-row:hover {
+  background: #1b3b50;
+}
+html.dark .topic-title {
+  color: var(--link);
+}
+html.dark .article-meta {
+  border-bottom-color: #315064;
+}
+html.dark .floating-header {
+  border-bottom-color: #31586c;
+  background: #0b1a29ed;
+  box-shadow: 0 3px 10px #0008;
+}
+html.dark .floating-header button {
+  color: var(--heading);
+}
+html.dark .site-footer {
+  border-top-color: #31586c;
+}
+html.dark .theme-toggle {
+  border-color: #5b9bb0;
+  background: linear-gradient(#285c70, #1b4358 48%, #14374b 52%, #25566a);
+  box-shadow:
+    inset 0 1px 0 #d5f7ff52,
+    0 2px 6px #0009;
+  color: #e2f8ff;
+}
+html.dark .theme-toggle:hover {
+  border-color: #9deeff;
+  background: linear-gradient(#347b91, #205c72 48%, #1a4c62 52%, #2e7084);
+  box-shadow:
+    inset 0 1px 0 #e8fcff78,
+    0 3px 9px #000a;
+}
+html.dark .theme-toggle:active {
+  box-shadow: inset 0 2px 4px #03131caa;
+}
+
+@media (max-width: 360px) {
+  .header-topline {
+    padding-right: 118px;
+  }
+  .theme-toggle {
+    gap: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+  .theme-toggle-label {
+    font-size: 11px;
+  }
+}

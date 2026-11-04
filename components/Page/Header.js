@@ -1,14 +1,18 @@
 import Link from "next/link";
 import Navigation from "./Navigation";
+import DarkModeToggle from "../DarkModeToggle";
 
 export default function Header() {
   return (
     <header className="site-header">
       <div className="header-inner">
         <div className="header-glass">
-          <Link href="/" className="site-address">
-            jerolan.github.com
-          </Link>
+          <div className="header-topline">
+            <Link href="/" className="site-address">
+              jerolan.github.com
+            </Link>
+            <DarkModeToggle />
+          </div>
           <Link href="/" className="site-name">
             Jerome Olvera
           </Link>

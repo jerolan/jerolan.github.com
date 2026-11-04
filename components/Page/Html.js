@@ -19,7 +19,6 @@ export default function Html({ children, title, description }) {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@sediceyerom" />
-        <meta name="theme-color" content="#0875b0" />
       </Head>
       <a href="#contenido" className="skip-link">
         Saltar al contenido

@@ -1,4 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
+import { themeInitializationScript } from "../lib/theme";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -10,6 +11,9 @@ class MyDocument extends Document {
     return (
       <Html lang="es">
         <Head>
+          <script
+            dangerouslySetInnerHTML={{ __html: themeInitializationScript }}
+          />
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=UA-64555470-7"

@@ -172,3 +172,52 @@
     padding: 0.5rem 0.65rem;
   }
 }
+
+:global(html.dark) .markdown {
+  color: #d9e8f1;
+}
+
+:global(html.dark) .markdown blockquote {
+  border-left-color: #4fb6cc;
+  background: #172f42;
+  color: #d9e8f1;
+}
+
+:global(html.dark) .markdown h2,
+:global(html.dark) .markdown h3,
+:global(html.dark) .markdown h4 {
+  color: #a8e7f5;
+}
+
+:global(html.dark) .markdown a {
+  color: #81d9f5;
+}
+
+:global(html.dark) .markdown a:hover {
+  color: #c2f0ff;
+}
+
+:global(html.dark) .markdown a:focus-visible {
+  outline-color: #9ceeff;
+  box-shadow: 0 0 0 2px #112638;
+}
+
+:global(html.dark) .markdown pre,
+:global(html.dark) .markdown :not(pre) > code {
+  background: #091a29;
+  color: #d3edf5;
+}
+
+:global(html.dark) .markdown th,
+:global(html.dark) .markdown td {
+  border-color: #35576b;
+}
+
+:global(html.dark) .markdown th {
+  background: linear-gradient(#2d6d81, #1d4c62 50%, #15394d 52%, #286176);
+  color: #edfbff;
+}
+
+:global(html.dark) .markdown tbody tr:nth-child(even) {
+  background: #172e40;
+}

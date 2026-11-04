@@ -1,48 +1,57 @@
-import { useCallback, useEffect } from "react";
-import { useLocalStorage } from "usehooks-ts";
-import useMedia from "./useMedia";
-import useWindow from "./useWindow";
+import { useCallback, useEffect, useState } from "react";
+import { THEME_STORAGE_KEY } from "../lib/theme";
 
-// https://usehooks.com/useDarkMode/
-export default function useDarkMode() {
-  const window = useWindow();
-  // Use our useLocalStorage hook to persist state through a page refresh.
-  // Read the recipe for this hook to learn more: usehooks.com/useLocalStorage
-  const [enabledState, setEnabledState] = useLocalStorage("dark-mode-enabled");
-  // See if user has set a browser or OS preference for dark mode.
-  // The usePrefersDarkMode hook composes a useMedia hook (see code below).
-  const prefersDarkMode = usePrefersDarkMode();
-  // If enabledState is defined use it, otherwise fallback to prefersDarkMode.
-  // This allows user to override OS level setting on our website.
-  const enabled =
-    typeof enabledState !== "undefined" ? enabledState : prefersDarkMode;
-
-  // Fire off effect that add/removes dark mode class
-  useEffect(
-    () => {
-      const className = "dark";
-      if (enabled) {
-        document.documentElement.classList.add(className);
-      } else {
-        document.documentElement.classList.remove(className);
-      }
-    },
-    [enabled, window] // Only re-call effect when value changes
-  );
-
-  const toggle = useCallback(() => {
-    setEnabledState((prevEnabled) => !prevEnabled);
-  }, [setEnabledState]);
-
-  // Return enabled state and setter
-  return [enabled, toggle];
+function readPreference() {
+  try {
+    const saved = window.localStorage.getItem(THEME_STORAGE_KEY);
+    return saved === "true" ? "dark" : saved === "false" ? "light" : "system";
+  } catch {
+    return document.documentElement.dataset.themePreference || "system";
+  }
 }
 
-// Compose our useMedia hook to detect dark mode preference.
-// The API for useMedia looks a bit weird, but that's because ...
-// ... it was designed to support multiple media queries and return values.
-// Thanks to hook composition we can hide away that extra complexity!
-// Read the recipe for useMedia to learn more: usehooks.com/useMedia
-function usePrefersDarkMode() {
-  return useMedia(["(prefers-color-scheme: dark)"], [true], false);
+function applyPreference(preference, prefersDark) {
+  const enabled =
+    preference === "dark" || (preference === "system" && prefersDark);
+  const root = document.documentElement;
+  root.classList.toggle("dark", enabled);
+  root.dataset.themePreference = preference;
+  return enabled;
+}
+
+export default function useDarkMode() {
+  const [enabled, setEnabled] = useState(false);
+
+  useEffect(() => {
+    const media = window.matchMedia("(prefers-color-scheme: dark)");
+    const sync = () =>
+      setEnabled(applyPreference(readPreference(), media.matches));
+    const onSystemChange = () => {
+      if (document.documentElement.dataset.themePreference === "system") sync();
+    };
+    const onStorageChange = (event) => {
+      if (event.key === THEME_STORAGE_KEY || event.key === null) sync();
+    };
+
+    sync();
+    media.addEventListener("change", onSystemChange);
+    window.addEventListener("storage", onStorageChange);
+    return () => {
+      media.removeEventListener("change", onSystemChange);
+      window.removeEventListener("storage", onStorageChange);
+    };
+  }, []);
+
+  const toggle = useCallback(() => {
+    const next = !document.documentElement.classList.contains("dark");
+    const preference = next ? "dark" : "light";
+    setEnabled(applyPreference(preference, next));
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, String(next));
+    } catch {
+      // Keep the selection for this visit when browser storage is unavailable.
+    }
+  }, []);
+
+  return [enabled, toggle];
 }
