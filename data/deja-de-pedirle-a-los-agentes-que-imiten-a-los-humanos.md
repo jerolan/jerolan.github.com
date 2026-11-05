@@ -33,6 +33,8 @@ Y hemos llegado al punto de que hoy en día nos negamos hasta a leer texto gener
 
 ## La documentación como parte del flujo de trabajo
 
+![Dos agentes intercambian trabajo a través de personas y una pila de documentos.](/images/agentes-humanos/flujo.png)
+
 Aquí es donde aparece un punto de inflexión en la forma de escribir código o hacer trabajo con agentes. Empezamos a reevaluar qué debería estar haciendo el agente por nosotros, si al final estamos usando el trabajo que genera como una muleta para luego hacer que se comporte como humano.
 
 Y me explico: para ejecutar una tarea de programación, por ejemplo, probablemente en tu organización usen al agente para definir historias de usuario, épicas o cualquier marco o framework que utilices para trabajar. Lo pones a escribir diseños técnicos para posteriormente presentarlos a algún manager, buscar alguna aprobación, compartirlos con el equipo y comenzar la implementación, que nuevamente estará haciendo el agente.
@@ -63,6 +65,8 @@ Si tú quieres pedirle al agente que implemente una librería, le das el reposit
 
 ## La documentación que aporta contexto
 
+![Una explicación repite el código; otra lo relaciona con reglas de negocio.](/images/agentes-humanos/contexto.png)
+
 Eso no quiere decir que eliminemos toda la documentación, los comentarios y otros artefactos que rodean al código, como los diseños técnicos. Nuevamente, se trata de repensarlos.
 
 Algo que sí se justifica bien, como en el ejemplo anterior: si el código cambia y la explicación no, entonces la explicación tiene sentido. La explicación muchas veces tiene que acompañar al código para darle sentido a cómo diferentes componentes pueden entrelazarse.
@@ -80,6 +84,8 @@ Incluso los artefactos generados por estos skills no necesariamente están hecho
 Entonces, poner al agente a actuar como persona, creando tickets, documentación y diseños técnicos, pierde sentido y solo quema dinero. Sigue teniendo sentido escribir cosas humanas para otros humanos.
 
 ## Verificación y herramientas reutilizables
+
+![Tres agentes usan una herramienta compartida para verificar una aplicación.](/images/agentes-humanos/verificacion.png)
 
 Pero dejar de entrometernos nosotros en el trabajo de los agentes también implica darles lo que necesitan para trabajar. Como explica [Lauren con pstack](https://x.com/poteto/status/2094457600259842065), si el agente no tiene una forma de verificar lo que hizo, el humano termina convirtiéndose en el mecanismo de verificación para cada cambio.
 
