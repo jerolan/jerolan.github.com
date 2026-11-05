@@ -1,5 +1,5 @@
 ---
-title: "Draft: Deja de pedirle a los agentes que imiten a los humanos"
+title: "Draft: Deja de pedirles a los agentes que trabajen como humanos"
 excerpt: "Una reflexión en borrador sobre cómo repensar nuestros procesos de trabajo para desarrollar software con agentes."
 cover:
   alt: "Imagen de portada del artículo"
@@ -27,9 +27,13 @@ La garantía o la ventaja que se supone que estos agentes incluían para ti en e
 
 El contexto es básicamente el rey siempre que hablamos del tema de agentes. Entonces todo lo que ayude a darle al agente el contexto más adecuado lo va a hacer trabajar de la mejor forma.
 
+## Cuando el agente imita nuestro trabajo
+
 Ahí es donde comenzamos a delegarle al agente trabajo que imite a otros humanos. Entonces teníamos pequeños agentes que fueran nuestros project managers, product managers, technical writers, etcétera. Todo ese trabajo que no quería hacer el humano escribiendo documentación extensa lo terminaba haciendo el agente.
 
 Y al punto que hoy en día nos negamos hasta a leer texto generado por agentes. Escribir se ha mantenido como uno de los medios y mecanismos que el humano usa para que otro humano consuma. Y esa es una de las formas más esenciales de la comunicación humana. Entonces, cuando un humano ve que otro humano le ofrece contenido escrito por AI, lo primero que hace es rechazarlo. No todos. Al leer las primeras frases de un artículo que está escrito 100% con AI, generamos rechazo inmediato.
+
+## La documentación como parte del flujo de trabajo
 
 Aquí es donde el punto de inflexión en la tendencia actual de escribir código o hacer trabajo con agentes empieza a cambiar. Entonces empezamos a reevaluar realmente qué debería estar haciendo el agente por nuestra parte. Si al final estamos usando el agente y el trabajo generado por el agente como una muleta de nuestro trabajo, para luego hacer que el agente se comporte como humano.
 
@@ -42,6 +46,8 @@ Mi argumento aquí, o mi tesis, es que todo lo anterior en realidad es falso y h
 El trabajo de los agentes, desde inicios de este año 2026, ha cambiado drásticamente. Leyendo [el último artículo que escribí sobre la forma en la que trabajo con agentes](/blog/como-utilizo-copilot-para-escribir-codigo), veo que en solo un año, y potencialmente menos de un año, seis meses, quedó completamente desactualizado. Y esa fue la segunda vez en la que ya había escrito ese artículo.
 
 Entonces, en esta otra ocasión, es comenzar a buscar, pensar o repensar las cosas que hacemos que el agente haga imitando al humano, como una muleta de las cosas que todavía no sabemos cómo eliminar de nuestro proceso. Y este es uno de los cambios más trascendentales que estaremos viendo próximamente. Probablemente cuando vuelva a leer este artículo en algunos seis meses, me daré cuenta de que todas estas prácticas rápidamente han quedado también desactualizadas.
+
+## Comentarios y explicaciones que repiten el código
 
 Entre este tipo de técnicas podemos hablar también de la forma en la que escribíamos código. Yo recuerdo que le pedía al agente agarrar una clase y llenarla de un montón de documentación, comentarios JSDoc o XMLDocs en el caso de .NET, solo porque a mí estéticamente me gusta y se me hace más legible ese tipo de código, no porque realmente estuviera leyendo esos comentarios. Comentarios que rápidamente también se vuelven obsoletos si simplemente imitan o describen lo que está haciendo el código.
 
@@ -58,11 +64,15 @@ A mí me daba mucha ilusión un proyecto llamado OpenWiki, al cual le dabas una 
 Si tú quieres pedirle al agente que implemente una librería, le das el repositorio.
 
 
+## La documentación que aporta contexto
+
 Eso no quiere decir que eliminemos toda documentación, todos los comentarios y cualquier otro de estos artefactos que rodean al código, diseños técnicos, etcétera, sino que nuevamente es repensar.
 
 Algo que sí se justifica bien, como en el ejemplo anterior: si el código cambia y la explicación no, entonces la explicación tiene sentido. La explicación muchas veces tiene que acompañar al código para darle sentido a cómo diferentes componentes pueden entrelazarse.
 
 Este contexto puede ser contexto de dominio, negocio, cosas que el agente no puede voltear y ver directamente porque viven en la mente de los stakeholders y dueños del negocio en sí. O ya estás hablando del dominio realmente. Entonces tú le agregas ese contexto adicional al agente para que entienda cuál es el fin de su trabajo.
+
+## Planeación y artefactos para agentes
 
 Entre otras prácticas, Matt Pocock tiene un pack de skills llamado Skills de Matt Pocock. Incluye ese proceso y ese procedimiento de generar especificaciones, tickets y finalmente generar artefactos para que el agente trabaje.
 
@@ -71,6 +81,8 @@ Eso, como decía, no quiere decir que eliminemos todos los tickets de Jira que t
 Inclusive los artefactos generados por estos skills no necesariamente están hechos para que los humanos los lean. Están hechos para que el agente tenga contexto de su ejecución y finalmente terminan siendo desechables. En algunos casos, nuevamente, sí hay contexto y documentación que va a acompañar al código a largo plazo, pero no necesariamente todas estas explicaciones.
 
 Entonces poner al agente a actuar como persona, creando tickets, documentación y diseños técnicos, pierde sentido y solo está quemando dinero. Sigue teniendo sentido escribir cosas humanas para otros humanos. Eso sigue teniendo todo el sentido.
+
+## Verificación y herramientas reutilizables
 
 Pero dejar de entrometernos nosotros en el trabajo de los agentes también implica darles lo que necesitan para trabajar. Como explica [Lauren con pstack](https://x.com/poteto/status/2094457600259842065), si el agente no tiene una forma de verificar lo que hizo, el humano termina convirtiéndose en el mecanismo de verificación para cada cambio.
 
