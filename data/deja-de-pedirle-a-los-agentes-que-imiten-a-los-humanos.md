@@ -2,8 +2,8 @@
 title: "Draft: Deja de pedirles a los agentes que trabajen como humanos"
 excerpt: "Una reflexión en borrador sobre cómo repensar nuestros procesos de trabajo para desarrollar software con agentes."
 cover:
-  alt: "Imagen de portada del artículo"
-  src: "aero/header.jpg"
+  alt: "Dos agentes intercambian trabajo a través de personas y documentos"
+  src: "agentes-humanos/flujo.png"
 date: "2026-11-04T12:00:00.000Z"
 ---
 
@@ -32,8 +32,6 @@ Ahí es donde comenzamos a delegarle al agente trabajo que imitara a otros human
 Y hemos llegado al punto de que hoy en día nos negamos hasta a leer texto generado por agentes. Escribir se ha mantenido como uno de los medios que usamos para comunicarnos con otros humanos. Entonces, cuando una persona ve que otra le ofrece contenido escrito por AI, puede rechazarlo. No todos reaccionamos igual, pero para algunos basta con leer las primeras frases de un artículo escrito 100% con AI para generar un rechazo inmediato.
 
 ## La documentación como parte del flujo de trabajo
-
-![Dos agentes intercambian trabajo a través de personas y una pila de documentos.](/images/agentes-humanos/flujo.png)
 
 Aquí es donde aparece un punto de inflexión en la forma de escribir código o hacer trabajo con agentes. Empezamos a reevaluar qué debería estar haciendo el agente por nosotros, si al final estamos usando el trabajo que genera como una muleta para luego hacer que se comporte como humano.
 
@@ -92,3 +90,7 @@ Pero dejar de entrometernos nosotros en el trabajo de los agentes también impli
 Ahí es donde podemos comenzar a pensar en herramientas y conocimiento reutilizable: algo que construimos una vez y que después el agente puede volver a utilizar para entender el proyecto, ejecutar la aplicación y comprobar su trabajo.
 
 Y creo que ese es el punto. No necesitamos conservar cada paso de nuestro proceso solo porque así trabajábamos antes. Necesitamos entender qué problema resolvía y encontrar la forma de resolverlo ahora que también trabajamos con agentes.
+
+---
+
+*Ilustraciones generadas con inteligencia artificial mediante [shapeup-illustrations](https://github.com/jerolan/shapeup-illustrations), con referencias visuales de [Shape Up](https://basecamp.com/shapeup), de Ryan Singer y Basecamp.*
