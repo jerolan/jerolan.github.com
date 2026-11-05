@@ -49,7 +49,7 @@ Entonces, en esta otra ocasión, es comenzar a buscar, pensar o repensar las cos
 
 Entre este tipo de técnicas podemos hablar también de la forma en la que escribíamos código. Yo recuerdo que le pedía al agente agarrar una clase y llenarla de un montón de documentación, comentarios JSDoc o XMLDocs en el caso de .NET, solo porque a mí estéticamente me gusta y se me hace más legible ese tipo de código, no porque realmente estuviera leyendo esos comentarios. Comentarios que rápidamente también se vuelven obsoletos si simplemente imitan o describen lo que está haciendo el código.
 
-Y aquí viene una parte muy importante ahora que la menciono. Cuando nosotros le pedimos al agente que explique una clase o explique un programa, usualmente lo hace de una forma muy procedural. Básicamente es lo mismo que está escrito en código, pero escrito en texto en el idioma en el que tú hables, en inglés o en español. Si el código cambia, la narrativa va a cambiar. Entonces la explicación que te da el agente no es una gran explicación. Lo único que está haciendo es replicar lo que el código hace.
+Y aquí viene una parte muy importante ahora que la menciono. Cuando nosotros le pedimos al agente que explique una clase o explique un programa, usualmente lo hace de una forma muy tautológica. Básicamente es lo mismo que está escrito en código, pero escrito en texto en el idioma en el que tú hables, ya sea inglés o español. Si el código cambia, la narrativa va a cambiar. Si tú le pides al agente que explique código, no te dará una gran explicación, solo repetirá lo que está escrito en código. Tienes que buscar técnicas para que el agente realmente te dé una explicación valiosa.
 
 Una gran explicación, así como otros autores hablan de las buenas pruebas en el código, no se hace a través de imitar lo que el código hace. Para eso mejor leo directamente el código, es mucho más fácil que leer la explicación de un agente que es exactamente lo mismo que el código, o que las pruebas imiten lo que el código hace.
 
@@ -72,7 +72,7 @@ Este contexto puede ser contexto de dominio, negocio, cosas que el agente no pue
 
 ## Planeación y artefactos para agentes
 
-Entre otras prácticas, Matt Pocock tiene un pack de skills llamado Skills de Matt Pocock. Incluye ese proceso y ese procedimiento de generar especificaciones, tickets y finalmente generar artefactos para que el agente trabaje.
+Entre otras prácticas, Matt Pocock tiene un pack de skills. Incluye ese proceso y ese procedimiento de generar especificaciones, tickets y finalmente generar artefactos para que el agente trabaje.
 
 Eso, como decía, no quiere decir que eliminemos todos los tickets de Jira que teníamos en nuestro board. Sin embargo, hoy en día una práctica de planeación, refinamiento, etcétera, potencialmente pierde el sentido, porque finalmente tú le puedes dar al agente un trabajo sumamente complejo, refinarlo utilizando alguna de estas prácticas modernas de desarrollo agéntico, como las de pstack, de poteto, o las de Matt Pocock, rellenar los supuestos del agente y finalmente permitirle que ejecute.
 
