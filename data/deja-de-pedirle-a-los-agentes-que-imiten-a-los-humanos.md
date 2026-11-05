@@ -21,8 +21,6 @@ Y ahí es donde una de las grandes habilidades de los LLMs es escribir mucho, ¿
 
 El siguiente paso natural era empezar a meter agentes como un medio de trabajo. Muchas aplicaciones comenzaron a integrar sus chatbots. Entonces tú abrías el chatbot y de pronto ya tenías algo muy similar a ChatGPT dentro de la página de alguna empresa.
 
-Recuerdo algunos casos virales, como los de Chipotle y McDonald's, en los que supuestamente podías pedirle al chatbot que escribiera código. Sin embargo, al revisar esos ejemplos encontré que [las empresas desmintieron esas historias](https://www.fastcompany.com/91532091/mcdonalds-ai-bot-didnt-go-rogue): las capturas que circulaban no eran evidencia de que sus chatbots hicieran eso.
-
 La garantía o la ventaja que se supone que estos agentes incluían para ti en estas aplicaciones embebidas era que estaban conectados a la información de la empresa. Entonces podían resolver o hacer tareas para ti que estuvieran relacionadas con ese contexto.
 
 El contexto es básicamente el rey siempre que hablamos del tema de agentes. Entonces todo lo que ayude a darle al agente el contexto más adecuado lo va a hacer trabajar de la mejor forma.
