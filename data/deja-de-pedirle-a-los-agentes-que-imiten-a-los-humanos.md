@@ -1,13 +1,11 @@
 ---
-title: "Draft: Deja de pedirles a los agentes que trabajen como humanos"
-excerpt: "Una reflexión en borrador sobre cómo repensar nuestros procesos de trabajo para desarrollar software con agentes."
+title: "Deja de pedirles a los agentes que trabajen como humanos"
+excerpt: "Una reflexión sobre cómo repensar nuestros procesos de trabajo para desarrollar software con agentes."
 cover:
   alt: "Pasto verde en primer plano"
   src: "aero/longhorn.jpg"
 date: "2026-11-04T12:00:00.000Z"
 ---
-
-> **Draft:** Este artículo está en proceso de revisión.
 
 ## Antecedentes
 
