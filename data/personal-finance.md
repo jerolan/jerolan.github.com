@@ -309,43 +309,27 @@ Sigo pensando que aprender a hacer la declaración es útil. Lo que no prometer�
 
 ## AFORE y planes personales de retiro
 
-Vuelvo al tema que abrió buena parte de esta reflexión: el retiro.
+Vuelvo al tema que abrió esta reflexión: el retiro. Conoce dónde está tu AFORE, revisa tus datos y verifica que tu salario esté registrado correctamente. No conviene descubrir demasiado tarde que las aportaciones no correspondían a lo que creías.
 
-Conoce dónde está tu AFORE, revisa tu información y compara las condiciones aplicables antes de elegir o cambiar de administradora. También verifica que tu salario esté registrado correctamente. No conviene descubrir demasiado tarde que las aportaciones no correspondían a lo que creías.
+En 2021 decía que prefería invertir en Bolsa antes que hacer aportaciones voluntarias. Hoy compararía también comisiones, impuestos, riesgo y condiciones de retiro, no solo rendimientos.
 
-En 2021 escribí que no recomendaría aportaciones voluntarias porque prefería el rendimiento de la Bolsa. Hoy no lo dejaría como una comparación automática: no se pueden aislar los rendimientos de las comisiones, los impuestos, los plazos, el riesgo y las reglas para disponer del dinero.
+Con los PPR, o planes personales de retiro, me pasa algo parecido. Los veo como un complemento que vale la pena calcular, no como la primera respuesta automática para todos. El ahorro fiscal puede ayudar, sobre todo si lo reinviertes, pero una comisión sobre el saldo se sigue cobrando durante décadas.
 
-Algo que también ha ganado presencia en las conversaciones sobre retiro son los PPR, o planes personales de retiro. El beneficio fiscal puede ser atractivo, pero no convierte a todos los planes en buenos productos ni hace que todos funcionen igual.
+Los planes que cumplen los requisitos del artículo 151 permiten [deducir hasta el menor entre 10% del ingreso acumulable anual y cinco UMA anuales](https://sat.gob.mx/minisitio/DeduccionesPersonales/aportaciones_complementarias.html). Deducir no significa que te devuelvan toda la aportación. Además, hay condiciones de permanencia, vinculadas a los 65 años o a los supuestos previstos de invalidez o incapacidad; [retirar antes puede tener consecuencias fiscales](https://wwwmat.sat.gob.mx/articulo/49469/articulo-142).
 
-En los planes que cumplen los requisitos del artículo 151, la [deducción tiene como límite el menor entre 10% del ingreso acumulable anual y cinco UMA anuales](https://sat.gob.mx/minisitio/DeduccionesPersonales/aportaciones_complementarias.html). Esa vía tiene condiciones de permanencia, asociadas a los 65 años o a los supuestos de invalidez o incapacidad previstos. Deducir una aportación no significa recibir de regreso toda esa cantidad.
-
-Lo que me preocupa son las letras chiquitas. Una comisión anual puede parecer pequeña cuando la ves aislada, pero su efecto se acumula durante décadas. También puede haber costos de los fondos, coberturas de seguro, compromisos de aportación, penalizaciones o restricciones de retiro. Hay que revisar cuáles existen en el contrato concreto, no suponer que todos los PPR los tienen.
-
-Como ejemplo de que las comisiones deben leerse producto por producto, [Fintual publica para su PPR una comisión de 1% anual más IVA sobre el saldo](https://ayuda.fintual.mx/es/articles/8225935-cual-es-la-comision-del-ppr). Es una referencia para entender qué comparar, no un costo universal ni una recomendación de contratarlo. Hay que consultar la tarifa vigente y los demás costos que pudieran aplicar.
-
-Antes de decidir, yo pediría una comparación después de todos los costos e impuestos, con supuestos equivalentes, y preguntaría qué pasa si dejo de aportar, cambio de plan o necesito el dinero antes. No compraría el producto solo por la devolución de la próxima declaración.
-
-Mi postura no es que un PPR sea malo por definición. Yo lo veo como un complemento puntual, no como la primera respuesta automática a cualquier pregunta sobre retiro. Me interesa especialmente cuando el ahorro fiscal es relevante, puedes aprovechar la aportación deducible que te corresponda y también vas a reinvertir ese ahorro.
-
-El límite deducible es un techo, no una obligación de aportar hasta él. Tampoco basta con estar en una tasa marginal superior al 30% para concluir que conviene: esa cifra sería una hipótesis para analizar, no una frontera universal. Importan la tasa marginal realmente aplicable a cada parte de la deducción, las comisiones, el tiempo restante, qué compras dentro del plan y cómo retirarás el dinero.
-
-Lo que quiero comparar es cuánto conservas al final con el mismo esfuerzo de aportación: una inversión directa y una inversión mediante PPR, reinvirtiendo el ahorro fiscal cuando exista. Si el PPR cobra sobre el saldo, el costo en pesos puede crecer con el patrimonio y reducir una ventaja inicial. Pero no puedo dar por hecho que siempre exista un año a partir del cual pierda. Hay que calcularlo para ese producto y esos supuestos.
-
-También importa si reinviertes la devolución, si vuelves a aportarla al PPR o si la colocas fuera. No es el mismo escenario. Y si retiras antes de cumplir las condiciones, hay [consecuencias fiscales que deben revisarse](https://wwwmat.sat.gob.mx/articulo/49469/articulo-142); una retención no debe confundirse automáticamente con una multa definitiva.
+Por eso yo revisaría los costos completos y qué pasa si dejo de aportar o necesito el dinero antes. Como referencia, [Fintual publica una comisión de 1% anual más IVA sobre el saldo](https://ayuda.fintual.mx/es/articles/8225935-cual-es-la-comision-del-ppr), pero cada producto tiene sus condiciones y hay que consultar la tarifa vigente. No compraría un plan solo por la devolución de la próxima declaración.
 
 ### Un ejemplo para ponerle números
 
-Quería revisar una idea que ya había calculado antes: ¿el ahorro fiscal alcanza a compensar lo que te cuesta el plan durante tantos años?
+La pregunta es sencilla: ¿el ahorro fiscal compensa lo que cuesta el plan durante tantos años? Para ilustrarlo, comparé estos dos caminos:
 
-Imaginemos una sola aportación de **$100,000**, no cien mil cada año. En ambos caminos suponemos **8% anual bruto**, constante solo para hacer la cuenta, y **0.03% anual de costo del ETF**. Al PPR le agregamos **1.16% anual sobre el saldo**. Es un escenario de costos, no la afirmación de que un PPR concreto pueda comprar exactamente el mismo ETF.
-
-En el camino del PPR suponemos un ahorro fiscal efectivo de **$30,000**, recibido un año después y reinvertido fuera del PPR, en el ETF. No lo gastas ni lo contamos dos veces como una nueva deducción.
+- Una sola aportación de **$100,000**, con **8% anual bruto constante** y **0.03% anual de costo del ETF** en ambos caminos.
+- En el PPR, un costo adicional de **1.16% anual sobre el saldo** y **$30,000 de ahorro fiscal**, recibidos un año después y reinvertidos en un ETF **fuera del PPR**.
+- Al final, **10% hipotético sobre la ganancia del ETF** y **cero impuesto de salida del PPR**, condicionado a cumplir los requisitos y límites de exención.
 
 ![ETF directo comparado con PPR más un ETF separado que recibe la devolución reinvertida; esquema conceptual sin proyección de rendimientos.](/images/personal-finance/ppr-etf-grabado.png)
 
-Deducir esos $100,000 completos por esta vía requiere, entre otras condiciones, un ingreso acumulable anual de al menos un millón de pesos y respetar el límite de cinco UMA anuales. Los $30,000 de ahorro son otro supuesto: tu devolución real no se obtiene automáticamente multiplicando toda la aportación por la tasa más alta de tu recibo.
-
-Para comparar saldos después de una venta, aplicamos un **10% hipotético sobre la ganancia del ETF** y suponemos **cero impuesto de salida del PPR**. Esto último depende de cumplir requisitos y límites de exención: no está garantizado para cualquier saldo ni forma de retiro. Las filas tampoco representan un permiso de retirar antes de los 65 años sin consecuencias.
+Son supuestos, no condiciones garantizadas de un producto. Deducir los $100,000 completos requiere, entre otros requisitos, un ingreso acumulable anual de al menos un millón de pesos y respetar el límite de cinco UMA. El ahorro fiscal real depende de tu situación, no de aplicar automáticamente 30% a la aportación.
 
 | Años desde la aportación | Inversión directa, neta | PPR + ahorro fiscal reinvertido, netos |
 | --- | ---: | ---: |
@@ -354,17 +338,11 @@ Para comparar saldos después de una venta, aplicamos un **10% hipotético sobre
 | 30 | $907,500 | $955,100 |
 | 40 | $1,941,900 | $1,885,800 |
 
-En este escenario la ventaja inicial del PPR dura muchos años, pero la inversión directa termina superándola alrededor del **año 37**. El beneficio fiscal llega en un momento concreto; la comisión sobre el saldo se sigue cobrando.
+En este escenario, la inversión directa supera al PPR con su ahorro reinvertido alrededor del **año 37**. El beneficio fiscal llega una vez; la comisión sigue corriendo. Ese cruce no es una regla ni una edad recomendada de retiro.
 
-Cambia los supuestos y cambia la conclusión. Con ahorro fiscal efectivo de 20%, manteniendo lo demás igual, el cruce aparece alrededor del año 26. Si conservas el ahorro de 30% pero el costo adicional del PPR sube a 2% anual, aparece alrededor del año 21. No son edades recomendadas de salida ni reglas para contratar.
+La cuenta no incluye nuevas aportaciones, inflación ni variaciones del mercado, y no compara carteras reales ni sustituye una revisión fiscal. Las filas tampoco implican que puedas retirar antes de los 65 sin consecuencias. Cambiar los costos, los impuestos o las aportaciones puede cambiar el resultado.
 
-Aquí no hay aportaciones posteriores, inflación, variaciones del mercado ni una simulación fiscal completa. Tampoco estamos comparando carteras reales de productos distintos. Aportar cada año, reinvertir la devolución dentro del PPR, pagar otros costos o tener impuestos al retirar puede cambiar sustancialmente el resultado.
-
-No me quedaría con «el PPR siempre conviene» ni con «después de tantos años siempre pierde». La pregunta útil es si, con **tu** ahorro fiscal, horizonte, costos y forma de retirar, te deja más dinero que una alternativa comparable. Yo lo veo como un complemento que hay que calcular, no como requisito para empezar a invertir para el retiro.
-
-Este ejemplo es una comparación educativa condicionada, no una recomendación individual. Antes de aplicarlo a un caso real, hay que revisar profesionalmente los impuestos y las condiciones de retiro.
-
-La idea no es rechazar una herramienta útil. Es no dejar que el beneficio de la próxima declaración esconda lo que pagarás durante décadas. Tu dinero para el retiro merece algo más de atención que la presentación de ventas.
+Para mí, esa es la idea: comparar cuánto conservas al final con el mismo esfuerzo de aportación. No concluir que el PPR siempre conviene o siempre pierde, sino hacer las cuentas para tu caso. Tu dinero para el retiro merece algo más de atención que la presentación de ventas.
 
 ## Conclusiones y últimos consejos personales
 
