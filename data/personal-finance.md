@@ -7,6 +7,8 @@ cover:
 date: "2021-07-31T00:00:00.000Z"
 ---
 
+> Este artículo tiene fines informativos. Ninguno de sus contenidos constituye una recomendación de compra o inversión.
+
 Las finanzas personales son una disciplina que cada persona debe desarrollar y como muchas experiencias en la vida, es algo que solo se aprende a traves de mentoría y conociendo las experiencias de otras personas.
 
 En mi caso, yo comencé a aprender sobre dinero después de pasar momentos difíciles, siempre en el ámbito económico.
