@@ -9,19 +9,19 @@ date: "2021-07-31T00:00:00.000Z"
 
 > Este artículo tiene fines informativos. Ninguno de sus contenidos constituye una recomendación de compra o inversión.
 
-Las finanzas personales son una disciplina que cada persona debe desarrollar y como muchas experiencias en la vida, es algo que solo se aprende a traves de mentoría y conociendo las experiencias de otras personas.
+Las finanzas personales son una disciplina que cada persona debe desarrollar y, como muchas experiencias en la vida, es algo que solo se aprende a través de mentoría y conociendo las experiencias de otras personas.
 
 En mi caso, yo comencé a aprender sobre dinero después de pasar momentos difíciles, siempre en el ámbito económico.
 
 ## Un poco de historia
 
-Cuando tuve mi primer sueldo, al rededor de unos $1,500.00 MXN mensuales, estaba en la universidad, me había mudado de la casa de mis papás y también me había mudado a otro estado.
+Cuando tuve mi primer sueldo, alrededor de unos $1,500.00 MXN mensuales, estaba en la universidad, me había mudado de la casa de mis papás y también me había mudado a otro estado.
 
-Vivía mayormente de la ayuda de mis papás, aun estando lejos de ellos y recibir esos $1,500.00 MXN me quitaba un peso gigante de encima, al final, estaba en la universidad y para mi ese dinero era mucho mas de lo que podia esperar.
+Vivía mayormente de la ayuda de mis papás, aun estando lejos de ellos. Recibir esos $1,500.00 MXN me quitaba un peso gigante de encima. Al final, estaba en la universidad y para mí ese dinero era mucho más de lo que podía esperar.
 
-Mientras el tiempo pasaba, seguía ganando experiencia y subía en el escalón financiero. Comenzaba a ganar mas dinero a medida de que iba escalando en mi trabajo y me daba cuenta de una cosa, eso que al principio parecía para mi _un mar de dinero_ comenzaba a valer menos, las cuentas subían, los gastos en la casa crecían y parecía que con cada nuevo salto en la escalera financiera no marcaba una diferencia.
+Mientras el tiempo pasaba, seguía ganando experiencia y subía en el escalón financiero. Comenzaba a ganar más dinero a medida que iba escalando en mi trabajo y me daba cuenta de una cosa: eso que al principio parecía para mí _un mar de dinero_ comenzaba a valer menos, las cuentas subían, los gastos en la casa crecían y parecía que cada nuevo salto en la escalera financiera no marcaba una diferencia.
 
-Este efecto era curioso, ya que, desde los ojos que alguien que ganaba $1,500.00 MXN, pensaba que su vida iba a estar solucionada si ganase $8,000.00 MXN pesos, pero cuando llegaba a ese objetivo financiero, todo parecía igual; mas tarde descubrí que este efecto se llama ["inflación del estilo de vida"](https://blog.olymptrade.com/es/inflacion-estilo-de-vida/).
+Este efecto era curioso. Desde los ojos de alguien que ganaba $1,500.00 MXN, pensaba que mi vida iba a estar solucionada si ganase $8,000.00 MXN. Pero cuando llegaba a ese objetivo financiero, todo parecía igual. Más tarde descubrí que este efecto se llama ["inflación del estilo de vida"](https://blog.olymptrade.com/es/inflacion-estilo-de-vida/).
 
 > La situación donde uno aumenta sus ganancias seguidas por un aumento en los gastos es muy común. Queremos dinero para tener cosas que realmente no necesitamos. Esa relación entre el crecimiento de los ingresos y el monto de gastos no necesarios nos da un señal de un alto nivel de inflación del estilo de vida.
 
@@ -35,15 +35,15 @@ Cuando escribí la primera versión de este artículo, en 2021, veía a mi papá
 
 Al investigar otros países, me llamó la atención lo integrada que estaba en algunas personas la costumbre de aportar activamente a su futuro. Yo también necesitaba hacer espacio para eso.
 
-## Cuanto gastas, cuanto ganas
+## Cuánto gastas, cuánto ganas
 
-Recordando el punto sobre la inflación del estilo de vida, me di cuenta que es un mal vicio que tenia que romper, tenia que volver a tener esa perspectiva de que, podia vivir tranquilamente sin escalar mis gastos al mismo tiempo de escalar mis ingresos.
+Recordando el punto sobre la inflación del estilo de vida, me di cuenta de que era un mal vicio que tenía que romper. Tenía que volver a tener esa perspectiva de que podía vivir tranquilamente sin escalar mis gastos al mismo tiempo que mis ingresos.
 
-Para esto es muy importante esclarecer, cuánto gastas en realidad y cuánto ganas; en su momento intente con muchas herramientas o aplicaciones que te ayudaban a medir tus gastos. Hoy en dia muchas apps bancarias también tienen funcionalidades similares, pero lo que mas me ha funcionado es lo mas básico, una hoja de papel (que luego migre a un excel) y enlistar los gastos que eran indispensables, luz, renta, etc.
+Para esto es muy importante esclarecer cuánto gastas en realidad y cuánto ganas; en su momento intenté con muchas herramientas o aplicaciones que te ayudaban a medir tus gastos. Hoy en día muchas apps bancarias también tienen funcionalidades similares, pero lo que más me ha funcionado es lo más básico: una hoja de papel (que luego migré a un Excel) y enlistar los gastos que eran indispensables: luz, renta, etc.
 
-Con este ejercicio me di cuenta que muchos de mis gastos no aparecían en la lista, por lo que, muchos de mis gastos no eran indispensables. La hoja que luego se convirtió en excel, que fue lo mas conveniente para mi, se convirtió en mi presupuesto, ;a forma de romper con esta inflación del estilo de vida es poniéndole limites.
+Con este ejercicio me di cuenta de que muchos de mis gastos no aparecían en la lista, por lo que muchos de mis gastos no eran indispensables. La hoja, que luego pasé a Excel porque fue lo más conveniente para mí, se convirtió en mi presupuesto. La forma de romper con esta inflación del estilo de vida es poniéndole límites.
 
-Una vez definiendo limites, puedes crear un espacio justo, donde puedas destinar este dinero para aportar a tu futuro.
+Una vez definidos los límites, puedes crear un espacio donde destinar este dinero para aportar a tu futuro.
 
 ## Finanzas en pareja
 
@@ -59,51 +59,51 @@ Para mí, lo importante es que el reparto sea claro y acordado, y volver a revis
 
 ## Deudas
 
-He conocido muchas experiencias de horror, con personas cercanas sobre las deudas y [gran parte de la población en Mexico (y en el mundo) son acreedores de una](https://www.milenio.com/ciencia-y-salud/sociedad/77-poblacion-nacional-deuda-senala-estudio), la realidad es complicada.
+He conocido muchas experiencias de horror con las deudas entre personas cercanas, y [gran parte de la población en México (y en el mundo) tiene alguna](https://www.milenio.com/ciencia-y-salud/sociedad/77-poblacion-nacional-deuda-senala-estudio). La realidad es complicada.
 
-Si tu tienes una deuda, no hay una salida fácil y el único camino es enfocarse en pagarla, destinar un gran esfuerzo y trabajo. El mayor problema de la deuda es que se vuelven infinitas a causa de los intereses.
+Si tú tienes una deuda, no hay una salida fácil y el único camino es enfocarse en pagarla y destinar un gran esfuerzo y trabajo. El mayor problema de las deudas es que se vuelven infinitas a causa de los intereses.
 
 Algunos _bullets_ que podría aconsejar para saldar alguna deuda son:
 
 - Paga primero las que te estén generando mayores intereses.
-- Paga de las mas pequeñas, a las mas grandes. esto funciona como un sistema de incentivos.
-- Consolida tus deudas en una sola, y solo dedicate a pagar una única deuda. algunos bancos ofrecen reestructuras, pero ojo, revisa el costo total y las consecuencias de cada alternativa, incluidas las quitas y su efecto en tu historial; no todas las opciones son equivalentes.
+- Paga de las más pequeñas a las más grandes. Esto funciona como un sistema de incentivos.
+- Consolida tus deudas en una sola y solo dedícate a pagar una única deuda. Algunos bancos ofrecen reestructuras, pero ojo, revisa el costo total y las consecuencias de cada alternativa, incluidas las quitas y su efecto en tu historial; no todas las opciones son equivalentes.
 
-Una historia que me gusta bastante y de quien aprendí buenos consejos sobre finanzas personales es de [Omar Educación Financiera](https://www.youtube.com/watch?v=Fz7_WvE0HcY), con una historia similar de haber adquirido una gran deuda (+300K), pero que con mucha suerte y esfuerzo pudo transformar a su favor.
+Una historia que me gusta bastante es la de [Omar Educación Financiera](https://www.youtube.com/watch?v=Fz7_WvE0HcY), de quien aprendí buenos consejos sobre finanzas personales. Tiene una historia similar: adquirió una gran deuda (+300K), pero con mucha suerte y esfuerzo pudo transformar la situación a su favor.
 
 ## Fondo de emergencias
 
-Nadie esta preparado para una emergencia, eso lo he vivido muchas veces, sea una enfermedad o que se te descomponga el equipo de trabajo o escuela.
+Nadie está preparado para una emergencia. Eso lo he vivido muchas veces, sea una enfermedad o que se te descomponga el equipo de trabajo o de la escuela.
 
-Mi papá tenia un carro y muchas fueron las veces en las que ese carro se descomponía y había que buscar formas alternativas de llegar a la escuela o al trabajo; ya que, si no había dinero para la reparación en ese momento, había que esperar.
+Mi papá tenía un carro y muchas fueron las veces en las que ese carro se descomponía y había que buscar formas alternativas de llegar a la escuela o al trabajo, ya que, si no había dinero para la reparación en ese momento, había que esperar.
 
 Las emergencias pueden causar deudas, lo cual es peor, ya que, después de pasar algún mal momento por enfermedad o por reparación de alguna herramienta para trabajar, tienes que pagar una gran cantidad de dinero que posiblemente se estire por varios años.
 
-Muchas veces he escuchado a la gente mencionar qué no les gustan las tarjetas de crédito y estas solo las ven para emergencias, ahí hay un gran error, si no podrás cubrir el total de la emergencia en la siguiente mensualidad de la tarjeta, esta va a generar intereses y considerando que las tasas de interés en Mexico para las tarjetas de crédito van desde 70% hasta el +100%, [una deuda de $10,000.00 se puede convertir en una deuda que tome +20 años en pagar.](https://phpapps.condusef.gob.mx/condusef_pagomin/index.php).
+Muchas veces he escuchado a la gente mencionar que no les gustan las tarjetas de crédito y que solo las ven para emergencias. Ahí hay un gran error: si no puedes cubrir el total de la emergencia en la siguiente mensualidad de la tarjeta, esta va a generar intereses. Considerando que las tasas de interés en México para las tarjetas de crédito van desde 70% hasta el +100%, [una deuda de $10,000.00 se puede convertir en una deuda que tome +20 años en pagar.](https://phpapps.condusef.gob.mx/condusef_pagomin/index.php).
 
-Para estos casos, la mejor estrategia es tener un Fondo de emergencia, una búsqueda rápida en Google te hará saber que un Fondo de emergencia en un dinero puedes ahorrar que represente 3, 6, etc. meses de tus gastos, no confundir con ingresos, recuerda que si tienes un presupuesto y sabes cuando gastas, puedes calcular cuanto necesitas para armar tu fondo.
+Para estos casos, la mejor estrategia es tener un fondo de emergencia. Una búsqueda rápida en Google te hará saber que un fondo de emergencia es dinero que puedes ahorrar y que representa 3, 6, etc. meses de tus gastos, no de tus ingresos. Recuerda que, si tienes un presupuesto y sabes cuánto gastas, puedes calcular cuánto necesitas para armar tu fondo.
 
-Los fondos de emergencia usualmente son dinero liquido, dinero que puedes disponer en menos de 24hrs y que te ayudara en estas situaciones.
+Los fondos de emergencia usualmente son dinero líquido, dinero del que puedes disponer en menos de 24 horas y que te ayudará en estas situaciones.
 
-Una gran estrategia, con el ejemplo de las tarjetas de crédito, es que puedes, si, tener una tarjeta de crédito que cubra tu emergencia al instante, pero como tienes este Fondo al que puedes acceder en menos de 24hrs, podrás pagar en su totalidad o mayoría esta tarjeta.
+Una gran estrategia, con el ejemplo de las tarjetas de crédito, es que puedes, sí, tener una tarjeta de crédito que cubra tu emergencia al instante, pero como tienes este fondo al que puedes acceder en menos de 24 horas, podrás pagar en su totalidad o en su mayor parte el saldo de esta tarjeta.
 
 ## Inflación
 
-¿Por qué hay un espacio de 24 horas en ese fondo de emergencia?. Bueno, usualmente como es un dinero que tendrás sin mover hasta el momento de una emergencia, ¿Donde lo pondrías?, fácilmente, se puede guardar en una cuenta de banco o debajo de el colchón, pero descubrirás que puede no ser la mejor idea.
+¿Por qué hay un espacio de 24 horas en ese fondo de emergencia? Bueno, como es dinero que usualmente tendrás sin mover hasta el momento de una emergencia, ¿dónde lo pondrías? Fácilmente se puede guardar en una cuenta de banco o debajo del colchón, pero descubrirás que puede no ser la mejor idea.
 
-¿Haz visto esas imágenes en Facebook, que muestran una bolsa de Cheetos que solían costar $2.00 MXN?, esas épocas nunca volverán y la razón de esto es la Inflación, esta es, incremento sostenido del costo de los bienes y servicios.
+¿Has visto esas imágenes en Facebook que muestran una bolsa de Cheetos que solía costar $2.00 MXN? Esas épocas nunca volverán y la razón de esto es la inflación, es decir, el incremento sostenido del costo de los bienes y servicios.
 
 Nuestros padres sabrán perfectamente lo doloroso que es la inflación y nosotros lo vivimos durante 2020 y 2021, cuando escribí la versión original, en el contexto de la pandemia.
 
-Si nosotros hubiéramos guardado estos $2.00 MXN del costo de los Cheetos en la bolsa de un pantalón, al dia de hoy solo tendríamos $2.00 MXN, pero los Cheetos costaran como ~8 veces mas que eso y eso mismo pasaría con nuestro Fondo de emergencias.
+Si nosotros hubiéramos guardado estos $2.00 MXN del costo de los Cheetos en la bolsa de un pantalón, al día de hoy solo tendríamos $2.00 MXN, pero los Cheetos costarán como ~8 veces más que eso y eso mismo pasaría con nuestro fondo de emergencias.
 
-## Inversion
+## Inversión
 
-El dinero existe para estar en movimiento, para hacer que la economía circule, cuando el dinero esta en movimiento, todos ganamos, cuando hay acumulación la economía sufre.
+El dinero existe para estar en movimiento, para hacer que la economía circule. Cuando el dinero está en movimiento, todos ganamos; cuando hay acumulación, la economía sufre.
 
-Yo no creo en el ahorro, ya que lo asocio al estancamiento, un atleta no ahorra energía para prepararse. Invertir puede ser algo subjetivo, puedes invertir en aprender nuevas habilidades, invertir esfuerzos para mejorar la condición física, etc.
+Yo no creo en el ahorro, ya que lo asocio al estancamiento. Un atleta no ahorra energía para prepararse. Invertir puede ser algo subjetivo: puedes invertir en aprender nuevas habilidades, invertir esfuerzos para mejorar la condición física, etc.
 
-El dinero funciona igual, la única forma de mantener tu dinero vivo, es a traves de la inversion, puedes obtener rendimientos por tu dinero en lo que puedes llegar a necesitarlo, ya sea al corto plazo para una emergencia o al largo plazo para tu retiro.
+El dinero funciona igual. La única forma de mantener tu dinero vivo es a través de la inversión. Puedes obtener rendimientos por tu dinero mientras no lo necesitas, ya sea a corto plazo para una emergencia o a largo plazo para tu retiro.
 
 ## Tipos de inversiones
 
@@ -111,17 +111,17 @@ Hay varios tipos de inversiones, hay muchos tipos de estafas.
 
 ### Estafas
 
-Si tu amigo de la secundaria que no vez en años te habla para proponerte una idea de negocio, o alguien te invita a emprender en un Starbucks, es posible que estes frente a una estafa: ponzi, pirámide, etc.
+Si tu amigo de la secundaria que no ves en años te habla para proponerte una idea de negocio, o alguien te invita a emprender en un Starbucks, es posible que estés frente a una estafa: ponzi, pirámide, etc.
 
-Cuando comencé a aprender sobre inversiones, lo hice Googleando y el gran problema es que los primeros resultados al buscar "Inversion", suelen ser estafas de este estilo, por lo que hay mucha desinformación y hay que tener mucho cuidado.
+Cuando comencé a aprender sobre inversiones, lo hice googleando y el gran problema es que los primeros resultados al buscar "Inversión" suelen ser estafas de este estilo, por lo que hay mucha desinformación y hay que tener mucho cuidado.
 
 NO existe la forma de volverse rico con atajos y en el corto plazo.
 
 ### Riesgo
 
-Dependiendo tu perfil como inversionista, vas a tener cierta adversidad al riesgo, existen muchas opciones que usualmente te permiten tener mayor liquidez, protección contra la inflación y un bajo riesgo u otras que te permitan generar rendimientos muy atractivos, pero a su vez, adquiriendo mayor riesgo.
+Dependiendo de tu perfil como inversionista, vas a tener cierta aversión al riesgo. Existen muchas opciones que usualmente te permiten tener mayor liquidez, protección contra la inflación y un bajo riesgo u otras que te permiten generar rendimientos muy atractivos, pero asumiendo a su vez un mayor riesgo.
 
-Eso lo decides tu, dependiendo tus necesidades vas a querer adquirir cierto grado de riesgo, pero lo mas común es buscar un balance que te permita cumplir tus objetivos y te haga sentir comodo.
+Eso lo decides tú. Dependiendo de tus necesidades vas a querer asumir cierto grado de riesgo, pero lo más común es buscar un balance que te permita cumplir tus objetivos y te haga sentir cómodo.
 
 La mejor estrategia siempre es diversificar y _no poner todos los huevos en una sola canasta_.
 
@@ -223,15 +223,15 @@ Y la diferencia fiscal no se resume en «dólares malos, Bolsa al 10%». Depende
 
 ### Cryptos
 
-Sobre los cryptos, yo creo que, los sistemas descentralizados son el futuro, hay mucho potencial en el De-Fi (Decentralized Finance), pero como método de inversion no lo veo en mi perfil, el riesgo asociado es muy alto y el tratamiento que se le ha dado a las cryptos es en función de Trading.
+Sobre las cryptos, yo creo que los sistemas descentralizados son el futuro. Hay mucho potencial en DeFi (Decentralized Finance), pero como método de inversión no lo veo en mi perfil. El riesgo asociado es muy alto y el tratamiento que se les ha dado a las cryptos se ha enfocado en el trading.
 
-Pienso que, hay que comenzar a tener una cartera en cryptos a medida de que su adopción va creciendo, creo también, en la idea del Bitcoin, dinero descentralizado que podemos intercambiar por bienes y servicios, sin fronteras y sin una entidad central que la controle.
+Pienso que hay que comenzar a tener una cartera en cryptos a medida que su adopción va creciendo. Creo también en la idea del Bitcoin: dinero descentralizado que podemos intercambiar por bienes y servicios, sin fronteras y sin una entidad central que lo controle.
 
 ### Commodities
 
-Hay otros grupos en los que se puede invertir, como el oro, la plata, etc. últimamente también hay cosas como, inversiones en agua, litio, gas natural. Creo que son buenos recursos si quieres agregarlos a tu portafolio, puedes invertir en ellos a traves de ETFs con el mismo tratamiento que se le da a La Bolsa.
+Hay otros grupos en los que se puede invertir, como el oro, la plata, etc. Últimamente también hay cosas como inversiones en agua, litio y gas natural. Creo que son buenos recursos si quieres agregarlos a tu portafolio. Puedes invertir en ellos a través de ETFs con el mismo tratamiento que se le da a la Bolsa.
 
-Solo no recomendaría invertir directamente en oro o plata como objetos físicos, por el riesgo asociado a protegerlos. La inversion en oro es algo cíclico, como instrumento de protección cuando hay incertidumbre en Las Bolsas, pero puede ser difícil entrar y generar dinero de ello.
+Solo no recomendaría invertir directamente en oro o plata como objetos físicos, por el riesgo asociado a protegerlos. La inversión en oro es algo cíclico, como instrumento de protección cuando hay incertidumbre en las Bolsas, pero puede ser difícil entrar y generar dinero de ello.
 
 ## Bancos
 
@@ -358,9 +358,9 @@ La idea no es rechazar una herramienta útil. Es no dejar que el beneficio de la
 
 ## Conclusiones y últimos consejos personales
 
-Recuerda que esto es lo que yo he aprendido en mi vida como trabajador, me gusta seguir disfrutando de mis proyectos y aspirar a tener un retiro digno, recuerda que lo que puedes estar ganando hoy, no sera lo mismo que ganes a la edad de 65 años.
+Recuerda que esto es lo que yo he aprendido en mi vida como trabajador. Me gusta seguir disfrutando de mis proyectos y aspirar a tener un retiro digno. Recuerda que lo que puedes estar ganando hoy no será lo mismo que ganes a la edad de 65 años.
 
-Estos no son consejos de inversion y no tienes que tomar mis opiniones como tuyas, son una guiá para que puedas investigar lo que mas te favorece, por que cuando comencé, la información era confusa y habrá muchas trampas en el camino.
+Estos no son consejos de inversión y no tienes que tomar mis opiniones como tuyas. Son una guía para que puedas investigar lo que más te favorece, porque, cuando comencé, la información era confusa y habrá muchas trampas en el camino.
 
 Veo estos conceptos como una columna vertebral, no como una respuesta terminada para todos. Cada tema merece bajarse a tu contexto: por ejemplo, no basta con saber qué es un PPR, sino calcular si te conviene con tus ingresos, tu ahorro fiscal, tus aportaciones, tu horizonte y sus costos.
 
