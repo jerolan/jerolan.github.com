@@ -155,7 +155,7 @@ En México existe el [Sistema Internacional de Cotizaciones, o SIC](https://www.
 
 En mi caso, considero que tengo un perfil más orientado a lo moderado. Mi estrategia en Bolsa ha sido invertir principalmente en ETFs mediante aportaciones constantes, mes con mes, con una perspectiva de largo plazo.
 
-He seguido un modelo bastante conocido: invertir en el S&P 500 mediante [VOO](https://investor.vanguard.com/investment-products/etfs/profile/voo), que busca replicar ese índice. Soy una persona muy comprometida con mi trabajo y le dedico buena parte de mi tiempo. Esta estrategia me permite no tener que convertir cada aportación en una nueva decisión sobre qué empresa comprar.
+He seguido un modelo bastante conocido: invertir en el S&P 500 mediante [VOO](https://investor.vanguard.com/investment-products/etfs/profile/voo), que busca replicar ese índice. A esto le sumo el dollar-cost averaging: invertir una cantidad fija cada mes, tanto cuando el mercado sube como cuando baja, para ir promediando el precio de compra. Soy una persona muy comprometida con mi trabajo y le dedico buena parte de mi tiempo. Esta estrategia me permite no tener que convertir cada aportación en una nueva decisión sobre qué empresa comprar.
 
 Eso no quiere decir que no pueda perder dinero. En la primera versión escribí que «no pierdes hasta que vendes». Es una forma demasiado simple de decirlo: tu inversión sí puede perder valor aunque no la hayas vendido, y no existe la obligación de que vuelva al precio que pagaste. No vender por pánico y negar una pérdida son cosas distintas.
 
