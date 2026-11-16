@@ -359,3 +359,7 @@ La idea no es rechazar una herramienta útil. Es no dejar que el beneficio de la
 Recuerda que esto es lo que yo he aprendido en mi vida como trabajador, me gusta seguir disfrutando de mis proyectos y aspirar a tener un retiro digno, recuerda que lo que puedes estar ganando hoy, no sera lo mismo que ganes a la edad de 65 años.
 
 Estos no son consejos de inversion y no tienes que tomar mis opiniones como tuyas, son una guiá para que puedas investigar lo que mas te favorece, por que cuando comencé, la información era confusa y habrá muchas trampas en el camino.
+
+Veo estos conceptos como una columna vertebral, no como una respuesta terminada para todos. Cada tema merece bajarse a tu contexto: por ejemplo, no basta con saber qué es un PPR, sino calcular si te conviene con tus ingresos, tu ahorro fiscal, tus aportaciones, tu horizonte y sus costos.
+
+Y en la era de la IA tienes una forma muy accesible de empezar: pega este artículo en tu agente y platica con él. Pídele que haga los cálculos para tu situación económica, compare escenarios y te muestre qué supuestos cambian el resultado. También puede ayudarte a investigar los productos disponibles en ese momento y contrastar sus condiciones con fuentes actuales. Para mí, el valor está en pasar de «dicen que conviene» a entender cómo se ven las cuentas en tu caso.
