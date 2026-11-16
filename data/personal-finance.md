@@ -123,7 +123,7 @@ En 2021 mencionaba tasas que me parecían atractivas en ese momento. No las deja
 
 Una de las cosas que más ha cambiado desde que escribí este artículo es la competencia por nuestro dinero. En los años posteriores a 2022 empezamos a ver lo que se conoce como la «guerra de las tasas»: cuentas y productos digitales ofreciendo rendimientos que antes no era tan común encontrar con tanta facilidad.
 
-En esa conversación aparecen nombres como Nu, Mercado Pago, Klar, Plata, DiDi u Openbank. Los menciono como referencias para investigar, no como una lista de recomendaciones vigentes ni como si todos fueran la misma clase de institución. «Neobanco» es una etiqueta comercial, no una categoría que por sí sola te diga quién custodia tu dinero, cómo está invertido o qué protección tiene.
+En esa conversación aparecen nombres como Nu, Mercado Pago, Klar, etcétera. Los nombres y las ofertas cambian muy rápido. Los menciono como referencias para investigar, no como una lista de recomendaciones vigentes ni como si todos fueran la misma clase de institución. «Neobanco» es una etiqueta comercial, no una categoría que por sí sola te diga quién custodia tu dinero, cómo está invertido o qué protección tiene.
 
 La parte interesante es que algunas promociones pueden servir para una porción del dinero que quieres mantener disponible. Pero una tasa grande en un anuncio no cuenta toda la historia. Puede aplicar solo hasta cierto saldo, requerir compras o depósitos, tener una fecha de vencimiento o corresponder a un producto que no puedes retirar de inmediato.
 
@@ -131,9 +131,13 @@ Por eso no repartiría el fondo de emergencia únicamente de mayor a menor tasa.
 
 La idea de distribuir el dinero sí me parece útil: aprovechar un primer tramo en una cuenta y pasar el excedente a otra puede dar un resultado distinto a dejar todo en una sola. Pero hay que hacer la cuenta con los topes reales y con el tiempo que te cuesta administrar varias cuentas. No tiene mucho sentido convertir una mejora pequeña en otro trabajo de tiempo completo.
 
-En el canal **Mi Amigo Dinero**, de Germán, encontré el video [«Las Tasas Cambiaron. Estas ya NO Valen la Pena en NOVIEMBRE 2026»](https://www.youtube.com/watch?v=7r5S8699SBk), publicado el 4 de noviembre de 2026. Las [tablas aparecen desde el minuto 5:29](https://www.youtube.com/watch?v=7r5S8699SBk&t=329s): comparan opciones por plazo, utilizan CETES como referencia y distinguen condiciones promocionales mediante colores. Hay también un [comentario actualizado el 14 de noviembre](https://www.youtube.com/watch?v=7r5S8699SBk&lc=Ugz0Sly80CRK9uWlC3N4AaABAg), otra señal de lo rápido que se mueve esta información.
+En el canal de **Mi Amigo Dinero**, en el [video publicado el 4 de noviembre de 2026](https://www.youtube.com/watch?v=7r5S8699SBk), puedes ver esta comparación:
 
-La gráfica del video ilustra la competencia, pero no basta para decidir dónde poner el dinero. El color sólido muestra la tasa base y el claro el total promocional: **no se suman**. La gráfica no detalla todos los topes, requisitos, seguros ni impuestos. Revisa el producto y sus condiciones oficiales; no tomes el nombre comercial o el color como garantía de disponibilidad o protección.
+![Comparación de tasas anuales con disponibilidad diaria de noviembre de 2026, de Mi Amigo Dinero](/images/personal-finance/tasas-noviembre-2026-mi-amigo-dinero.png)
+
+*Fuente: Germán, Mi Amigo Dinero. Captura del video del 4 de noviembre de 2026.*
+
+El color sólido muestra la tasa base y el claro el total promocional: **no se suman**. Es una fotografía de ese momento, no una lista de tasas vigentes. Antes de elegir, revisa los topes, requisitos, protección e impuestos de cada producto.
 
 Si en una conversación pongo como ejemplo diez mil pesos en una cuenta y el resto en otras, es solo eso: un ejemplo. No es una instrucción de inversión ni una garantía de que ese saldo, esa tasa o ese producto sigan disponibles cuando leas esto.
 
