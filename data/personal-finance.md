@@ -261,11 +261,15 @@ Tampoco se puede afirmar que operar mediante un intermediario extranjero siempre
 
 Antes de abrir otra cuenta, yo revisaría qué constancias o reportes entrega, cómo identificar ganancias y dividendos, qué impuestos retiene y cuáles tendré que calcular o declarar por mi cuenta. Que una app facilite comprar no necesariamente significa que facilite todo lo demás.
 
+Para aterrizarlo con ejemplos, GBM tiene dos videos: [Impuestos en inversiones: Lo que todos preguntan, con ejemplos](https://www.youtube.com/watch?v=_xqFobLLg14) e [Impuestos en inversiones: Lo que debes saber para tu declaración anual](https://www.youtube.com/watch?v=k0NwD7I2J30). Sirven para entender distintos tratamientos fiscales y las responsabilidades de quien invierte. Ambos son de 2025; revisa las reglas del ejercicio que vayas a declarar.
+
 ### ¿Cuándo toca presentar declaración anual?
 
-No existe una lista de tres reglas que sirva igual para todas las personas físicas. Una persona asalariada y alguien con actividad empresarial no parten de las mismas obligaciones.
+Para quienes reciben salarios, algunos supuestos que enumera el [SAT](https://www.sat.gob.mx/minisitio/DeclaracionAnual/Personas/quienes_deben_presentarla.html), sujetos a las excepciones y facilidades aplicables, son:
 
-Para quienes reciben salarios, el [SAT enumera supuestos como superar $400,000 de ingresos anuales, tener dos o más patrones simultáneamente y obtener otros ingresos acumulables además del salario](https://www.sat.gob.mx/minisitio/DeclaracionAnual/Personas/quienes_deben_presentarla.html), junto con otros casos y facilidades que hay que revisar. No basta con leer el monto o recordar que cambiaste de trabajo para concluir cómo aplica a tu situación.
+- Recibir ingresos anuales por salarios superiores a $400,000.
+- Trabajar para dos o más empleadores al mismo tiempo.
+- Obtener otros ingresos acumulables además del salario.
 
 Si tienes actividad empresarial, servicios profesionales, arrendamiento, inversiones u otros ingresos, revisa las obligaciones específicas de tu régimen y la combinación de ingresos. No diría que cualquier inversión, por pequeña que sea y sin importar su tratamiento, obliga automáticamente a presentar anual.
 
