@@ -263,6 +263,14 @@ Antes de abrir otra cuenta, yo revisaría qué constancias o reportes entrega, c
 
 Para aterrizarlo con ejemplos, GBM tiene dos videos: [Impuestos en inversiones: Lo que todos preguntan, con ejemplos](https://www.youtube.com/watch?v=_xqFobLLg14) e [Impuestos en inversiones: Lo que debes saber para tu declaración anual](https://www.youtube.com/watch?v=k0NwD7I2J30). Sirven para entender distintos tratamientos fiscales y las responsabilidades de quien invierte. Ambos son de 2025; revisa las reglas del ejercicio que vayas a declarar.
 
+### RESICO e inversiones
+
+Si estás en el Régimen Simplificado de Confianza (RESICO) como persona física, revisaría la compatibilidad antes de invertir. El [artículo 113-E de la Ley del ISR](https://wwwmatnp.sat.gob.mx/articulo/58780/articulo-113-e) permite combinarlo con ingresos por sueldos y salarios e intereses, sujeto al límite conjunto y los demás requisitos. Pero excluye, como regla general, a quienes sean socios o accionistas de personas morales. La [regla 3.13.9 de la RMF 2026](https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rmf/rmf/RMF_2026-DOF-28122025.pdf) contempla excepciones específicas, no un permiso general para comprar acciones en Bolsa.
+
+El punto importante no es únicamente vender con ganancia o cobrar dividendos: la condición de accionista puede ser suficiente para quedar fuera. Tampoco asumiría que un ETF que reinvierte sus dividendos es compatible por ese solo hecho; hay que revisar su estructura y el instrumento concreto. No todos los productos que compras desde una casa de bolsa tienen la misma naturaleza.
+
+Para mí, aquí la pregunta va más allá de cuánto impuesto pagar por una inversión: es si esa inversión afecta mi derecho a tributar en RESICO. Antes de contratarla, consultaría ese punto con un contador que conozca el régimen. Que una aplicación permita comprarla o que no haya llegado un requerimiento no demuestra que sea compatible.
+
 ### ¿Cuándo toca presentar declaración anual?
 
 Para quienes reciben salarios, algunos supuestos que enumera el [SAT](https://www.sat.gob.mx/minisitio/DeclaracionAnual/Personas/quienes_deben_presentarla.html), sujetos a las excepciones y facilidades aplicables, son:
