@@ -321,17 +321,33 @@ Por eso yo revisaría los costos completos y qué pasa si dejo de aportar o nece
 
 ### Un ejemplo para ponerle números
 
-La pregunta es sencilla: ¿el ahorro fiscal compensa lo que cuesta el plan durante tantos años? Vamos paso a paso, con **los mismos $100,000 de tu bolsillo** en cualquiera de los dos caminos y sin nuevas aportaciones.
+Quiero responder una pregunta concreta: ¿el ahorro fiscal del PPR compensa lo que cuesta el plan durante tantos años? Primero fijemos las reglas de la cuenta y después veamos qué pasa con el dinero.
 
-1. **Invertir directamente.** Pones los $100,000 en un ETF. Para hacer la cuenta, suponemos 8% anual bruto constante y un costo del ETF de 0.03% anual.
-2. **Invertir mediante un PPR.** Pones los mismos $100,000 en el plan. Suponemos el mismo rendimiento y costo del ETF, pero agregamos una comisión del PPR de 1.16% anual sobre el saldo. Es una comparación de costos, no de dos carteras reales idénticas.
-3. **Reinvertir el ahorro fiscal.** En el camino del PPR suponemos que recibes $30,000 un año después. No los gastas ni los sacas del plan: son el ahorro fiscal que reinviertes en un ETF separado, **fuera del PPR**. Desde entonces tienes dos saldos: el PPR y ese ETF. En el camino directo solo tienes el ETF inicial.
+#### Parámetros y límites
 
-![ETF directo comparado con PPR más un ETF separado que recibe la devolución reinvertida; esquema conceptual sin proyección de rendimientos.](/images/personal-finance/ppr-etf-grabado.png)
+- **Mismo desembolso inicial:** $100,000 de tu bolsillo en cualquiera de los dos caminos, una sola vez y sin nuevas aportaciones.
+- **Rendimiento supuesto:** 8% anual bruto constante y costo del ETF de 0.03% anual en ambos caminos. Al PPR le añadimos 1.16% anual sobre el saldo. Para calcular, aplicamos primero el rendimiento, después el costo del ETF y después la comisión del PPR.
+- **Ahorro fiscal supuesto:** $30,000 recibidos al terminar el primer año y reinvertidos en un ETF separado, fuera del PPR. No los contamos como una nueva aportación de tu bolsillo ni como otra deducción.
+- **Impuestos al comparar la salida:** 10% hipotético sobre las ganancias de los ETF y cero impuesto de salida del PPR, condicionado a cumplir los requisitos y límites de exención. No descontamos ese impuesto de venta cada año.
 
 > Son supuestos, no condiciones garantizadas de un producto. Deducir los $100,000 completos requiere, entre otros requisitos, un ingreso acumulable anual de al menos un millón de pesos y respetar el límite de cinco UMA. El ahorro fiscal real depende de tu situación, no de aplicar automáticamente 30% a la aportación.
 
-4. **Comparar lo que te queda.** Sumamos el PPR y el ETF de la devolución y comparamos ese total con la inversión directa. Para obtener saldos netos, descontamos un **10% hipotético sobre las ganancias de los ETF** y suponemos **cero impuesto de salida del PPR**, solo si se cumplen los requisitos y límites de exención.
+Dejamos fuera la inflación, las variaciones del mercado y una simulación fiscal completa, incluidos impuestos sobre dividendos y efectos cambiarios. Tampoco comparamos carteras reales idénticas. Los plazos de la tabla son puntos de cálculo, no permisos para retirar antes de los 65 años sin consecuencias. Antes de aplicar el ejercicio a tu caso, hay que revisar los impuestos y las condiciones reales de retiro.
+
+#### Paso a paso
+
+1. **Invertir directamente.** Pones $100,000 en el ETF. Al terminar el primer año, el 8% los lleva a $108,000. Descontamos $32.40 por el costo del ETF y quedan **$107,967.60** antes de impuestos de venta.
+2. **Invertir mediante el PPR.** Empiezas con los mismos $100,000 y llegas a los mismos $107,967.60 después del rendimiento y del costo del ETF. Ahora descontamos la comisión adicional del PPR: $1,252.42. Quedan **$106,715.18** dentro del plan.
+3. **Recibir y reinvertir el ahorro fiscal.** Al terminar ese primer año llegan los $30,000 supuestos y los inviertes fuera del PPR. Tienes **$106,715.18 en el PPR + $30,000 en el ETF separado = $136,715.18** antes de impuestos de venta. Ese dinero adicional viene del ahorro fiscal, no de haber puesto más de tu bolsillo. Como acaba de llegar, todavía no le contamos un año de rendimiento.
+
+![ETF directo comparado con PPR más un ETF separado que recibe la devolución reinvertida; esquema conceptual sin proyección de rendimientos.](/images/personal-finance/ppr-etf-grabado.png)
+
+4. **Dejar correr otro año.** Sin añadir dinero, la inversión directa llega a **$116,570.03**. En el otro camino, el PPR llega a **$113,881.29** y el ETF de la devolución a **$32,390.28**: juntos suman **$146,271.57**. Estos siguen siendo saldos antes de impuestos de venta. Repetimos el cálculo cada año, manteniendo cada saldo y sus costos por separado.
+5. **Comparar los saldos netos.** En cada horizonte descontamos el impuesto de venta supuesto. Por ejemplo, al año 2 la inversión directa tiene $16,570.03 de ganancia: descontamos $1,657.00 y quedan **$114,913.02**. En el otro camino descontamos $239.03 sobre la ganancia del ETF de la devolución; con la salida del PPR exenta bajo el supuesto anterior, quedan **$146,032.54** entre ambos.
+
+#### Resultado del ejercicio
+
+Esta es la comparación a plazos mayores, redondeada a cientos de pesos y con los impuestos de salida supuestos ya descontados:
 
 | Años desde la aportación | Inversión directa, neta | PPR + ahorro fiscal reinvertido, netos |
 | --- | ---: | ---: |
@@ -340,11 +356,7 @@ La pregunta es sencilla: ¿el ahorro fiscal compensa lo que cuesta el plan duran
 | 30 | $907,500 | $955,100 |
 | 40 | $1,941,900 | $1,885,800 |
 
-En este escenario, la inversión directa supera al PPR con su ahorro reinvertido alrededor del **año 37**. El beneficio fiscal llega una vez; la comisión sigue corriendo. Ese cruce no es una regla ni una edad recomendada de retiro.
-
-La cuenta no incluye nuevas aportaciones, inflación ni variaciones del mercado, y no compara carteras reales ni sustituye una revisión fiscal. Las filas tampoco implican que puedas retirar antes de los 65 sin consecuencias. Cambiar los costos, los impuestos o las aportaciones puede cambiar el resultado.
-
-Para mí, esa es la idea: comparar cuánto conservas al final con el mismo esfuerzo de aportación. No concluir que el PPR siempre conviene o siempre pierde, sino hacer las cuentas para tu caso. Tu dinero para el retiro merece algo más de atención que la presentación de ventas.
+Con estos parámetros, el PPR y su ahorro reinvertido llevan ventaja durante muchos años. La inversión directa los supera en el **año 37**: aproximadamente **$1,544,971 frente a $1,537,073 netos**. El ahorro fiscal dio un impulso inicial, pero la comisión adicional siguió cobrándose sobre el saldo. Ese es el resultado de este ejercicio, no un año de cruce universal; cambiar aportaciones, costos, rendimientos o impuestos cambia la cuenta.
 
 ## Conclusiones y últimos consejos personales
 
