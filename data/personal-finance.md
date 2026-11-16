@@ -51,6 +51,8 @@ Con mi esposa lo hacemos en un Excel: anotamos nuestros ingresos y calculamos qu
 
 Repartir por conceptos puede parecer práctico: «yo pago el súper, la luz y la gasolina; tú las salidas y los restaurantes». Pero hay que sumar. Puede resultar que quien gana menos esté pagando la mayor parte de los gastos fuertes. Una proporción basada en ingresos es un punto de partida para conversar, no una definición universal de lo justo: el acuerdo también debe considerar las responsabilidades y circunstancias de ambos.
 
+Este Excel lo empecé antes de usar IA. Ahora lo coordinamos con ayuda de los agentes de los dos: nos ayudan a mantener el reparto acordado, identificar desequilibrios y encontrar oportunidades de ahorro. Las decisiones siguen siendo nuestras; la ayuda está en llevar mejor las cuentas y hacer visibles cosas que podríamos pasar por alto.
+
 Para mí, lo importante es que el reparto sea claro y acordado, y volver a revisarlo cuando cambien los ingresos, los gastos o las metas. La hoja ayuda a hacer las cuentas; no sustituye esa conversación.
 
 ## Deudas
