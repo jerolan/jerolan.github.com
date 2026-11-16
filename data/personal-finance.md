@@ -175,7 +175,7 @@ En México existe el [Sistema Internacional de Cotizaciones, o SIC](https://www.
 
 En mi caso, considero que tengo un perfil más orientado a lo moderado. Mi estrategia en Bolsa ha sido invertir principalmente en ETFs mediante aportaciones constantes, mes con mes, con una perspectiva de largo plazo.
 
-He seguido un modelo bastante conocido: invertir en el S&P 500 mediante [VOO](https://investor.vanguard.com/investment-products/etfs/profile/voo), que busca replicar ese índice. A esto le sumo el dollar-cost averaging: invertir una cantidad fija cada mes, tanto cuando el mercado sube como cuando baja, para ir promediando el precio de compra. Soy una persona muy comprometida con mi trabajo y le dedico buena parte de mi tiempo. Esta estrategia me permite no tener que convertir cada aportación en una nueva decisión sobre qué empresa comprar.
+He seguido un modelo bastante conocido: invertir en el S&P 500 mediante [VOO](https://investor.vanguard.com/investment-products/etfs/profile/voo), que busca replicar ese índice. A esto le sumo el [dollar-cost averaging](https://www.investopedia.com/terms/d/dollarcostaveraging.asp): invertir una cantidad fija cada mes, tanto cuando el mercado sube como cuando baja, para ir promediando el precio de compra. Soy una persona muy comprometida con mi trabajo y le dedico buena parte de mi tiempo. Esta estrategia me permite no tener que convertir cada aportación en una nueva decisión sobre qué empresa comprar.
 
 ![Aportaciones mensuales iguales compran más unidades cuando el precio baja, en un ejemplo conceptual.](/images/personal-finance/dca-grabado.png)
 
