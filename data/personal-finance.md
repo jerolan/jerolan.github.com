@@ -29,7 +29,7 @@ Este efecto era curioso, ya que, desde los ojos que alguien que ganaba $1,500.00
 
 La ironía tiene que ver con una sensación bastante real para nuestra generación: alcanzar esas mismas metas no se siente igual de accesible. Después de una larga reflexión y unas cuantas cuentas por pagar, entendí que esa realidad para mí no iba a aplicar de la misma forma. Y apareció otra pregunta: ¿qué pasa si los saltos en la escalera financiera se acaban? Peor todavía, ¿qué pasa si empiezan a ir en retroceso?
 
-Cuando escribí la primera versión de este artículo, en 2021, veía a mi papá y a mis abuelos con una pensión que les permitía vivir. Los esquemas de retiro que les correspondieron no son los mismos que nos tocarán a todos nosotros. No quiero convertir esto en una discusión política ni simplificar todos los sistemas de pensiones a una sola regla. Mi conclusión personal fue que no podía dar por hecho que alguien más resolvería mi retiro.
+Cuando escribí la primera versión de este artículo, en 2021, veía a mi papá y a mis abuelos con una pensión que les permitía vivir. Los esquemas de retiro que les correspondieron no son los mismos que nos tocarán a todos nosotros (en el IMSS, los regímenes de la Ley del Seguro Social de 1973 y de 1997). No quiero convertir esto en una discusión política ni simplificar todos los sistemas de pensiones a una sola regla. Mi conclusión personal fue que no podía dar por hecho que alguien más resolvería mi retiro.
 
 Al investigar otros países, me llamó la atención lo integrada que estaba en algunas personas la costumbre de aportar activamente a su futuro. Yo también necesitaba hacer espacio para eso.
 
