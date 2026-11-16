@@ -43,6 +43,16 @@ Con este ejercicio me di cuenta que muchos de mis gastos no aparecían en la lis
 
 Una vez definiendo limites, puedes crear un espacio justo, donde puedas destinar este dinero para aportar a tu futuro.
 
+## Finanzas en pareja
+
+Cuando empiezas a compartir gastos con tu pareja, también hace falta compartir la conversación sobre el dinero. No lo dejaría en un «luego vemos»: hagan el compromiso de sentarse a una hora concreta, poner sobre la mesa cuánto gana cada quien y acordar cómo van a distribuir los gastos.
+
+Con mi esposa lo hacemos en un Excel: anotamos nuestros ingresos y calculamos qué proporción aporta cada uno al total para repartir los gastos compartidos. Separamos los compromisos, como renta, luz, agua y teléfono; los gastos discrecionales, como restaurantes o entretenimiento; y lo que reservamos para ahorro e inversiones. También acordamos qué es compartido y qué sigue siendo personal. Así los dos sabemos cuánto entra y qué parte nos corresponde, sin depender de suposiciones.
+
+Repartir por conceptos puede parecer práctico: «yo pago el súper, la luz y la gasolina; tú las salidas y los restaurantes». Pero hay que sumar. Puede resultar que quien gana menos esté pagando la mayor parte de los gastos fuertes. Una proporción basada en ingresos es un punto de partida para conversar, no una definición universal de lo justo: el acuerdo también debe considerar las responsabilidades y circunstancias de ambos.
+
+Para mí, lo importante es que el reparto sea claro y acordado, y volver a revisarlo cuando cambien los ingresos, los gastos o las metas. La hoja ayuda a hacer las cuentas; no sustituye esa conversación.
+
 ## Deudas
 
 He conocido muchas experiencias de horror, con personas cercanas sobre las deudas y [gran parte de la población en Mexico (y en el mundo) son acreedores de una](https://www.milenio.com/ciencia-y-salud/sociedad/77-poblacion-nacional-deuda-senala-estudio), la realidad es complicada.
