@@ -117,7 +117,9 @@ Hay varios tipos de inversiones, hay muchos tipos de estafas.
 
 Si tu amigo de la secundaria que no ves en años te habla para proponerte una idea de negocio, o alguien te invita a emprender en un Starbucks, es posible que estés frente a una estafa: ponzi, pirámide, etc.
 
-Cuando comencé a aprender sobre inversiones, lo hice googleando y el gran problema es que los primeros resultados al buscar "Inversión" suelen ser estafas de este estilo, por lo que hay mucha desinformación y hay que tener mucho cuidado.
+Cuando comencé a aprender sobre inversiones, lo hice googleando y el gran problema era que los primeros resultados al buscar "inversión" solían ser estafas de este estilo. Había mucha desinformación y había que tener mucho cuidado.
+
+> Afortunadamente, por lo que he visto, esos resultados se han ido limpiando respecto a cuando empecé. Eso no elimina las estafas ni la necesidad de revisar bien lo que encuentras.
 
 NO existe la forma de volverse rico con atajos y en el corto plazo.
 
