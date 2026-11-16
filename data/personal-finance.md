@@ -358,6 +358,10 @@ Esta es la comparación a plazos mayores, redondeada a cientos de pesos y con lo
 
 Con estos parámetros, el PPR y su ahorro reinvertido llevan ventaja durante muchos años. La inversión directa los supera en el **año 37**: aproximadamente **$1,544,971 frente a $1,537,073 netos**. El ahorro fiscal dio un impulso inicial, pero la comisión adicional siguió cobrándose sobre el saldo. Ese es el resultado de este ejercicio, no un año de cruce universal; cambiar aportaciones, costos, rendimientos o impuestos cambia la cuenta.
 
+Para mí, esa es la idea: comparar cuánto conservas al final con el mismo esfuerzo de aportación. No concluir que el PPR siempre conviene o siempre pierde, sino hacer las cuentas para tu caso. Tu dinero para el retiro merece algo más de atención que la presentación de ventas.
+
+Haz el ejercicio con tus propios parámetros para identificar en qué condiciones te conviene y cómo cambia el resultado a lo largo del tiempo.
+
 ## Conclusiones y últimos consejos personales
 
 Recuerda que esto es lo que yo he aprendido en mi vida como trabajador. Me gusta seguir disfrutando de mis proyectos y aspirar a tener un retiro digno. Recuerda que lo que puedes estar ganando hoy no será lo mismo que ganes a la edad de 65 años.
