@@ -51,6 +51,8 @@ Cuando empiezas a compartir gastos con tu pareja, también hace falta compartir 
 
 Con mi esposa lo hacemos en un Excel: anotamos nuestros ingresos y calculamos qué proporción aporta cada uno al total para repartir los gastos compartidos. Separamos los compromisos, como renta, luz, agua y teléfono; los gastos discrecionales, como restaurantes o entretenimiento; y lo que reservamos para ahorro e inversiones. También acordamos qué es compartido y qué sigue siendo personal. Así los dos sabemos cuánto entra y qué parte nos corresponde, sin depender de suposiciones.
 
+![Dos personas reúnen sus aportaciones en un presupuesto compartido y distribuyen los gastos.](/images/personal-finance/presupuesto-pareja-grabado.png)
+
 Repartir por conceptos puede parecer práctico: «yo pago el súper, la luz y la gasolina; tú las salidas y los restaurantes». Pero hay que sumar. Puede resultar que quien gana menos esté pagando la mayor parte de los gastos fuertes. Una proporción basada en ingresos es un punto de partida para conversar, no una definición universal de lo justo: el acuerdo también debe considerar las responsabilidades y circunstancias de ambos.
 
 Este Excel lo empecé antes de usar IA. Ahora lo coordinamos con ayuda de los agentes de los dos: nos ayudan a mantener el reparto acordado, identificar desequilibrios y encontrar oportunidades de ahorro. Las decisiones siguen siendo nuestras; la ayuda está en llevar mejor las cuentas y hacer visibles cosas que podríamos pasar por alto.
@@ -170,6 +172,8 @@ En México existe el [Sistema Internacional de Cotizaciones, o SIC](https://www.
 En mi caso, considero que tengo un perfil más orientado a lo moderado. Mi estrategia en Bolsa ha sido invertir principalmente en ETFs mediante aportaciones constantes, mes con mes, con una perspectiva de largo plazo.
 
 He seguido un modelo bastante conocido: invertir en el S&P 500 mediante [VOO](https://investor.vanguard.com/investment-products/etfs/profile/voo), que busca replicar ese índice. A esto le sumo el dollar-cost averaging: invertir una cantidad fija cada mes, tanto cuando el mercado sube como cuando baja, para ir promediando el precio de compra. Soy una persona muy comprometida con mi trabajo y le dedico buena parte de mi tiempo. Esta estrategia me permite no tener que convertir cada aportación en una nueva decisión sobre qué empresa comprar.
+
+![Aportaciones mensuales iguales compran más unidades cuando el precio baja, en un ejemplo conceptual.](/images/personal-finance/dca-grabado.png)
 
 Eso no quiere decir que no pueda perder dinero. En la primera versión escribí que «no pierdes hasta que vendes». Es una forma demasiado simple de decirlo: tu inversión sí puede perder valor aunque no la hayas vendido, y no existe la obligación de que vuelva al precio que pagaste. No vender por pánico y negar una pérdida son cosas distintas.
 
@@ -332,6 +336,8 @@ Quería revisar una idea que ya había calculado antes: ¿el ahorro fiscal alcan
 Imaginemos una sola aportación de **$100,000**, no cien mil cada año. En ambos caminos suponemos **8% anual bruto**, constante solo para hacer la cuenta, y **0.03% anual de costo del ETF**. Al PPR le agregamos **1.16% anual sobre el saldo**. Es un escenario de costos, no la afirmación de que un PPR concreto pueda comprar exactamente el mismo ETF.
 
 En el camino del PPR suponemos un ahorro fiscal efectivo de **$30,000**, recibido un año después y reinvertido fuera del PPR, en el ETF. No lo gastas ni lo contamos dos veces como una nueva deducción.
+
+![ETF directo comparado con PPR más un ETF separado que recibe la devolución reinvertida; esquema conceptual sin proyección de rendimientos.](/images/personal-finance/ppr-etf-grabado.png)
 
 Deducir esos $100,000 completos por esta vía requiere, entre otras condiciones, un ingreso acumulable anual de al menos un millón de pesos y respetar el límite de cinco UMA anuales. Los $30,000 de ahorro son otro supuesto: tu devolución real no se obtiene automáticamente multiplicando toda la aportación por la tasa más alta de tu recibo.
 
