@@ -321,15 +321,17 @@ Por eso yo revisaría los costos completos y qué pasa si dejo de aportar o nece
 
 ### Un ejemplo para ponerle números
 
-La pregunta es sencilla: ¿el ahorro fiscal compensa lo que cuesta el plan durante tantos años? Para ilustrarlo, comparé estos dos caminos:
+La pregunta es sencilla: ¿el ahorro fiscal compensa lo que cuesta el plan durante tantos años? Vamos paso a paso, con **los mismos $100,000 de tu bolsillo** en cualquiera de los dos caminos y sin nuevas aportaciones.
 
-- Una sola aportación de **$100,000**, con **8% anual bruto constante** y **0.03% anual de costo del ETF** en ambos caminos.
-- En el PPR, un costo adicional de **1.16% anual sobre el saldo** y **$30,000 de ahorro fiscal**, recibidos un año después y reinvertidos en un ETF **fuera del PPR**.
-- Al final, **10% hipotético sobre la ganancia del ETF** y **cero impuesto de salida del PPR**, condicionado a cumplir los requisitos y límites de exención.
+1. **Invertir directamente.** Pones los $100,000 en un ETF. Para hacer la cuenta, suponemos 8% anual bruto constante y un costo del ETF de 0.03% anual.
+2. **Invertir mediante un PPR.** Pones los mismos $100,000 en el plan. Suponemos el mismo rendimiento y costo del ETF, pero agregamos una comisión del PPR de 1.16% anual sobre el saldo. Es una comparación de costos, no de dos carteras reales idénticas.
+3. **Reinvertir el ahorro fiscal.** En el camino del PPR suponemos que recibes $30,000 un año después. No los gastas ni los sacas del plan: son el ahorro fiscal que reinviertes en un ETF separado, **fuera del PPR**. Desde entonces tienes dos saldos: el PPR y ese ETF. En el camino directo solo tienes el ETF inicial.
 
 ![ETF directo comparado con PPR más un ETF separado que recibe la devolución reinvertida; esquema conceptual sin proyección de rendimientos.](/images/personal-finance/ppr-etf-grabado.png)
 
 Son supuestos, no condiciones garantizadas de un producto. Deducir los $100,000 completos requiere, entre otros requisitos, un ingreso acumulable anual de al menos un millón de pesos y respetar el límite de cinco UMA. El ahorro fiscal real depende de tu situación, no de aplicar automáticamente 30% a la aportación.
+
+4. **Comparar lo que te queda.** Sumamos el PPR y el ETF de la devolución y comparamos ese total con la inversión directa. Para obtener saldos netos, descontamos un **10% hipotético sobre las ganancias de los ETF** y suponemos **cero impuesto de salida del PPR**, solo si se cumplen los requisitos y límites de exención.
 
 | Años desde la aportación | Inversión directa, neta | PPR + ahorro fiscal reinvertido, netos |
 | --- | ---: | ---: |
