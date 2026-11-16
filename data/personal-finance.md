@@ -93,11 +93,13 @@ Una gran estrategia, con el ejemplo de las tarjetas de crédito, es que puedes, 
 
 ¿Por qué hay un espacio de 24 horas en ese fondo de emergencia? Bueno, como es dinero que usualmente tendrás sin mover hasta el momento de una emergencia, ¿dónde lo pondrías? Fácilmente se puede guardar en una cuenta de banco o debajo del colchón, pero descubrirás que puede no ser la mejor idea.
 
-¿Has visto esas imágenes en Facebook que muestran una bolsa de Cheetos que solía costar $2.00 MXN? Esas épocas nunca volverán y la razón de esto es la inflación, es decir, el incremento sostenido del costo de los bienes y servicios.
+¿Has visto esas imágenes en Facebook con precios de antes? Como esta bolsa de Churrumais de 30 g con un precio impreso de $1.00 MXN. Esas épocas nunca volverán y la razón de esto es la inflación, es decir, el incremento sostenido del costo de los bienes y servicios.
+
+![Empaque antiguo de Churrumais de 30 g con precio impreso de $1.00.](/images/personal-finance/churrumais-precio-antiguo.png)
 
 Nuestros padres sabrán perfectamente lo doloroso que es la inflación y nosotros lo vivimos durante 2020 y 2021, cuando escribí la versión original, en el contexto de la pandemia.
 
-Si nosotros hubiéramos guardado estos $2.00 MXN del costo de los Cheetos en la bolsa de un pantalón, al día de hoy solo tendríamos $2.00 MXN, pero los Cheetos costarán como ~8 veces más que eso y eso mismo pasaría con nuestro fondo de emergencias.
+Si nosotros hubiéramos guardado ese $1.00 MXN en la bolsa de un pantalón, seguiríamos teniendo el mismo peso, pero no necesariamente el mismo poder de compra. Si los precios suben y nuestro dinero no crece, alcanza para menos. Eso mismo puede pasar con nuestro fondo de emergencias.
 
 ## Inversión
 
