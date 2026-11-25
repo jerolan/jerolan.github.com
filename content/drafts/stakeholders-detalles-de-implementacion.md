@@ -16,8 +16,6 @@ Una de las cosas que les decía a mis compañeros era esta:
 
 Y creo que también pasa al revés. Si en cada demo le hablamos a un stakeholder del *stored procedure*, tarde o temprano va a empezar a preguntar por el *stored procedure*. Lo acostumbramos a prestar atención a un detalle técnico cuando a lo mejor lo que necesita entender es cómo funciona el negocio, qué cambió o qué decisión le toca tomar.
 
-Hay veces en que un detalle técnico sí cambia una decisión. Si hay riesgo de perder información, por ejemplo, claro que hay que decirlo. Lo que no hace falta es empezar por el nombre del procedimiento cuando lo importante es qué información se puede perder y qué haríamos para recuperarla.
-
 ## Un lenguaje que podamos compartir
 
 En programación tenemos un concepto que mucha gente referencia: [*Domain-Driven Design*, de Eric Evans](https://www.domainlanguage.com/ddd/reference/). Y, aunque lo citamos mucho, no siempre parece que lo pongamos en práctica. Una de sus ideas es el *lenguaje ubicuo*: que quienes construyen el software y quienes conocen el negocio usen las mismas palabras para hablar de cómo funciona ese negocio. Lo valioso no es que todas las palabras sean sencillas. Es que signifiquen lo mismo para las dos partes.
@@ -28,7 +26,7 @@ En tecnología hacemos mucho esto de hablar con abstracciones. Para explicar alg
 
 A veces usamos un concepto muy técnico porque algo sí es difícil y queremos comunicarlo. Pero también puede servir de excusa. Si la persona que te escucha no entiende lo que estás diciendo, ¿cómo va a distinguir entre algo que de verdad es difícil y algo que simplemente se dejó mal hecho?
 
-Antes de la IA, por ejemplo, más de una vez escuché explicaciones larguísimas de por qué no se podían escribir tests para algo. Ahora, con la IA, parece que hay tests para todo. Lo digo medio en broma, pero el punto sigue siendo el mismo: si falta una prueba, prefiero que me digas qué parte no probaste y qué puede fallar, en vez de explicarme con una narrativa muy compleja por qué está bien no haberlo hecho.
+Antes de la IA, por ejemplo, a veces se usaba una explicación muy técnica para justificar por qué no se escribían tests. Ahora parece que hay tests para todo, gracias a la IA. Lo digo medio en broma, pero usar una explicación complicada para que el stakeholder dé por bueno un trabajo que no está bien hecho es otra cosa.
 
 En una demo o en una retrospectiva, yo empezaría por lo que pasó y por lo que puede hacer el equipo con esa información. Si el detalle de implementación ayuda a entenderlo, ahí sí vale la pena contarlo.
 
