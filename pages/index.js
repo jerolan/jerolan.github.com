@@ -7,9 +7,8 @@ export default function Home({ posts }) {
   return (
     <Page.Html title="Jerome Olvera" description="Software Engineer">
       <section className="aero-panel welcome-panel">
-        <h2 className="panel-heading">Bienvenido a mi rincón de internet</h2>
+        <h1 className="panel-heading">Hola, soy Jerome.</h1>
         <div className="welcome-content">
-          <h1>Hola, soy Jerome.</h1>
           <p>
             Ingeniero de Software apasionado por la tecnología y la formación de
             equipos eficaces. Interesado en diseño UX y filosofía Lean Thinking,
@@ -19,23 +18,6 @@ export default function Home({ posts }) {
             soluciones que satisfagan y enriquezcan la experiencia del usuario.
           </p>
         </div>
-      </section>
-      <section className="aero-panel panel-green">
-        <h2 className="panel-heading">Cosas en las que he trabajado</h2>
-        <ul className="work-links">
-          <li>
-            <a href="https://gbm.com/">GBM</a>
-            <p>Liberando el potencial financiero de México y nuestra gente</p>
-          </li>
-          <li>
-            <a href="https://yellowme.mx/">Yellowme</a>
-            <p>Equipos en crecimiento</p>
-          </li>
-          <li>
-            <a href="https://www.joinenso.com/">Enso</a>
-            <p>Creando una nueva generación de servicios financieros</p>
-          </li>
-        </ul>
       </section>
       <section className="aero-panel">
         <h2 className="panel-heading">Últimos artículos</h2>
@@ -55,6 +37,23 @@ export default function Home({ posts }) {
             Ver todos los artículos
           </Link>
         </div>
+      </section>
+      <section className="aero-panel panel-green">
+        <h2 className="panel-heading">Experiencia</h2>
+        <ul className="work-links">
+          <li>
+            <a href="https://gbm.com/">GBM</a>
+            <p>Liberando el potencial financiero de México y nuestra gente</p>
+          </li>
+          <li>
+            <a href="https://yellowme.mx/">Yellowme</a>
+            <p>Equipos en crecimiento</p>
+          </li>
+          <li>
+            <a href="https://www.joinenso.com/">Enso</a>
+            <p>Creando una nueva generación de servicios financieros</p>
+          </li>
+        </ul>
       </section>
     </Page.Html>
   );

@@ -21,8 +21,6 @@ export default function Sidebar() {
           <div className="profile-orb" aria-hidden="true">
             JO
           </div>
-          <p className="profile-name">Jerome Olvera</p>
-          <p className="profile-role">Software Engineer</p>
           <a
             className="aero-button"
             href="https://www.linkedin.com/in/jerome-olvera-a0073ab5/"

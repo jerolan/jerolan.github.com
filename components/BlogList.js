@@ -29,8 +29,8 @@ function Item({ slug, title, date, content }) {
         className="topic-icon"
         src="/images/aero/notes.png"
         alt=""
-        width="40"
-        height="40"
+        width="24"
+        height="24"
       />
       <h3 className="topic-title">
         <Link href={`/blog/${slug}`}>{title}</Link>
